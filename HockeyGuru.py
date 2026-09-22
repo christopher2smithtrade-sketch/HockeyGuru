@@ -119,8 +119,23 @@ GOALIE_GRADES = [("A+", 17.0), ("A", 15.5), ("B+", 14.0), ("B", 12.5), ("C", 10.
 # slate costs 2 credits, so a 3-hour cache keeps a full month of daily boards
 # under 100 credits. The /sports list is free and reports the balance.
 ODDS_API_KEY     = os.environ.get("ODDS_API_KEY", "")
-ODDS_CACHE_HOURS = 3
-ODDS_RESERVE     = 40
+# Four guards, so the month can never be exhausted:
+#   1. the cache is stored in the COMMITTED tier, so it survives the throwaway
+#      Actions checkout -- without that every one of the ~10 daily crons paid
+#      full price and the free tier could not cover a month
+#   2. nothing is bought more than ODDS_MIN_HOURS_TO_DROP before the first puck
+#      drop (the 7 AM scoring run needs no lines at all), and nothing is bought
+#      once every game has started
+#   3. spend is paced: what is left has to cover every remaining day of the
+#      month at ODDS_PER_DAY before today may buy again
+#   4. a hard floor of ODDS_FLOOR credits is never crossed
+# Worst case is ~2 buys a day (~120/month of the free 500). When lines are not
+# bought the board still gets real win probabilities from the NHL feed's own
+# DraftKings moneylines -- only the game TOTAL falls back to the 6.0 default.
+ODDS_CACHE_HOURS = 5
+ODDS_FLOOR       = 25      # never spend below this many credits
+ODDS_PER_DAY     = 4       # credits reserved for each remaining day of the month
+ODDS_MIN_HOURS_TO_DROP = 9  # do not buy lines earlier than this before puck drop
 
 GITHUB_TOKEN  = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_USER   = "christopher2smithtrade-sketch"
@@ -440,33 +455,75 @@ def implied_goals(total, p_home):
     return round((total + d) / 2, 2), round((total - d) / 2, 2)
 
 
-def odds_api_slate(slate_date):
+def days_left_in_month(d):
+    """Days remaining in d's calendar month, counting d itself. Credits reset monthly."""
+    nxt = date(d.year + (d.month == 12), d.month % 12 + 1, 1)
+    return (nxt - d).days
+
+
+def odds_budget_ok(remaining, today):
+    """
+    May we spend 2 credits today? What is left has to cover every LATER day of
+    the month at ODDS_PER_DAY, plus the untouchable floor. This paces spending
+    down on its own as the balance drops instead of burning the month early and
+    leaving the last week with nothing.
+    """
+    later = (days_left_in_month(today) - 1) * ODDS_PER_DAY
+    return remaining - 2 >= ODDS_FLOOR + later, ODDS_FLOOR + later
+
+
+def odds_api_slate(slate_date, games=None):
     """
     Totals + moneylines for every upcoming NHL game from The Odds API, one call
     for the whole board (2 credits), cached ODDS_CACHE_HOURS. Keyed
     "HOME|AWAY|YYYY-MM-DD" -- the date matters because home-and-home sets put
     the same pair on consecutive nights.
+
+    The cache lives in the committed tier: on Actions every run starts from a
+    fresh checkout, so a run-local cache would mean paying for every cron.
     """
     if not ODDS_API_KEY:
         print("  [!] ODDS_API_KEY not set -- using default totals (6.0) and home edge")
         return {}
     key = f"odds_{slate_date.isoformat()}"
-    cached = cache_load(key, ODDS_CACHE_HOURS)
+    cached = cache_load(key, ODDS_CACHE_HOURS, permanent=True)
     if cached:
         age_h = (time.time() - cached.get("_fetched_at", 0)) / 3600
-        print(f"  Using cached odds ({age_h:.1f}h old)")
+        print(f"  Using cached odds ({age_h:.1f}h old, refresh in {ODDS_CACHE_HOURS - age_h:.1f}h)")
         return cached["lines"]
+
+    def stale_or_empty(why):
+        stale = cache_load(key, permanent=True)
+        if stale:
+            age_h = (time.time() - stale.get("_fetched_at", 0)) / 3600
+            print(f"  {why} -- keeping cached odds ({age_h:.1f}h old)")
+            return stale["lines"]
+        print(f"  {why} -- no odds this run (NHL feed moneylines still apply)")
+        return {}
+
+    # Lines bought half a day early are stale by puck drop and cost the same as
+    # lines bought at the right moment, so the early runs simply do not buy.
+    upcoming = [g for g in (games or []) if not g["started"] and g["start_et"]]
+    if games is not None:
+        # Books do not price exhibitions -- a preseason buy returns nothing but
+        # regular-season games weeks away, for the same 2 credits.
+        if games and all(g.get("type") == 1 for g in games):
+            return stale_or_empty("Preseason slate (books do not price exhibitions)")
+        if not upcoming:
+            return stale_or_empty("Every game has started")
+        hours_out = (min(g["start_et"] for g in upcoming) - now_et()).total_seconds() / 3600
+        if hours_out > ODDS_MIN_HOURS_TO_DROP:
+            return stale_or_empty(f"First puck drop is {hours_out:.1f}h away")
     try:
         # The /sports list is free AND reports the balance, so the budget is
         # checked at zero cost before the paid call.
         r = requests.get("https://api.the-odds-api.com/v4/sports/",
                          params={"apiKey": ODDS_API_KEY}, timeout=15)
         remaining = int(r.headers.get("x-requests-remaining", 0) or 0)
-        if remaining - 2 < ODDS_RESERVE:
-            stale = cache_load(key)
-            print(f"  [!] Odds API below reserve ({remaining} left) -- "
-                  f"{'keeping stale odds' if stale else 'no odds this run'}")
-            return stale["lines"] if stale else {}
+        ok, need = odds_budget_ok(remaining, slate_date)
+        if not ok:
+            return stale_or_empty(f"Budget guard: {remaining} credits left, "
+                                  f"{need} must last the month")
         r = requests.get(
             "https://api.the-odds-api.com/v4/sports/icehockey_nhl/odds/",
             params={"apiKey": ODDS_API_KEY, "regions": "us", "markets": "h2h,totals",
@@ -501,19 +558,31 @@ def odds_api_slate(slate_date):
             lines[f"{h}|{a}|{start.date().isoformat()}"] = {
                 "total": total, "p_home_raw": ph, "p_away_raw": pa, "book": book.get("key", "")}
         remaining = int(r.headers.get("x-requests-remaining", remaining) or remaining)
-        print(f"  Odds API: priced {len(lines)} upcoming games -- {remaining} credits left this month")
-        cache_save(key, {"lines": lines})
+        print(f"  Odds API: priced {len(lines)} upcoming games -- {remaining} credits left this month "
+              f"({days_left_in_month(slate_date)} days to go)")
+        cache_save(key, {"lines": lines}, permanent=True)
+        prune_odds_cache(slate_date)
         return lines
     except Exception as e:
-        print(f"  [!] Odds API: {e}")
-        stale = cache_load(key)
-        return stale["lines"] if stale else {}
+        return stale_or_empty(f"[!] Odds API: {e}")
+
+
+def prune_odds_cache(slate_date, keep_days=5):
+    """Old odds files are committed, so drop them rather than growing the repo forever."""
+    cutoff = (slate_date - timedelta(days=keep_days)).isoformat()
+    folder = os.path.dirname(_cache_path("odds_x", permanent=True))
+    try:
+        for f in os.listdir(folder):
+            if f.startswith("odds_") and f.endswith(".json") and f[5:15] < cutoff:
+                os.remove(os.path.join(folder, f))
+    except Exception:
+        pass
 
 
 def get_odds(games, slate_date):
     """Per game: total, devigged home win probability, implied goals per side."""
     # The book only prices upcoming games; a backtest date would burn credits for nothing
-    api = odds_api_slate(slate_date) if slate_date >= now_et().date() else {}
+    api = odds_api_slate(slate_date, games) if slate_date >= now_et().date() else {}
     out = {}
     for g in games:
         total, ph, src = 6.0, None, "default"
@@ -534,8 +603,11 @@ def get_odds(games, slate_date):
         ih, ia = implied_goals(total, ph)
         out[g["game_id"]] = {"total": total, "p_home": round(ph, 3), "p_away": round(1 - ph, 3),
                              "imp_home": ih, "imp_away": ia, "source": src}
-    priced = sum(1 for v in out.values() if v["source"] != "default")
-    print(f"  Lines for {priced}/{len(games)} games")
+    # "Totals" is the thing the book adds; moneylines also come free from the
+    # NHL feed, so counting them together overstated how priced the board was.
+    totals = sum(1 for v in out.values() if v["source"] not in ("default", "nhl-dk (ML only)"))
+    wins   = sum(1 for v in out.values() if v["source"] != "default")
+    print(f"  Lines: {totals}/{len(games)} games with a book total, {wins}/{len(games)} with a real win probability")
     return out
 
 
@@ -2172,7 +2244,8 @@ def render_html(slate_date, games, odds, by_pos, goalies, timestamp, history, to
 
     scorecard = _scorecard_html(history, total)
     n_games = len(games)
-    priced = sum(1 for v in odds.values() if v.get("source") != "default")
+    totals = sum(1 for v in odds.values() if v.get("source") not in ("default", "nhl-dk (ML only)"))
+    wins   = sum(1 for v in odds.values() if v.get("source") != "default")
     conf = sum(1 for g in goalies if g["status"] == "Confirmed")
 
     return f"""<!DOCTYPE html>
@@ -2188,7 +2261,7 @@ def render_html(slate_date, games, odds, by_pos, goalies, timestamp, history, to
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; {date_str} &bull; {n_games} games</p>
   <p>Generated {timestamp}{(' &bull; <span class="lock">first puck drop ' + lock_str + ' ET</span>') if lock_str else ''}</p>
-  <p style="font-size:12px;color:#6e7681">lines priced {priced}/{n_games} &bull; {conf} confirmed goalies &bull; grades: {' '.join(f'<span style="color:{GRADE_COLORS[g]}">{g} &ge;{c:.0f}</span>' for g, c in SKATER_GRADES)}</p>
+  <p style="font-size:12px;color:#6e7681">totals {totals}/{n_games} &bull; win probs {wins}/{n_games} &bull; {conf} confirmed goalies &bull; grades: {' '.join(f'<span style="color:{GRADE_COLORS[g]}">{g} &ge;{c:.0f}</span>' for g, c in SKATER_GRADES)}</p>
   {banner}
 </div>
 <div class="container">

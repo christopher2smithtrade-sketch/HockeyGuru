@@ -65,7 +65,7 @@ not), so treat it as a sanity check; the live scorecard is the real test.
 - **MoneyPuck** CSVs — xG by situation for skaters/goalies/teams, 5v5 line combos (season file 404s until a few games are in)
 - **ESPN** — injuries
 - **DailyFaceoff** — starting goalies (Confirmed vs projected); page-embedded JSON, may break
-- **The Odds API** — DK totals + moneylines, 2 credits per run window, cached 3 h, skipped for past dates (`ODDS_API_KEY`, shared with Gridiron)
+- **The Odds API** — DK game totals, 2 credits a buy (`ODDS_API_KEY`). Five guards keep the free 500/month from ever running out: the cache lives in the committed tier so it survives the throwaway Actions checkout; nothing is bought more than `ODDS_MIN_HOURS_TO_DROP` before the first puck drop, once every game has started, or for a preseason slate (books do not price exhibitions — earliest priced date is opening night); spend is paced so what is left covers every remaining day of the month at `ODDS_PER_DAY`; and `ODDS_FLOOR` is never crossed. Simulated worst case is ~124 credits a month. When a buy is skipped the board still gets real win probabilities from the NHL feed's own DraftKings moneylines — only the game total falls back to 6.0.
 
 ## Key config (top of HockeyGuru.py)
 
@@ -74,7 +74,7 @@ not), so treat it as a sanity check; the live scorecard is the real test.
 - `MAIN_SLATE_START_ET` — what counts as the DK main slate for the toggle
 - `INCLUDE_PRESEASON` — exhibition slates used only when no regular-season games (camp dry run)
 - `GAME_LOG_WORKERS` — keep at 3; 6 drew 429s
-- `ODDS_CACHE_HOURS` / `ODDS_RESERVE` — Odds API budget guard
+- `ODDS_CACHE_HOURS` / `ODDS_FLOOR` / `ODDS_PER_DAY` / `ODDS_MIN_HOURS_TO_DROP` — Odds API budget guards
 - `GITHUB_TOKEN` / `ODDS_API_KEY` — env vars (repo secrets on Actions)
 - `NTFY_TOPIC` — `hockey-guru`
 
@@ -84,4 +84,5 @@ not), so treat it as a sanity check; the live scorecard is the real test.
 - Predictions freeze per game once it starts; anything logged after is flagged `late` and not scored.
 - Goalie decisions are not in the box score: the goalie with the most TOI on each side gets W / L / OTL.
 - MoneyPuck's current-season files 404 until a few games are in; the model runs on last season until then.
+- DailyFaceoff does not cover preseason, so exhibition boards have no confirmed goalies and the scorecard's "G starters right" column reads 0 until opening night.
 - `.claude/launch.json` serves `reports/` on :8765 for previewing boards in the app.
