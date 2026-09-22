@@ -2,7 +2,7 @@
  "date": "2026-09-22",
  "preseason": true,
  "backtest": false,
- "logged_at": "2026-09-22T22:03:18",
+ "logged_at": "2026-09-22T18:13:10",
  "games": [
   {
    "game_id": 2026010024,
@@ -6502,6 +6502,21 @@
    "main": true
   },
   {
+   "pid": "8484494",
+   "name": "Aiden Fink",
+   "pos": "W",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 14.5,
+   "p_goal": 0.1671,
+   "e_sog": 1.76,
+   "dk": 7.19,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
    "pid": "8476887",
    "name": "Filip Forsberg",
    "pos": "W",
@@ -6514,6 +6529,21 @@
    "e_sog": 2.87,
    "dk": 10.75,
    "pp_unit": "PP1",
+   "main": true
+  },
+  {
+   "pid": "8485005",
+   "name": "Hiroki Gojsic",
+   "pos": "W",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 14.5,
+   "p_goal": 0.1671,
+   "e_sog": 1.76,
+   "dk": 7.19,
+   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -6559,6 +6589,21 @@
    "e_sog": 1.3,
    "dk": 5.43,
    "pp_unit": "",
+   "main": true
+  },
+  {
+   "pid": "8484187",
+   "name": "Kalan Lind",
+   "pos": "W",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 14.5,
+   "p_goal": 0.1671,
+   "e_sog": 1.76,
+   "dk": 7.19,
+   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -6667,6 +6712,21 @@
    "main": true
   },
   {
+   "pid": "8483844",
+   "name": "Austin Roest",
+   "pos": "W",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 14.5,
+   "p_goal": 0.1671,
+   "e_sog": 1.76,
+   "dk": 7.19,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
    "pid": "8483513",
    "name": "Reid Schaefer",
    "pos": "W",
@@ -6712,6 +6772,21 @@
    "main": true
   },
   {
+   "pid": "8484412",
+   "name": "Joey Willis",
+   "pos": "C",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 14.5,
+   "p_goal": 0.1671,
+   "e_sog": 1.76,
+   "dk": 7.19,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
    "pid": "8484241",
    "name": "Matthew Wood",
    "pos": "W",
@@ -6754,6 +6829,36 @@
    "e_sog": 0.94,
    "dk": 4.66,
    "pp_unit": "",
+   "main": true
+  },
+  {
+   "pid": "8484174",
+   "name": "Andrew Gibson",
+   "pos": "D",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 4.0,
+   "p_goal": 0.0697,
+   "e_sog": 1.53,
+   "dk": 6.8,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
+   "pid": "8485000",
+   "name": "Viggo Gustafsson",
+   "pos": "D",
+   "team": "NSH",
+   "opp": "TBL",
+   "game_id": 2026010029,
+   "grade": "D",
+   "composite": 4.0,
+   "p_goal": 0.0697,
+   "e_sog": 1.53,
+   "dk": 6.8,
+   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -8692,6 +8797,21 @@
    "main": true
   },
   {
+   "pid": "8485384",
+   "name": "Vojtech Cihar",
+   "pos": "W",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "composite": 15.0,
+   "p_goal": 0.1762,
+   "e_sog": 1.62,
+   "dk": 6.91,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
    "pid": "8483675",
    "name": "Kenny Connors",
    "pos": "C",
@@ -8842,6 +8962,21 @@
    "main": true
   },
   {
+   "pid": "8483052",
+   "name": "Kaleb Lawrence",
+   "pos": "C",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "composite": 15.0,
+   "p_goal": 0.1762,
+   "e_sog": 1.62,
+   "dk": 6.91,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
    "pid": "8481732",
    "name": "Andre Lee",
    "pos": "W",
@@ -8859,6 +8994,21 @@
   {
    "pid": "8486060",
    "name": "Liam Lefebvre",
+   "pos": "C",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "composite": 15.0,
+   "p_goal": 0.1762,
+   "e_sog": 1.62,
+   "dk": 6.91,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
+   "pid": "8485602",
+   "name": "Jimmy Lombardi",
    "pos": "C",
    "team": "LAK",
    "opp": "UTA",
@@ -8934,6 +9084,21 @@
   {
    "pid": "8482748",
    "name": "Francesco Pinelli",
+   "pos": "C",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "composite": 15.0,
+   "p_goal": 0.1762,
+   "e_sog": 1.62,
+   "dk": 6.91,
+   "pp_unit": "PP2",
+   "main": true
+  },
+  {
+   "pid": "8486160",
+   "name": "Grant Slukynsky",
    "pos": "C",
    "team": "LAK",
    "opp": "UTA",
@@ -9064,6 +9229,21 @@
    "e_sog": 0.86,
    "dk": 3.42,
    "pp_unit": "",
+   "main": true
+  },
+  {
+   "pid": "8485381",
+   "name": "Henry Brzustewicz",
+   "pos": "D",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "composite": 4.0,
+   "p_goal": 0.0734,
+   "e_sog": 1.39,
+   "dk": 6.58,
+   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -11527,8 +11707,38 @@
    "main": true
   },
   {
+   "pid": "8484857",
+   "name": "Carter George",
+   "pos": "G",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 9.45,
+   "p_win": 0.496,
+   "e_saves": 23.6,
+   "e_ga": 3.01,
+   "main": true
+  },
+  {
    "pid": "8481707",
    "name": "Erik Portillo",
+   "pos": "G",
+   "team": "LAK",
+   "opp": "UTA",
+   "game_id": 2026010030,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 9.45,
+   "p_win": 0.496,
+   "e_saves": 23.6,
+   "e_ga": 3.01,
+   "main": true
+  },
+  {
+   "pid": "8484417",
+   "name": "Hampton Slukynsky",
    "pos": "G",
    "team": "LAK",
    "opp": "UTA",
