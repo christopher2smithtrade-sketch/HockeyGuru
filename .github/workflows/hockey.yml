@@ -1,0 +1,86 @@
+name: Hockey Guru
+
+# Times are UTC. The NHL runs on Eastern time (EDT = UTC-4 until Nov 1 2026,
+# then EST = UTC-5 -- bump every hour below by +1 when DST ends).
+#
+# GitHub's free cron runs 1-3 h late (Gridiron lesson), so each window gets
+# several crons spaced 30 min apart and aimed ~1-2 h ahead. Whatever lands,
+# lands. The script handles the pile-up:
+#   - a scheduled run exits in seconds if the board is <20 min old
+#   - a quiet refresh (nothing newly OUT, no goalie change, board <2 h old)
+#     sends no phone push
+#   - a "fresh after X?" check is booked once per window, not once per cron
+# Minutes are :17 / :47 -- GitHub's queue jams at :00 and :30.
+#
+#   7:00 AM  score last night          crons 6:17 / 6:47 ET
+#  11:00 AM  morning-skate goalie news  crons 9:47 / 10:17 / 10:47 ET
+#   4:30 PM  final pre-lock board       crons 2:47 / 3:17 / 3:47 ET
+#   6:15 PM  late goalie confirmations  crons 5:17 / 5:47 ET
+#
+# 10 runs a day at ~3-4 min each is ~1,100 Actions minutes a month: fine on a
+# public repo (unmetered), tight but inside the 2,000 free minutes on a
+# private one. Or tap "Run workflow" in the GitHub app any time.
+on:
+  schedule:
+    # 7:00 AM ET scoring
+    - cron: '17 10 * * *'
+    - cron: '47 10 * * *'
+    # 11:00 AM ET morning board
+    - cron: '47 13 * * *'
+    - cron: '17 14 * * *'
+    - cron: '47 14 * * *'
+    # 4:30 PM ET pre-lock board
+    - cron: '47 18 * * *'
+    - cron: '17 19 * * *'
+    - cron: '47 19 * * *'
+    # 6:15 PM ET last look
+    - cron: '17 21 * * *'
+    - cron: '47 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hockey-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Hockey Guru and deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          PYTHONIOENCODING: utf-8
+        run: python HockeyGuru.py
+
+      # The script pushes index.html and the prediction logs through the API.
+      # Only the completed-season caches (and the run-check state) are
+      # committed -- cache/daily/ churns every run and stays out of git.
+      - name: Commit season cache
+        run: |
+          git config user.name  "hockey-bot"
+          git config user.email "hockey-bot@users.noreply.github.com"
+          git add cache/season/ || true
+          if git diff --cached --quiet; then
+            echo "season cache unchanged"
+          else
+            git commit -m "Refresh season cache [skip ci]"
+            git pull --rebase --autostash origin main
+            git push
+          fi
