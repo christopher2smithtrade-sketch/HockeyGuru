@@ -4545,5 +4545,189 @@
    "e_ga": 3.55,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-09-23",
+  "matched": 249,
+  "scratched": 76,
+  "brier": 0.1001,
+  "sog_mae": 1.19,
+  "dk_mae": 5.3,
+  "hit_rate": 0.116,
+  "avg_p": 0.144,
+  "tiers": {
+   "C": {
+    "n": 39,
+    "p_sum": 7.522399999999999,
+    "hits": 4,
+    "sog": 31.0,
+    "e_sog": 67.19999999999996,
+    "dk": 141.89999999999998,
+    "e_dk": 276.20999999999987,
+    "hit_rate": 0.103,
+    "avg_p": 0.193,
+    "avg_sog": 0.79,
+    "avg_e_sog": 1.72,
+    "avg_dk": 3.6,
+    "avg_e_dk": 7.1
+   },
+   "B+": {
+    "n": 13,
+    "p_sum": 3.9304000000000006,
+    "hits": 3,
+    "sog": 19.0,
+    "e_sog": 32.559999999999995,
+    "dk": 97.8,
+    "e_dk": 137.43,
+    "hit_rate": 0.231,
+    "avg_p": 0.302,
+    "avg_sog": 1.46,
+    "avg_e_sog": 2.5,
+    "avg_dk": 7.5,
+    "avg_e_dk": 10.6
+   },
+   "D": {
+    "n": 171,
+    "p_sum": 16.947500000000005,
+    "hits": 16,
+    "sog": 168.0,
+    "e_sog": 199.0300000000002,
+    "dk": 623.1999999999999,
+    "e_dk": 885.0099999999996,
+    "hit_rate": 0.094,
+    "avg_p": 0.099,
+    "avg_sog": 0.98,
+    "avg_e_sog": 1.16,
+    "avg_dk": 3.6,
+    "avg_e_dk": 5.2
+   },
+   "A+": {
+    "n": 3,
+    "p_sum": 1.1939,
+    "hits": 2,
+    "sog": 2.0,
+    "e_sog": 10.34,
+    "dk": 20.0,
+    "e_dk": 40.05,
+    "hit_rate": 0.667,
+    "avg_p": 0.398,
+    "avg_sog": 0.67,
+    "avg_e_sog": 3.45,
+    "avg_dk": 6.7,
+    "avg_e_dk": 13.3
+   },
+   "B": {
+    "n": 18,
+    "p_sum": 4.427200000000001,
+    "hits": 2,
+    "sog": 20.0,
+    "e_sog": 38.21,
+    "dk": 91.6,
+    "e_dk": 157.39000000000001,
+    "hit_rate": 0.111,
+    "avg_p": 0.246,
+    "avg_sog": 1.11,
+    "avg_e_sog": 2.12,
+    "avg_dk": 5.1,
+    "avg_e_dk": 8.7
+   },
+   "A": {
+    "n": 5,
+    "p_sum": 1.7507000000000001,
+    "hits": 2,
+    "sog": 4.0,
+    "e_sog": 13.94,
+    "dk": 28.2,
+    "e_dk": 59.64999999999999,
+    "hit_rate": 0.4,
+    "avg_p": 0.35,
+    "avg_sog": 0.8,
+    "avg_e_sog": 2.79,
+    "avg_dk": 5.6,
+    "avg_e_dk": 11.9
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 8,
+   "started": 0,
+   "dk_mae": null
+  },
+  "top_calls": [
+   {
+    "name": "Jason Robertson",
+    "team": "DAL",
+    "grade": "A+",
+    "p_goal": 0.4051,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Dylan Cozens",
+    "team": "OTT",
+    "grade": "A+",
+    "p_goal": 0.3944,
+    "g": 1,
+    "sog": 1,
+    "dk": 10.0
+   },
+   {
+    "name": "Dylan Cozens",
+    "team": "OTT",
+    "grade": "A+",
+    "p_goal": 0.3944,
+    "g": 1,
+    "sog": 1,
+    "dk": 10.0
+   },
+   {
+    "name": "Wyatt Johnston",
+    "team": "DAL",
+    "grade": "A",
+    "p_goal": 0.3573,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Leo Carlsson",
+    "team": "ANA",
+    "grade": "A",
+    "p_goal": 0.3532,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Cutter Gauthier",
+    "team": "ANA",
+    "grade": "A",
+    "p_goal": 0.352,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Tim St\u00fctzle",
+    "team": "OTT",
+    "grade": "A",
+    "p_goal": 0.3441,
+    "g": 1,
+    "sog": 2,
+    "dk": 14.1
+   },
+   {
+    "name": "Tim St\u00fctzle",
+    "team": "OTT",
+    "grade": "A",
+    "p_goal": 0.3441,
+    "g": 1,
+    "sog": 2,
+    "dk": 14.1
+   }
+  ],
+  "preseason": true
+ }
 }
