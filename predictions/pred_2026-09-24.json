@@ -2,7 +2,7 @@
  "date": "2026-09-24",
  "preseason": true,
  "backtest": false,
- "logged_at": "2026-09-24T15:03:58",
+ "logged_at": "2026-09-24T15:30:42",
  "games": [
   {
    "game_id": 2026010040,
@@ -529,7 +529,7 @@
    "team": "BOS",
    "opp": "PHI",
    "game_id": 2026010040,
-   "grade": "OUT",
+   "grade": "D",
    "composite": 1.4,
    "p_goal": 0.0619,
    "e_sog": 0.91,
@@ -5929,7 +5929,7 @@
    "team": "PIT",
    "opp": "CBJ",
    "game_id": 2026010046,
-   "grade": "C",
+   "grade": "OUT",
    "composite": 16.8,
    "p_goal": 0.1979,
    "e_sog": 1.51,
