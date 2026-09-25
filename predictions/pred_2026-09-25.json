@@ -2,7 +2,7 @@
  "date": "2026-09-25",
  "preseason": true,
  "backtest": false,
- "logged_at": "2026-09-25T18:41:35",
+ "logged_at": "2026-09-25T21:27:12",
  "games": [
   {
    "game_id": 2026010049,
@@ -2131,21 +2131,6 @@
    "main": true
   },
   {
-   "pid": "8479580",
-   "name": "Dylan Gambrell",
-   "pos": "C",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 14.8,
-   "p_goal": 0.1743,
-   "e_sog": 1.64,
-   "dk": 6.81,
-   "pp_unit": "PP2",
-   "main": true
-  },
-  {
    "pid": "8477451",
    "name": "Ryan Hartman",
    "pos": "W",
@@ -2176,21 +2161,6 @@
    "main": true
   },
   {
-   "pid": "8477993",
-   "name": "Justin Kirkland",
-   "pos": "C",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 4.3,
-   "p_goal": 0.0928,
-   "e_sog": 0.84,
-   "dk": 2.94,
-   "pp_unit": "",
-   "main": true
-  },
-  {
    "pid": "8477446",
    "name": "Michael McCarron",
    "pos": "C",
@@ -2206,21 +2176,6 @@
    "main": true
   },
   {
-   "pid": "8475752",
-   "name": "Tyler Pitlick",
-   "pos": "C",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 4.7,
-   "p_goal": 0.0935,
-   "e_sog": 0.94,
-   "dk": 2.96,
-   "pp_unit": "",
-   "main": true
-  },
-  {
    "pid": "8485702",
    "name": "Maxim Shabanov",
    "pos": "W",
@@ -2232,21 +2187,6 @@
    "p_goal": 0.1712,
    "e_sog": 1.62,
    "dk": 6.05,
-   "pp_unit": "PP2",
-   "main": true
-  },
-  {
-   "pid": "8479972",
-   "name": "Mason Shaw",
-   "pos": "C",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 14.8,
-   "p_goal": 0.1743,
-   "e_sog": 1.64,
-   "dk": 6.81,
    "pp_unit": "PP2",
    "main": true
   },
@@ -2413,21 +2353,6 @@
    "e_sog": 1.16,
    "dk": 5.89,
    "pp_unit": "",
-   "main": true
-  },
-  {
-   "pid": "8482693",
-   "name": "Roman Schmidt",
-   "pos": "D",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 4.0,
-   "p_goal": 0.0727,
-   "e_sog": 1.42,
-   "dk": 6.1,
-   "pp_unit": "PP2",
    "main": true
   },
   {
