@@ -2,7 +2,7 @@
  "date": "2026-09-25",
  "preseason": true,
  "backtest": false,
- "logged_at": "2026-09-25T18:05:58",
+ "logged_at": "2026-09-25T18:41:35",
  "games": [
   {
    "game_id": 2026010049,
@@ -1876,21 +1876,6 @@
    "main": true
   },
   {
-   "pid": "8483514",
-   "name": "Matthew Seminoff",
-   "pos": "W",
-   "team": "DAL",
-   "opp": "MIN",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 14.8,
-   "p_goal": 0.1735,
-   "e_sog": 1.64,
-   "dk": 6.81,
-   "pp_unit": "PP2",
-   "main": true
-  },
-  {
    "pid": "8479351",
    "name": "Sam Steel",
    "pos": "C",
@@ -2053,21 +2038,6 @@
    "e_sog": 1.04,
    "dk": 5.43,
    "pp_unit": "",
-   "main": true
-  },
-  {
-   "pid": "8482863",
-   "name": "Caedan Bankier",
-   "pos": "C",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": 14.8,
-   "p_goal": 0.1743,
-   "e_sog": 1.64,
-   "dk": 6.81,
-   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -2427,36 +2397,6 @@
    "p_goal": 0.0436,
    "e_sog": 0.93,
    "dk": 4.58,
-   "pp_unit": "",
-   "main": true
-  },
-  {
-   "pid": "8482641",
-   "name": "Matt Kiersted",
-   "pos": "D",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": -0.1,
-   "p_goal": 0.0461,
-   "e_sog": 0.94,
-   "dk": 5.08,
-   "pp_unit": "",
-   "main": true
-  },
-  {
-   "pid": "8482781",
-   "name": "Carson Lambos",
-   "pos": "D",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "composite": -2.1,
-   "p_goal": 0.0339,
-   "e_sog": 0.65,
-   "dk": 2.57,
    "pp_unit": "",
    "main": true
   },
