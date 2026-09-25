@@ -2,7 +2,7 @@
  "date": "2026-09-25",
  "preseason": true,
  "backtest": false,
- "logged_at": "2026-09-25T22:50:40",
+ "logged_at": "2026-09-25T23:57:55",
  "games": [
   {
    "game_id": 2026010049,
@@ -3286,6 +3286,21 @@
    "main": true
   },
   {
+   "pid": "8475809",
+   "name": "Scott Wedgewood",
+   "pos": "G",
+   "team": "COL",
+   "opp": "WPG",
+   "game_id": 2026010048,
+   "grade": "C",
+   "status": "Projected",
+   "dk": 11.77,
+   "p_win": 0.637,
+   "e_saves": 23.0,
+   "e_ga": 2.48,
+   "main": true
+  },
+  {
    "pid": "8478048",
    "name": "Igor Shesterkin",
    "pos": "G",
@@ -3298,6 +3313,21 @@
    "p_win": 0.669,
    "e_saves": 26.7,
    "e_ga": 2.63,
+   "main": true
+  },
+  {
+   "pid": "8480280",
+   "name": "Jeremy Swayman",
+   "pos": "G",
+   "team": "BOS",
+   "opp": "WSH",
+   "game_id": 2026010049,
+   "grade": "C",
+   "status": "Projected",
+   "dk": 10.59,
+   "p_win": 0.407,
+   "e_saves": 26.6,
+   "e_ga": 3.17,
    "main": true
   },
   {
@@ -3316,21 +3346,6 @@
    "main": true
   },
   {
-   "pid": "8475809",
-   "name": "Scott Wedgewood",
-   "pos": "G",
-   "team": "COL",
-   "opp": "WPG",
-   "game_id": 2026010048,
-   "grade": "C",
-   "status": "Projected",
-   "dk": 11.77,
-   "p_win": 0.637,
-   "e_saves": 23.0,
-   "e_ga": 2.48,
-   "main": true
-  },
-  {
    "pid": "8476945",
    "name": "Connor Hellebuyck",
    "pos": "G",
@@ -3343,21 +3358,6 @@
    "p_win": 0.363,
    "e_saves": 28.3,
    "e_ga": 3.35,
-   "main": true
-  },
-  {
-   "pid": "8480280",
-   "name": "Jeremy Swayman",
-   "pos": "G",
-   "team": "BOS",
-   "opp": "WSH",
-   "game_id": 2026010049,
-   "grade": "C",
-   "status": "Projected",
-   "dk": 10.59,
-   "p_win": 0.407,
-   "e_saves": 26.6,
-   "e_ga": 3.17,
    "main": true
   },
   {
@@ -3406,36 +3406,6 @@
    "main": true
   },
   {
-   "pid": "8482193",
-   "name": "Dylan Garand",
-   "pos": "G",
-   "team": "NYR",
-   "opp": "NYI",
-   "game_id": 2026010051,
-   "grade": "B",
-   "status": "Backup",
-   "dk": 13.65,
-   "p_win": 0.669,
-   "e_saves": 26.6,
-   "e_ga": 2.75,
-   "main": true
-  },
-  {
-   "pid": "8476914",
-   "name": "Joonas Korpisalo",
-   "pos": "G",
-   "team": "NYR",
-   "opp": "NYI",
-   "game_id": 2026010051,
-   "grade": "B",
-   "status": "Backup",
-   "dk": 13.41,
-   "p_win": 0.669,
-   "e_saves": 26.6,
-   "e_ga": 2.8,
-   "main": true
-  },
-  {
    "pid": "8478406",
    "name": "Mackenzie Blackwood",
    "pos": "G",
@@ -3451,18 +3421,18 @@
    "main": true
   },
   {
-   "pid": "8483532",
-   "name": "Clay Stevenson",
+   "pid": "8482193",
+   "name": "Dylan Garand",
    "pos": "G",
-   "team": "WSH",
-   "opp": "BOS",
-   "game_id": 2026010049,
-   "grade": "C",
+   "team": "NYR",
+   "opp": "NYI",
+   "game_id": 2026010051,
+   "grade": "B",
    "status": "Backup",
-   "dk": 11.11,
-   "p_win": 0.593,
-   "e_saves": 24.0,
-   "e_ga": 2.78,
+   "dk": 13.65,
+   "p_win": 0.669,
+   "e_saves": 26.6,
+   "e_ga": 2.75,
    "main": true
   },
   {
@@ -3496,6 +3466,21 @@
    "main": true
   },
   {
+   "pid": "8476914",
+   "name": "Joonas Korpisalo",
+   "pos": "G",
+   "team": "NYR",
+   "opp": "NYI",
+   "game_id": 2026010051,
+   "grade": "B",
+   "status": "Backup",
+   "dk": 13.41,
+   "p_win": 0.669,
+   "e_saves": 26.6,
+   "e_ga": 2.8,
+   "main": true
+  },
+  {
    "pid": "8479973",
    "name": "Stuart Skinner",
    "pos": "G",
@@ -3526,21 +3511,6 @@
    "main": true
   },
   {
-   "pid": "8479292",
-   "name": "Charlie Lindgren",
-   "pos": "G",
-   "team": "WSH",
-   "opp": "BOS",
-   "game_id": 2026010049,
-   "grade": "C",
-   "status": "Backup",
-   "dk": 10.64,
-   "p_win": 0.593,
-   "e_saves": 23.9,
-   "e_ga": 2.88,
-   "main": true
-  },
-  {
    "pid": "8479193",
    "name": "Casey DeSmith",
    "pos": "G",
@@ -3556,18 +3526,18 @@
    "main": true
   },
   {
-   "pid": "8482465",
-   "name": "R\u00e9mi Poirier",
+   "pid": "8483532",
+   "name": "Clay Stevenson",
    "pos": "G",
-   "team": "DAL",
-   "opp": "MIN",
-   "game_id": 2026010050,
-   "grade": "D",
+   "team": "WSH",
+   "opp": "BOS",
+   "game_id": 2026010049,
+   "grade": "C",
    "status": "Backup",
-   "dk": 10.02,
-   "p_win": 0.449,
-   "e_saves": 25.4,
-   "e_ga": 3.14,
+   "dk": 11.11,
+   "p_win": 0.593,
+   "e_saves": 24.0,
+   "e_ga": 2.78,
    "main": true
   },
   {
@@ -3601,48 +3571,33 @@
    "main": true
   },
   {
-   "pid": "8483918",
-   "name": "Riley Mercer",
+   "pid": "8482465",
+   "name": "R\u00e9mi Poirier",
    "pos": "G",
-   "team": "MIN",
-   "opp": "DAL",
+   "team": "DAL",
+   "opp": "MIN",
    "game_id": 2026010050,
    "grade": "D",
    "status": "Backup",
-   "dk": 9.53,
-   "p_win": 0.551,
-   "e_saves": 23.5,
-   "e_ga": 3.05,
-   "main": true
-  },
-  {
-   "pid": "8486275",
-   "name": "Filip Ruzicka",
-   "pos": "G",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "status": "Backup",
-   "dk": 9.53,
-   "p_win": 0.551,
-   "e_saves": 23.5,
-   "e_ga": 3.05,
-   "main": true
-  },
-  {
-   "pid": "8475717",
-   "name": "Calvin Pickard",
-   "pos": "G",
-   "team": "MIN",
-   "opp": "DAL",
-   "game_id": 2026010050,
-   "grade": "D",
-   "status": "Backup",
-   "dk": 9.12,
-   "p_win": 0.551,
-   "e_saves": 23.4,
+   "dk": 10.02,
+   "p_win": 0.449,
+   "e_saves": 25.4,
    "e_ga": 3.14,
+   "main": true
+  },
+  {
+   "pid": "8479292",
+   "name": "Charlie Lindgren",
+   "pos": "G",
+   "team": "WSH",
+   "opp": "BOS",
+   "game_id": 2026010049,
+   "grade": "C",
+   "status": "Backup",
+   "dk": 10.64,
+   "p_win": 0.593,
+   "e_saves": 23.9,
+   "e_ga": 2.88,
    "main": true
   },
   {
@@ -3676,6 +3631,36 @@
    "main": true
   },
   {
+   "pid": "8483918",
+   "name": "Riley Mercer",
+   "pos": "G",
+   "team": "MIN",
+   "opp": "DAL",
+   "game_id": 2026010050,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 9.53,
+   "p_win": 0.551,
+   "e_saves": 23.5,
+   "e_ga": 3.05,
+   "main": true
+  },
+  {
+   "pid": "8486275",
+   "name": "Filip Ruzicka",
+   "pos": "G",
+   "team": "MIN",
+   "opp": "DAL",
+   "game_id": 2026010050,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 9.53,
+   "p_win": 0.551,
+   "e_saves": 23.5,
+   "e_ga": 3.05,
+   "main": true
+  },
+  {
    "pid": "8477970",
    "name": "Vitek Vanecek",
    "pos": "G",
@@ -3688,6 +3673,21 @@
    "p_win": 0.331,
    "e_saves": 22.4,
    "e_ga": 3.24,
+   "main": true
+  },
+  {
+   "pid": "8475717",
+   "name": "Calvin Pickard",
+   "pos": "G",
+   "team": "MIN",
+   "opp": "DAL",
+   "game_id": 2026010050,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 9.12,
+   "p_win": 0.551,
+   "e_saves": 23.4,
+   "e_ga": 3.14,
    "main": true
   }
  ]
