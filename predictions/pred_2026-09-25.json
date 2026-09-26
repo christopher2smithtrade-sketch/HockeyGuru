@@ -3690,5 +3690,162 @@
    "e_ga": 3.14,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-09-25",
+  "matched": 205,
+  "scratched": 63,
+  "brier": 0.0854,
+  "sog_mae": 1.02,
+  "dk_mae": 4.7,
+  "hit_rate": 0.098,
+  "avg_p": 0.134,
+  "tiers": {
+   "D": {
+    "n": 151,
+    "p_sum": 14.393300000000002,
+    "hits": 7,
+    "sog": 116.0,
+    "e_sog": 183.55999999999997,
+    "dk": 468.0000000000002,
+    "e_dk": 786.1300000000002,
+    "hit_rate": 0.046,
+    "avg_p": 0.095,
+    "avg_sog": 0.77,
+    "avg_e_sog": 1.22,
+    "avg_dk": 3.1,
+    "avg_e_dk": 5.2
+   },
+   "B": {
+    "n": 12,
+    "p_sum": 2.8966000000000003,
+    "hits": 6,
+    "sog": 23.0,
+    "e_sog": 27.969999999999995,
+    "dk": 122.39999999999999,
+    "e_dk": 116.39,
+    "hit_rate": 0.5,
+    "avg_p": 0.241,
+    "avg_sog": 1.92,
+    "avg_e_sog": 2.33,
+    "avg_dk": 10.2,
+    "avg_e_dk": 9.7
+   },
+   "C": {
+    "n": 27,
+    "p_sum": 5.394099999999999,
+    "hits": 6,
+    "sog": 35.0,
+    "e_sog": 51.940000000000005,
+    "dk": 195.1,
+    "e_dk": 214.6400000000001,
+    "hit_rate": 0.222,
+    "avg_p": 0.2,
+    "avg_sog": 1.3,
+    "avg_e_sog": 1.92,
+    "avg_dk": 7.2,
+    "avg_e_dk": 7.9
+   },
+   "B+": {
+    "n": 10,
+    "p_sum": 2.8542,
+    "hits": 1,
+    "sog": 18.0,
+    "e_sog": 26.29,
+    "dk": 49.39999999999999,
+    "e_dk": 102.41,
+    "hit_rate": 0.1,
+    "avg_p": 0.285,
+    "avg_sog": 1.8,
+    "avg_e_sog": 2.63,
+    "avg_dk": 4.9,
+    "avg_e_dk": 10.2
+   },
+   "A": {
+    "n": 3,
+    "p_sum": 1.048,
+    "hits": 0,
+    "sog": 5.0,
+    "e_sog": 9.55,
+    "dk": 13.8,
+    "e_dk": 38.7,
+    "hit_rate": 0.0,
+    "avg_p": 0.349,
+    "avg_sog": 1.67,
+    "avg_e_sog": 3.18,
+    "avg_dk": 4.6,
+    "avg_e_dk": 12.9
+   },
+   "A+": {
+    "n": 2,
+    "p_sum": 0.8506,
+    "hits": 0,
+    "sog": 6.0,
+    "e_sog": 7.8500000000000005,
+    "dk": 15.3,
+    "e_dk": 34.6,
+    "hit_rate": 0.0,
+    "avg_p": 0.425,
+    "avg_sog": 3.0,
+    "avg_e_sog": 3.93,
+    "avg_dk": 7.7,
+    "avg_e_dk": 17.3
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 8,
+   "started": 0,
+   "dk_mae": null
+  },
+  "top_calls": [
+   {
+    "name": "Nathan MacKinnon",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.4347,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Martin Necas",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.4159,
+    "g": 0,
+    "sog": 4,
+    "dk": 7.3
+   },
+   {
+    "name": "Jason Robertson",
+    "team": "DAL",
+    "grade": "A",
+    "p_goal": 0.3681,
+    "g": 0,
+    "sog": 1,
+    "dk": 1.5
+   },
+   {
+    "name": "Kirill Kaprizov",
+    "team": "MIN",
+    "grade": "A",
+    "p_goal": 0.3522,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   },
+   {
+    "name": "Matt Boldy",
+    "team": "MIN",
+    "grade": "A",
+    "p_goal": 0.3277,
+    "g": 0,
+    "sog": 2,
+    "dk": 9.3
+   }
+  ],
+  "preseason": true
+ }
 }
