@@ -2,7 +2,7 @@
  "date": "2026-09-29",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-09-29T19:31:25",
+ "logged_at": "2026-09-29T22:44:07",
  "games": [
   {
    "game_id": 2026020001,
@@ -763,7 +763,7 @@
    "team": "MTL",
    "opp": "TOR",
    "game_id": 2026020002,
-   "grade": "C",
+   "grade": "OUT",
    "composite": 17.7,
    "p_goal": 0.2108,
    "e_sog": 1.38,
