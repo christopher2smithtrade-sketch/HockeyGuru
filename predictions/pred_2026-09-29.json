@@ -2,7 +2,7 @@
  "date": "2026-09-29",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-09-29T18:58:24",
+ "logged_at": "2026-09-29T19:31:25",
  "games": [
   {
    "game_id": 2026020001,
@@ -3374,7 +3374,7 @@
    "opp": "VGK",
    "game_id": 2026020005,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.63,
    "p_win": 0.309,
    "e_saves": 25.9,
@@ -3404,7 +3404,7 @@
    "opp": "MTL",
    "game_id": 2026020002,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.26,
    "p_win": 0.496,
    "e_saves": 26.1,
