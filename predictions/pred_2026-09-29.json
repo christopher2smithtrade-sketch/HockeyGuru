@@ -2,7 +2,7 @@
  "date": "2026-09-29",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-09-29T23:18:37",
+ "logged_at": "2026-09-30T00:37:15",
  "games": [
   {
    "game_id": 2026020001,
@@ -3277,6 +3277,21 @@
    "main": true
   },
   {
+   "pid": "8482487",
+   "name": "Jakub Dobes",
+   "pos": "G",
+   "team": "MTL",
+   "opp": "TOR",
+   "game_id": 2026020002,
+   "grade": "C",
+   "status": "Confirmed",
+   "dk": 10.92,
+   "p_win": 0.504,
+   "e_saves": 25.9,
+   "e_ga": 3.09,
+   "main": true
+  },
+  {
    "pid": "8477465",
    "name": "Tristan Jarry",
    "pos": "G",
@@ -3319,21 +3334,6 @@
    "p_win": 0.691,
    "e_saves": 20.5,
    "e_ga": 2.28,
-   "main": true
-  },
-  {
-   "pid": "8482487",
-   "name": "Jakub Dobes",
-   "pos": "G",
-   "team": "MTL",
-   "opp": "TOR",
-   "game_id": 2026020002,
-   "grade": "C",
-   "status": "Confirmed",
-   "dk": 10.92,
-   "p_win": 0.504,
-   "e_saves": 25.9,
-   "e_ga": 3.09,
    "main": true
   },
   {
@@ -3397,6 +3397,21 @@
    "main": false
   },
   {
+   "pid": "8480947",
+   "name": "Kevin Lankinen",
+   "pos": "G",
+   "team": "VAN",
+   "opp": "EDM",
+   "game_id": 2026020004,
+   "grade": "D",
+   "status": "Projected",
+   "dk": 8.52,
+   "p_win": 0.278,
+   "e_saves": 28.1,
+   "e_ga": 3.87,
+   "main": true
+  },
+  {
    "pid": "8475683",
    "name": "Sergei Bobrovsky",
    "pos": "G",
@@ -3412,18 +3427,18 @@
    "main": true
   },
   {
-   "pid": "8480947",
-   "name": "Kevin Lankinen",
+   "pid": "8478470",
+   "name": "Samuel Montembeault",
    "pos": "G",
-   "team": "VAN",
-   "opp": "EDM",
-   "game_id": 2026020004,
+   "team": "MTL",
+   "opp": "TOR",
+   "game_id": 2026020002,
    "grade": "D",
-   "status": "Projected",
-   "dk": 8.52,
-   "p_win": 0.278,
-   "e_saves": 28.1,
-   "e_ga": 3.87,
+   "status": "Backup",
+   "dk": 10.0,
+   "p_win": 0.504,
+   "e_saves": 25.7,
+   "e_ga": 3.3,
    "main": true
   },
   {
@@ -3499,36 +3514,6 @@
    "p_win": 0.691,
    "e_saves": 20.4,
    "e_ga": 2.38,
-   "main": true
-  },
-  {
-   "pid": "8478470",
-   "name": "Samuel Montembeault",
-   "pos": "G",
-   "team": "MTL",
-   "opp": "TOR",
-   "game_id": 2026020002,
-   "grade": "D",
-   "status": "Backup",
-   "dk": 10.0,
-   "p_win": 0.504,
-   "e_saves": 25.7,
-   "e_ga": 3.3,
-   "main": true
-  },
-  {
-   "pid": "8476932",
-   "name": "Anthony Stolarz",
-   "pos": "G",
-   "team": "TOR",
-   "opp": "MTL",
-   "game_id": 2026020002,
-   "grade": "D",
-   "status": "Backup",
-   "dk": 9.92,
-   "p_win": 0.496,
-   "e_saves": 26.3,
-   "e_ga": 3.42,
    "main": true
   },
   {
@@ -3619,6 +3604,21 @@
    "p_win": 0.278,
    "e_saves": 28.0,
    "e_ga": 3.91,
+   "main": true
+  },
+  {
+   "pid": "8476932",
+   "name": "Anthony Stolarz",
+   "pos": "G",
+   "team": "TOR",
+   "opp": "MTL",
+   "game_id": 2026020002,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 9.92,
+   "p_win": 0.496,
+   "e_saves": 26.3,
+   "e_ga": 3.42,
    "main": true
   }
  ]
