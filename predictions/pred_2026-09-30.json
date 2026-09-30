@@ -2,7 +2,7 @@
  "date": "2026-09-30",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-09-30T19:28:57",
+ "logged_at": "2026-09-30T20:50:32",
  "games": [
   {
    "game_id": 2026020006,
@@ -511,7 +511,7 @@
    "team": "PIT",
    "opp": "PHI",
    "game_id": 2026020006,
-   "grade": "OUT",
+   "grade": "D",
    "composite": 2.8,
    "p_goal": 0.0797,
    "e_sog": 0.79,
