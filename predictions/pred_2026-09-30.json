@@ -2,7 +2,7 @@
  "date": "2026-09-30",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-09-30T22:42:17",
+ "logged_at": "2026-09-30T23:17:00",
  "games": [
   {
    "game_id": 2026020006,
@@ -2042,7 +2042,7 @@
    "opp": "TOR",
    "game_id": 2026020008,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 10.23,
    "p_win": 0.437,
    "e_saves": 23.9,
