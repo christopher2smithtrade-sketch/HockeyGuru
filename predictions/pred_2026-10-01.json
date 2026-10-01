@@ -2,7 +2,7 @@
  "date": "2026-10-01",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-01T19:11:59",
+ "logged_at": "2026-10-01T19:40:45",
  "games": [
   {
    "game_id": 2026020009,
@@ -5492,7 +5492,7 @@
    "opp": "SJS",
    "game_id": 2026020016,
    "grade": "C",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 10.59,
    "p_win": 0.572,
    "e_saves": 24.8,
