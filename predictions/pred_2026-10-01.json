@@ -2,7 +2,7 @@
  "date": "2026-10-01",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-01T17:09:14",
+ "logged_at": "2026-10-01T19:11:59",
  "games": [
   {
    "game_id": 2026020009,
@@ -2695,21 +2695,6 @@
    "main": true
   },
   {
-   "pid": "8484154",
-   "name": "Jonathan Castagna",
-   "pos": "C",
-   "team": "CGY",
-   "opp": "SEA",
-   "game_id": 2026020014,
-   "grade": "C",
-   "composite": 18.0,
-   "p_goal": 0.2031,
-   "e_sog": 1.74,
-   "dk": 7.19,
-   "pp_unit": "PP2",
-   "main": true
-  },
-  {
    "pid": "8482679",
    "name": "Matt Coronato",
    "pos": "W",
@@ -2800,21 +2785,6 @@
    "main": true
   },
   {
-   "pid": "8482209",
-   "name": "Rory Kerins",
-   "pos": "C",
-   "team": "CGY",
-   "opp": "SEA",
-   "game_id": 2026020014,
-   "grade": "C",
-   "composite": 18.1,
-   "p_goal": 0.2059,
-   "e_sog": 1.66,
-   "dk": 6.34,
-   "pp_unit": "PP2",
-   "main": true
-  },
-  {
    "pid": "8483609",
    "name": "Adam Klapka",
    "pos": "W",
@@ -2890,21 +2860,6 @@
    "main": true
   },
   {
-   "pid": "8484234",
-   "name": "Aydar Suniev",
-   "pos": "W",
-   "team": "CGY",
-   "opp": "SEA",
-   "game_id": 2026020014,
-   "grade": "D",
-   "composite": 15.0,
-   "p_goal": 0.1793,
-   "e_sog": 1.51,
-   "dk": 5.43,
-   "pp_unit": "PP2",
-   "main": true
-  },
-  {
    "pid": "8484958",
    "name": "Maxim Tsyplakov",
    "pos": "W",
@@ -2947,21 +2902,6 @@
    "e_sog": 0.73,
    "dk": 4.26,
    "pp_unit": "",
-   "main": true
-  },
-  {
-   "pid": "8484150",
-   "name": "Hunter Brzustewicz",
-   "pos": "D",
-   "team": "CGY",
-   "opp": "SEA",
-   "game_id": 2026020014,
-   "grade": "D",
-   "composite": 3.6,
-   "p_goal": 0.0752,
-   "e_sog": 1.19,
-   "dk": 4.05,
-   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -3066,21 +3006,6 @@
    "p_goal": 0.0475,
    "e_sog": 0.96,
    "dk": 5.56,
-   "pp_unit": "",
-   "main": true
-  },
-  {
-   "pid": "8483709",
-   "name": "Abram Wiebe",
-   "pos": "D",
-   "team": "CGY",
-   "opp": "SEA",
-   "game_id": 2026020014,
-   "grade": "D",
-   "composite": -0.5,
-   "p_goal": 0.0463,
-   "e_sog": 0.8,
-   "dk": 1.9,
    "pp_unit": "",
    "main": true
   },
@@ -3430,6 +3355,21 @@
    "main": true
   },
   {
+   "pid": "8484144",
+   "name": "Connor Bedard",
+   "pos": "C",
+   "team": "CHI",
+   "opp": "UTA",
+   "game_id": 2026020013,
+   "grade": "OUT",
+   "composite": 28.7,
+   "p_goal": 0.2811,
+   "e_sog": 2.69,
+   "dk": 11.13,
+   "pp_unit": "PP1",
+   "main": true
+  },
+  {
    "pid": "8477479",
    "name": "Tyler Bertuzzi",
    "pos": "W",
@@ -3442,21 +3382,6 @@
    "e_sog": 1.83,
    "dk": 7.58,
    "pp_unit": "PP1",
-   "main": true
-  },
-  {
-   "pid": "8484793",
-   "name": "Sacha Boisvert",
-   "pos": "C",
-   "team": "CHI",
-   "opp": "UTA",
-   "game_id": 2026020013,
-   "grade": "D",
-   "composite": 4.8,
-   "p_goal": 0.0971,
-   "e_sog": 0.88,
-   "dk": 3.08,
-   "pp_unit": "",
    "main": true
   },
   {
@@ -3637,21 +3562,6 @@
    "e_sog": 1.21,
    "dk": 5.48,
    "pp_unit": "PP1",
-   "main": true
-  },
-  {
-   "pid": "8476952",
-   "name": "Dominic Toninato",
-   "pos": "C",
-   "team": "CHI",
-   "opp": "UTA",
-   "game_id": 2026020013,
-   "grade": "D",
-   "composite": 4.5,
-   "p_goal": 0.0931,
-   "e_sog": 0.89,
-   "dk": 2.95,
-   "pp_unit": "",
    "main": true
   },
   {
@@ -4186,7 +4096,7 @@
    "team": "EDM",
    "opp": "VAN",
    "game_id": 2026020015,
-   "grade": "A",
+   "grade": "OUT",
    "composite": 38.2,
    "p_goal": 0.3834,
    "e_sog": 2.46,
@@ -5507,7 +5417,7 @@
    "opp": "VAN",
    "game_id": 2026020015,
    "grade": "C",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 11.96,
    "p_win": 0.657,
    "e_saves": 25.2,
@@ -5672,7 +5582,7 @@
    "opp": "FLA",
    "game_id": 2026020016,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 8.96,
    "p_win": 0.428,
    "e_saves": 25.5,
@@ -5962,6 +5872,21 @@
    "p_win": 0.343,
    "e_saves": 27.4,
    "e_ga": 3.7,
+   "main": true
+  },
+  {
+   "pid": "8482193",
+   "name": "Dylan Garand",
+   "pos": "G",
+   "team": "NYR",
+   "opp": "TBL",
+   "game_id": 2026020010,
+   "grade": "D",
+   "status": "Backup",
+   "dk": 8.92,
+   "p_win": 0.428,
+   "e_saves": 23.3,
+   "e_ga": 2.99,
    "main": true
   },
   {
