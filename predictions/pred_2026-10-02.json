@@ -2,7 +2,7 @@
  "date": "2026-10-02",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-02T22:39:43",
+ "logged_at": "2026-10-02T23:22:05",
  "games": [
   {
    "game_id": 2026020017,
@@ -1618,7 +1618,7 @@
    "team": "BOS",
    "opp": "WPG",
    "game_id": 2026020019,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 9.6,
    "p_goal": 0.1243,
    "e_sog": 1.57,
