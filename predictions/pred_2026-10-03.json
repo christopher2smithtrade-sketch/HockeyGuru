@@ -2,7 +2,7 @@
  "date": "2026-10-03",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-03T17:36:20",
+ "logged_at": "2026-10-03T18:14:06",
  "games": [
   {
    "game_id": 2026020022,
@@ -3061,7 +3061,7 @@
    "team": "PIT",
    "opp": "MTL",
    "game_id": 2026020026,
-   "grade": "OUT",
+   "grade": "D",
    "composite": 14.7,
    "p_goal": 0.1741,
    "e_sog": 1.61,
@@ -8612,7 +8612,7 @@
    "opp": "NSH",
    "game_id": 2026020030,
    "grade": "C",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 11.69,
    "p_win": 0.563,
    "e_saves": 25.8,
