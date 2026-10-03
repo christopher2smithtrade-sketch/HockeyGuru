@@ -17,7 +17,7 @@ Actions cron, ntfy pushes) — hockey-specific data underneath.
 | `predictions/pred_*.json` | One per slate, logged at puck drop, graded next morning (synced to the repo) |
 | `predictions/backtest_*.json` | Rebuilt past slates used to calibrate the model (not part of the live scorecard) |
 | `cache/season/` | Completed-season pulls (NHL stats, MoneyPuck, last season's game logs) — committed, never change |
-| `cache/daily/` | Odds, rosters, current game logs, box scores — refreshed, git-ignored |
+| `cache/daily/` | Rosters, current-season game logs, box scores — git-ignored, carried between Actions runs by `actions/cache` (a miss just means one slow run) |
 | `reports/` | Generated HTML boards (local only) |
 
 Single file, edited in place — git history is the versioning.
@@ -73,7 +73,7 @@ not), so treat it as a sanity check; the live scorecard is the real test.
 - `TOP_PER_POS` — cards shown before "Show all"
 - `MAIN_SLATE_START_ET` — what counts as the DK main slate for the toggle
 - `INCLUDE_PRESEASON` — exhibition slates used only when no regular-season games (camp dry run)
-- `GAME_LOG_WORKERS` — keep at 3; 6 drew 429s
+- `GAME_LOG_WORKERS` — keep at 3; 6 drew 429s. A run with a cold cache pulls ~614 logs (4-10 min); a warm one is under 2.
 - `ODDS_CACHE_HOURS` / `ODDS_FLOOR` / `ODDS_PER_DAY` / `ODDS_MIN_HOURS_TO_DROP` — Odds API budget guards
 - `GITHUB_TOKEN` / `ODDS_API_KEY` — env vars (repo secrets on Actions)
 - `NTFY_TOPIC` — `hockey-guru`
@@ -86,3 +86,4 @@ not), so treat it as a sanity check; the live scorecard is the real test.
 - MoneyPuck's current-season files 404 until a few games are in; the model runs on last season until then.
 - DailyFaceoff does not cover preseason, so exhibition boards have no confirmed goalies and the scorecard's "G starters right" column reads 0 until opening night.
 - `.claude/launch.json` serves `reports/` on :8765 for previewing boards in the app.
+- Anything the script needs between runs has to survive a throwaway checkout: either the committed `cache/season/` tier or the workflow's `actions/cache`. This bit twice — the odds cache (paying full price every run) and the game logs (re-pulling the league every run).

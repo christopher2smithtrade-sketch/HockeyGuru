@@ -53,6 +53,19 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
+      # Every run starts from a throwaway checkout, and cache/daily is
+      # git-ignored, so without this the script re-pulled all ~614 player game
+      # logs from the NHL API on every single run -- about 3,700 calls a day,
+      # which stretched runs from 2 minutes to 4-10. This is the right home for
+      # them: free, 10 GB, and it never touches git history the way committing
+      # a 6 MB log file six times a day would. A miss just means one slow run.
+      - name: Restore the daily pulls (game logs, rosters, box scores)
+        uses: actions/cache@v4
+        with:
+          path: cache/daily
+          key: hockey-daily-${{ github.run_id }}
+          restore-keys: hockey-daily-
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
