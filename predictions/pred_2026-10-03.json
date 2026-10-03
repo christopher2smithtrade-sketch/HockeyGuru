@@ -2,7 +2,7 @@
  "date": "2026-10-03",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-03T19:05:39",
+ "logged_at": "2026-10-03T21:47:59",
  "games": [
   {
    "game_id": 2026020022,
@@ -8807,7 +8807,7 @@
    "opp": "BUF",
    "game_id": 2026020022,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 10.04,
    "p_win": 0.331,
    "e_saves": 27.8,
@@ -8837,7 +8837,7 @@
    "opp": "PHI",
    "game_id": 2026020025,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.71,
    "p_win": 0.543,
    "e_saves": 21.6,
