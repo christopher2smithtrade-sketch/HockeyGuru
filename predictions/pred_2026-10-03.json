@@ -9384,5 +9384,189 @@
    "e_ga": 3.42,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-03",
+  "matched": 528,
+  "scratched": 60,
+  "brier": 0.1052,
+  "sog_mae": 1.02,
+  "dk_mae": 4.4,
+  "hit_rate": 0.131,
+  "avg_p": 0.155,
+  "tiers": {
+   "B+": {
+    "n": 22,
+    "p_sum": 6.611299999999999,
+    "hits": 7,
+    "sog": 47.0,
+    "e_sog": 55.29000000000001,
+    "dk": 228.90000000000003,
+    "e_dk": 223.32,
+    "hit_rate": 0.318,
+    "avg_p": 0.301,
+    "avg_sog": 2.14,
+    "avg_e_sog": 2.51,
+    "avg_dk": 10.4,
+    "avg_e_dk": 10.2
+   },
+   "D": {
+    "n": 333,
+    "p_sum": 32.76819999999999,
+    "hits": 25,
+    "sog": 322.0,
+    "e_sog": 402.8599999999998,
+    "dk": 1390.7999999999981,
+    "e_dk": 1762.4900000000016,
+    "hit_rate": 0.075,
+    "avg_p": 0.098,
+    "avg_sog": 0.97,
+    "avg_e_sog": 1.21,
+    "avg_dk": 4.2,
+    "avg_e_dk": 5.3
+   },
+   "C": {
+    "n": 86,
+    "p_sum": 17.2488,
+    "hits": 15,
+    "sog": 128.0,
+    "e_sog": 157.1399999999999,
+    "dk": 536.6000000000001,
+    "e_dk": 618.4000000000001,
+    "hit_rate": 0.174,
+    "avg_p": 0.201,
+    "avg_sog": 1.49,
+    "avg_e_sog": 1.83,
+    "avg_dk": 6.2,
+    "avg_e_dk": 7.2
+   },
+   "B": {
+    "n": 59,
+    "p_sum": 14.436700000000004,
+    "hits": 8,
+    "sog": 119.0,
+    "e_sog": 130.66,
+    "dk": 435.9000000000001,
+    "e_dk": 539.31,
+    "hit_rate": 0.136,
+    "avg_p": 0.245,
+    "avg_sog": 2.02,
+    "avg_e_sog": 2.21,
+    "avg_dk": 7.4,
+    "avg_e_dk": 9.1
+   },
+   "A+": {
+    "n": 15,
+    "p_sum": 6.3828,
+    "hits": 9,
+    "sog": 56.0,
+    "e_sog": 53.42000000000001,
+    "dk": 279.8,
+    "e_dk": 234.16000000000003,
+    "hit_rate": 0.6,
+    "avg_p": 0.426,
+    "avg_sog": 3.73,
+    "avg_e_sog": 3.56,
+    "avg_dk": 18.7,
+    "avg_e_dk": 15.6
+   },
+   "A": {
+    "n": 13,
+    "p_sum": 4.413,
+    "hits": 5,
+    "sog": 41.0,
+    "e_sog": 39.04,
+    "dk": 176.2,
+    "e_dk": 157.87,
+    "hit_rate": 0.385,
+    "avg_p": 0.339,
+    "avg_sog": 3.15,
+    "avg_e_sog": 3.0,
+    "avg_dk": 13.6,
+    "avg_e_dk": 12.1
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 26,
+   "started": 23,
+   "dk_mae": 8.1
+  },
+  "top_calls": [
+   {
+    "name": "Nathan MacKinnon",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.5046,
+    "g": 0,
+    "sog": 4,
+    "dk": 24.0
+   },
+   {
+    "name": "Martin Necas",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.4795,
+    "g": 2,
+    "sog": 4,
+    "dk": 31.0
+   },
+   {
+    "name": "Connor McDavid",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.4746,
+    "g": 1,
+    "sog": 4,
+    "dk": 19.5
+   },
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.4507,
+    "g": 2,
+    "sog": 3,
+    "dk": 21.5
+   },
+   {
+    "name": "Tage Thompson",
+    "team": "BUF",
+    "grade": "A+",
+    "p_goal": 0.4482,
+    "g": 1,
+    "sog": 4,
+    "dk": 20.8
+   },
+   {
+    "name": "Brandon Hagel",
+    "team": "TBL",
+    "grade": "A+",
+    "p_goal": 0.4308,
+    "g": 0,
+    "sog": 6,
+    "dk": 22.0
+   },
+   {
+    "name": "Leon Draisaitl",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.4215,
+    "g": 1,
+    "sog": 5,
+    "dk": 19.0
+   },
+   {
+    "name": "Jake Guentzel",
+    "team": "TBL",
+    "grade": "A+",
+    "p_goal": 0.4174,
+    "g": 1,
+    "sog": 2,
+    "dk": 25.8
+   }
+  ],
+  "preseason": false
+ }
 }
