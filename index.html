@@ -91,8 +91,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
 <div class="header">
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; Monday, October 05, 2026 &bull; 4 games</p>
-  <p>Generated 2026-10-05 05:20 PM EDT &bull; <span class="lock">first puck drop 7:00 PM ET</span></p>
-  <p style="font-size:12px;color:#6e7681">totals 4/4 &bull; win probs 4/4 &bull; 7 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
+  <p>Generated 2026-10-05 08:21 PM EDT &bull; <span class="lock">first puck drop 7:00 PM ET</span></p>
+  <p style="font-size:12px;color:#6e7681">totals 4/4 &bull; win probs 4/4 &bull; 8 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
   
 </div>
 <div class="container">
@@ -110,16 +110,16 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     <span class="muted" style="font-size:12px">Tap a game to see only its players.</span></div>
   <div class="games-row"><div class="game-chip active all-chip" id="all-chip" onclick="pickGame(this)"><div class="teams">All games</div><div class="time">tap a game to filter</div></div><div class="game-chip" data-teams="PHI,TBL" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg" alt="PHI" loading="lazy">PHI @ <img src="https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg" alt="TBL" loading="lazy">TBL</div>
-          <div class="time">7:00 PM ET &bull; O/U 5.5 &bull; TBL 66%</div>
-          <div class="meta"><span class="g">PHI: <span class="conf">Vladar</span></span> &nbsp; <span class="g">TBL: <span class="proj">Vasilevskiy</span></span></div></div><div class="game-chip" data-teams="OTT,BOS" data-main="1" onclick="pickGame(this)">
+          <div class="time">7:00 PM ET &bull; LIVE &bull; O/U 5.5 &bull; TBL 66%</div>
+          <div class="meta"><span class="g">PHI: <span class="conf">Vladar</span></span> &nbsp; <span class="g">TBL: <span class="conf">Vasilevskiy</span></span></div></div><div class="game-chip" data-teams="OTT,BOS" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg" alt="OTT" loading="lazy">OTT @ <img src="https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg" alt="BOS" loading="lazy">BOS</div>
-          <div class="time">7:30 PM ET &bull; O/U 5.5 &bull; OTT 52%</div>
+          <div class="time">7:30 PM ET &bull; LIVE &bull; O/U 5.5 &bull; OTT 52%</div>
           <div class="meta"><span class="g">OTT: <span class="conf">Ullmark</span></span> &nbsp; <span class="g">BOS: <span class="conf">Swayman</span></span></div></div><div class="game-chip" data-teams="WPG,PIT" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg" alt="WPG" loading="lazy">WPG @ <img src="https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg" alt="PIT" loading="lazy">PIT</div>
-          <div class="time">7:30 PM ET &bull; O/U 6.5 &bull; PIT 62%</div>
+          <div class="time">7:30 PM ET &bull; LIVE &bull; O/U 6.5 &bull; PIT 62%</div>
           <div class="meta"><span class="g">WPG: <span class="conf">Stevenson</span></span> &nbsp; <span class="g">PIT: <span class="conf">Murashov</span></span></div></div><div class="game-chip" data-teams="SJS,DAL" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg" alt="SJS" loading="lazy">SJS @ <img src="https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg" alt="DAL" loading="lazy">DAL</div>
-          <div class="time">8:00 PM ET &bull; O/U 6.5 &bull; DAL 64%</div>
+          <div class="time">8:00 PM ET &bull; LIVE &bull; O/U 6.5 &bull; DAL 64%</div>
           <div class="meta"><span class="g">SJS: <span class="conf">Askarov</span></span> &nbsp; <span class="g">DAL: <span class="conf">Oettinger</span></span></div></div></div>
   <div class="filter-banner" id="filter-banner"></div>
   <h2 class="section-title" id="h-C">Centers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-C">
@@ -205,50 +205,9 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#69f0ae">36</div>
     </div>
-    <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="0" data-team="SJS" data-main="1">
-      <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #3<strong style="font-size:1.2rem">B+</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#7fb6ba">Macklin Celebrini</span>
-          <span class="ctx">C &bull; SJS @ DAL &bull; 8:00 PM ET</span>
-          <span class="tag pp1">PP1</span>
-        </div>
-        <div class="card-label" style="color:#b9f6ca">29% to score &bull; 2.8 SOG projected</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:58%;background:#3fb950"></i></span> 29% (&lambda; 0.35)</div>
-            <div class="stat-sub">5v5 finishing 12.7% (raw 15.1%, shot quality 10.2%) &bull; PP 11.3%</div></div>
-          <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:56%;background:#58a6ff"></i></span> 2.8 SOG</div>
-            <div class="stat-sub">3+ SOG 53% &bull; 5+ SOG 15% &bull; 5v5 1.9 + PP 0.9</div></div>
-          <div><div class="stat-label">Power play</div>
-            <div class="stat-val">PP1 &bull; 3.8 min proj</div>
-            <div class="stat-sub">DAL PK 7.0 xGA/60 (#22 worst) &bull; SH time #3 most</div></div>
-          <div><div class="stat-label">Matchup (DAL defense)</div>
-            <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
-            <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#28)</div></div>
-          <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Jake Oettinger <span class="tag conf">Confirmed</span></div>
-            <div class="stat-sub">sv .896 &bull; +6.1 GSAx &bull; factor 0.96</div></div>
-          <div><div class="stat-label">Environment</div>
-            <div class="stat-val">total 6.5 &bull; SJS implied 2.8</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 36%</div></div>
-          <div><div class="stat-label">Form (last 10)</div>
-            <div class="stat-val">3.6 SOG/gm &bull; 5 G &bull; 15 pts</div>
-            <div class="stat-sub">SOG by game (* = goal): 2 7 3* 3 2** 5 &bull; TOI 19.6 vs 21.4 <span style="color:#ff7b72">&#9660;</span></div></div>
-          <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">13.9 pts</div>
-            <div class="stat-sub">0.97 A &bull; 0.6 BLK &bull; season 3.6 SOG/gm, 21.4 min</div></div>
-        </div>
-        <div class="card-scout">PP1 (3.8 PP min projected) · DAL takes penalties (#3 most SH time) · DAL suppresses shots (26.0/gm, #6 fewest)</div>
-      </div>
-      <div class="card-score" style="color:#b9f6ca">30</div>
-    </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="0" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #4<strong style="font-size:1.2rem">B+</strong>
+        #3<strong style="font-size:1.2rem">B+</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -289,7 +248,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="0" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #5<strong style="font-size:1.2rem">B+</strong>
+        #4<strong style="font-size:1.2rem">B+</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -330,7 +289,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="0" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #6<strong style="font-size:1.2rem">B+</strong>
+        #5<strong style="font-size:1.2rem">B+</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -371,7 +330,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="0" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #7<strong style="font-size:1.2rem">B+</strong>
+        #6<strong style="font-size:1.2rem">B+</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -412,7 +371,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="0" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #8<strong style="font-size:1.2rem">B+</strong>
+        #7<strong style="font-size:1.2rem">B+</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -451,9 +410,9 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#b9f6ca">29</div>
     </div>
-    <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
+    <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="0" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#b9f6ca22;color:#b9f6ca;border:1px solid #b9f6ca44">
-        #9<strong style="font-size:1.2rem">B+</strong>
+        #8<strong style="font-size:1.2rem">B+</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -494,7 +453,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #10<strong style="font-size:1.2rem">B</strong>
+        #9<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -535,7 +494,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #11<strong style="font-size:1.2rem">B</strong>
+        #10<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -576,7 +535,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="1" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #12<strong style="font-size:1.2rem">B</strong>
+        #11<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -617,7 +576,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #13<strong style="font-size:1.2rem">B</strong>
+        #12<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -658,7 +617,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #14<strong style="font-size:1.2rem">B</strong>
+        #13<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -699,7 +658,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #15<strong style="font-size:1.2rem">B</strong>
+        #14<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -740,7 +699,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
-        #16<strong style="font-size:1.2rem">B</strong>
+        #15<strong style="font-size:1.2rem">B</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -781,7 +740,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="1" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #17<strong style="font-size:1.2rem">C</strong>
+        #16<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -822,7 +781,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #18<strong style="font-size:1.2rem">C</strong>
+        #17<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -863,7 +822,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #19<strong style="font-size:1.2rem">C</strong>
+        #18<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -904,7 +863,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="1" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #20<strong style="font-size:1.2rem">C</strong>
+        #19<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -945,7 +904,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="1" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #21<strong style="font-size:1.2rem">C</strong>
+        #20<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -986,7 +945,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #22<strong style="font-size:1.2rem">C</strong>
+        #21<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1027,7 +986,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #23<strong style="font-size:1.2rem">C</strong>
+        #22<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1068,7 +1027,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #24<strong style="font-size:1.2rem">C</strong>
+        #23<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1109,7 +1068,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #25<strong style="font-size:1.2rem">C</strong>
+        #24<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1132,7 +1091,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -1150,7 +1109,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ffb74d22;color:#ffb74d;border:1px solid #ffb74d44">
-        #26<strong style="font-size:1.2rem">C</strong>
+        #25<strong style="font-size:1.2rem">C</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1191,7 +1150,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #27<strong style="font-size:1.2rem">D</strong>
+        #26<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1232,7 +1191,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #28<strong style="font-size:1.2rem">D</strong>
+        #27<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1273,7 +1232,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #29<strong style="font-size:1.2rem">D</strong>
+        #28<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1314,7 +1273,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #30<strong style="font-size:1.2rem">D</strong>
+        #29<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1355,7 +1314,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #31<strong style="font-size:1.2rem">D</strong>
+        #30<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1396,7 +1355,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #32<strong style="font-size:1.2rem">D</strong>
+        #31<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1437,7 +1396,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #33<strong style="font-size:1.2rem">D</strong>
+        #32<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1478,7 +1437,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #34<strong style="font-size:1.2rem">D</strong>
+        #33<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1519,7 +1478,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #35<strong style="font-size:1.2rem">D</strong>
+        #34<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1560,7 +1519,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #36<strong style="font-size:1.2rem">D</strong>
+        #35<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1583,7 +1542,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -1601,7 +1560,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #37<strong style="font-size:1.2rem">D</strong>
+        #36<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1642,7 +1601,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #38<strong style="font-size:1.2rem">D</strong>
+        #37<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1683,7 +1642,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #39<strong style="font-size:1.2rem">D</strong>
+        #38<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1724,7 +1683,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="1" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #40<strong style="font-size:1.2rem">D</strong>
+        #39<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1765,7 +1724,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="1" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #41<strong style="font-size:1.2rem">D</strong>
+        #40<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1806,7 +1765,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #42<strong style="font-size:1.2rem">D</strong>
+        #41<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1847,7 +1806,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #43<strong style="font-size:1.2rem">D</strong>
+        #42<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1888,7 +1847,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="1" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #44<strong style="font-size:1.2rem">D</strong>
+        #43<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1929,7 +1888,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="1" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #45<strong style="font-size:1.2rem">D</strong>
+        #44<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -1970,7 +1929,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="1" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #46<strong style="font-size:1.2rem">D</strong>
+        #45<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2011,7 +1970,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #47<strong style="font-size:1.2rem">D</strong>
+        #46<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2052,7 +2011,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #48<strong style="font-size:1.2rem">D</strong>
+        #47<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2093,7 +2052,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #49<strong style="font-size:1.2rem">D</strong>
+        #48<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2134,7 +2093,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #50<strong style="font-size:1.2rem">D</strong>
+        #49<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2157,7 +2116,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2175,7 +2134,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #51<strong style="font-size:1.2rem">D</strong>
+        #50<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2198,7 +2157,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2216,7 +2175,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="1" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #52<strong style="font-size:1.2rem">D</strong>
+        #51<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2257,7 +2216,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #53<strong style="font-size:1.2rem">D</strong>
+        #52<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2298,7 +2257,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #fcb514" data-hidden="1" data-team="PIT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #54<strong style="font-size:1.2rem">D</strong>
+        #53<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2339,7 +2298,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #55<strong style="font-size:1.2rem">D</strong>
+        #54<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2380,7 +2339,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #56<strong style="font-size:1.2rem">D</strong>
+        #55<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2403,7 +2362,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2421,7 +2380,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #57<strong style="font-size:1.2rem">D</strong>
+        #56<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2462,7 +2421,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #58<strong style="font-size:1.2rem">D</strong>
+        #57<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2503,7 +2462,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #59<strong style="font-size:1.2rem">D</strong>
+        #58<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2544,7 +2503,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #60<strong style="font-size:1.2rem">D</strong>
+        #59<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -2582,6 +2541,47 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-scout">DAL takes penalties (#3 most SH time) · DAL suppresses shots (26.0/gm, #6 fewest) · volume down: 0.4 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">1</div>
+    </div>
+    <div class="player-card out" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
+      <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
+        #60<strong style="font-size:1.2rem">OUT</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#7fb6ba">Macklin Celebrini</span>
+          <span class="ctx">C &bull; SJS @ DAL &bull; 8:00 PM ET</span>
+          <span class="tag pp1">PP1</span><span class="tag out" title="Lower Body return 2026-10-08">OUT: Out</span>
+        </div>
+        <div class="card-label" style="color:#ff4444">Ruled out (Out)</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Goal odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:58%;background:#3fb950"></i></span> 29% (&lambda; 0.35)</div>
+            <div class="stat-sub">5v5 finishing 12.7% (raw 15.1%, shot quality 10.2%) &bull; PP 11.3%</div></div>
+          <div><div class="stat-label">SOG floor</div>
+            <div class="stat-val"><span class="bar"><i style="width:56%;background:#58a6ff"></i></span> 2.8 SOG</div>
+            <div class="stat-sub">3+ SOG 53% &bull; 5+ SOG 15% &bull; 5v5 1.9 + PP 0.9</div></div>
+          <div><div class="stat-label">Power play</div>
+            <div class="stat-val">PP1 &bull; 3.8 min proj</div>
+            <div class="stat-sub">DAL PK 7.0 xGA/60 (#22 worst) &bull; SH time #3 most</div></div>
+          <div><div class="stat-label">Matchup (DAL defense)</div>
+            <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
+            <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#28)</div></div>
+          <div><div class="stat-label">Opposing goalie</div>
+            <div class="stat-val">Jake Oettinger <span class="tag conf">Confirmed</span></div>
+            <div class="stat-sub">sv .896 &bull; +6.1 GSAx &bull; factor 0.96</div></div>
+          <div><div class="stat-label">Environment</div>
+            <div class="stat-val">total 6.5 &bull; SJS implied 2.8</div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 36%</div></div>
+          <div><div class="stat-label">Form (last 10)</div>
+            <div class="stat-val">3.6 SOG/gm &bull; 5 G &bull; 15 pts</div>
+            <div class="stat-sub">SOG by game (* = goal): 2 7 3* 3 2** 5 &bull; TOI 19.6 vs 21.4 <span style="color:#ff7b72">&#9660;</span></div></div>
+          <div><div class="stat-label">DraftKings projection</div>
+            <div class="stat-val">13.9 pts</div>
+            <div class="stat-sub">0.97 A &bull; 0.6 BLK &bull; season 3.6 SOG/gm, 21.4 min</div></div>
+        </div>
+        <div class="card-scout">PP1 (3.8 PP min projected) · DAL takes penalties (#3 most SH time) · DAL suppresses shots (26.0/gm, #6 fewest)</div>
+      </div>
+      <div class="card-score" style="color:#ff4444">30</div>
     </div>
     <div class="player-card out" style="border-left:4px solid #7fb3a3" data-hidden="1" data-team="DAL" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
@@ -3264,7 +3264,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3387,7 +3387,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3469,7 +3469,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3838,7 +3838,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3961,7 +3961,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4125,7 +4125,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4412,7 +4412,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4453,7 +4453,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4617,7 +4617,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4863,7 +4863,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -5683,7 +5683,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -6339,7 +6339,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -6642,50 +6642,9 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ff5252">0</div>
     </div>
-    <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
-      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #44<strong style="font-size:1.2rem">D</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#f74902">Rasmus Ristolainen</span>
-          <span class="ctx">D &bull; PHI @ TBL &bull; 7:00 PM ET</span>
-          <span class="tag pp2">PP2</span><span class="tag line" title="Sanheim-Ristolainen">P1</span><span class="tag dtd" title="Undisclosed return 2026-10-05">Day-To-Day</span>
-        </div>
-        <div class="card-label" style="color:#ff5252">4% to score &bull; 1.0 SOG projected</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:8%;background:#3fb950"></i></span> 4% (&lambda; 0.04)</div>
-            <div class="stat-sub">5v5 finishing 4.4% (raw 0.0%, shot quality 5.1%) &bull; PP 7.2%</div></div>
-          <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:19%;background:#58a6ff"></i></span> 1.0 SOG</div>
-            <div class="stat-sub">3+ SOG 8% &bull; 5+ SOG 0% &bull; 5v5 0.8 + PP 0.2</div></div>
-          <div><div class="stat-label">Power play</div>
-            <div class="stat-val">PP2 &bull; 1.2 min proj</div>
-            <div class="stat-sub">TBL PK 7.0 xGA/60 (#21 worst) &bull; SH time #17 most</div></div>
-          <div><div class="stat-label">Matchup (TBL defense)</div>
-            <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
-            <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
-          <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
-            <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
-          <div><div class="stat-label">Environment</div>
-            <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 34%</div></div>
-          <div><div class="stat-label">Form (last 10)</div>
-            <div class="stat-val">1.1 SOG/gm &bull; 1 G &bull; 4 pts</div>
-            <div class="stat-sub">SOG by game (* = goal): 0 4* 0 0 2 1 &bull; TOI 20.0 vs 20.9 <span style="color:#8b949e">&#8212;</span></div></div>
-          <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">5.7 pts</div>
-            <div class="stat-sub">0.22 A &bull; 1.6 BLK &bull; season 1.3 SOG/gm, 20.9 min</div></div>
-        </div>
-        <div class="card-scout">PP2 · TBL suppresses shots (26.3/gm, #8 fewest) · Vasilevskiy is a wall (+24.8 GSAx) · low implied total (2.3 goals)</div>
-      </div>
-      <div class="card-score" style="color:#ff5252">-0</div>
-    </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #45<strong style="font-size:1.2rem">D</strong>
+        #44<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6726,7 +6685,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #46<strong style="font-size:1.2rem">D</strong>
+        #45<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6767,7 +6726,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #47<strong style="font-size:1.2rem">D</strong>
+        #46<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6808,7 +6767,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #48<strong style="font-size:1.2rem">D</strong>
+        #47<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6831,7 +6790,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -6849,7 +6808,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #49<strong style="font-size:1.2rem">D</strong>
+        #48<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6890,7 +6849,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #50<strong style="font-size:1.2rem">D</strong>
+        #49<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6931,7 +6890,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #51<strong style="font-size:1.2rem">D</strong>
+        #50<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6972,7 +6931,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #52<strong style="font-size:1.2rem">D</strong>
+        #51<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7013,7 +6972,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #53<strong style="font-size:1.2rem">D</strong>
+        #52<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7054,7 +7013,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #54<strong style="font-size:1.2rem">D</strong>
+        #53<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7077,7 +7036,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -7095,7 +7054,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #55<strong style="font-size:1.2rem">D</strong>
+        #54<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7118,7 +7077,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -7136,7 +7095,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #56<strong style="font-size:1.2rem">D</strong>
+        #55<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7159,7 +7118,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Andrei Vasilevskiy <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -7177,7 +7136,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #818ea0" data-hidden="1" data-team="WPG" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #57<strong style="font-size:1.2rem">D</strong>
+        #56<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7218,7 +7177,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #58<strong style="font-size:1.2rem">OUT</strong>
+        #57<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7259,7 +7218,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #ffb81c" data-hidden="1" data-team="BOS" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #59<strong style="font-size:1.2rem">OUT</strong>
+        #58<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7300,7 +7259,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #7f93b3" data-hidden="1" data-team="TBL" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #60<strong style="font-size:1.2rem">OUT</strong>
+        #59<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7338,6 +7297,47 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-scout">PHI takes penalties (#4 most SH time) · Vladar is a wall (+11.0 GSAx)</div>
       </div>
       <div class="card-score" style="color:#ff4444">1</div>
+    </div>
+    <div class="player-card out" style="border-left:4px solid #f74902" data-hidden="1" data-team="PHI" data-main="1">
+      <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
+        #60<strong style="font-size:1.2rem">OUT</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#f74902">Rasmus Ristolainen</span>
+          <span class="ctx">D &bull; PHI @ TBL &bull; 7:00 PM ET</span>
+          <span class="tag pp2">PP2</span><span class="tag line" title="Sanheim-Ristolainen">P1</span><span class="tag out" title="Undisclosed return 2026-10-08">OUT: Out</span>
+        </div>
+        <div class="card-label" style="color:#ff4444">Ruled out (Out)</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Goal odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:8%;background:#3fb950"></i></span> 4% (&lambda; 0.04)</div>
+            <div class="stat-sub">5v5 finishing 4.4% (raw 0.0%, shot quality 5.1%) &bull; PP 7.2%</div></div>
+          <div><div class="stat-label">SOG floor</div>
+            <div class="stat-val"><span class="bar"><i style="width:19%;background:#58a6ff"></i></span> 1.0 SOG</div>
+            <div class="stat-sub">3+ SOG 8% &bull; 5+ SOG 0% &bull; 5v5 0.8 + PP 0.2</div></div>
+          <div><div class="stat-label">Power play</div>
+            <div class="stat-val">PP2 &bull; 1.2 min proj</div>
+            <div class="stat-sub">TBL PK 7.0 xGA/60 (#21 worst) &bull; SH time #17 most</div></div>
+          <div><div class="stat-label">Matchup (TBL defense)</div>
+            <div class="stat-val"><span class="bar"><i style="width:73%;background:#f2cc60"></i></span> 26.3 SOG allowed/gm</div>
+            <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.28 (#29)</div></div>
+          <div><div class="stat-label">Opposing goalie</div>
+            <div class="stat-val">Andrei Vasilevskiy <span class="tag conf">Confirmed</span></div>
+            <div class="stat-sub">sv .904 &bull; +24.8 GSAx &bull; factor 0.87</div></div>
+          <div><div class="stat-label">Environment</div>
+            <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 34%</div></div>
+          <div><div class="stat-label">Form (last 10)</div>
+            <div class="stat-val">1.1 SOG/gm &bull; 1 G &bull; 4 pts</div>
+            <div class="stat-sub">SOG by game (* = goal): 0 4* 0 0 2 1 &bull; TOI 20.0 vs 20.9 <span style="color:#8b949e">&#8212;</span></div></div>
+          <div><div class="stat-label">DraftKings projection</div>
+            <div class="stat-val">5.7 pts</div>
+            <div class="stat-sub">0.22 A &bull; 1.6 BLK &bull; season 1.3 SOG/gm, 20.9 min</div></div>
+        </div>
+        <div class="card-scout">PP2 · TBL suppresses shots (26.3/gm, #8 fewest) · Vasilevskiy is a wall (+24.8 GSAx) · low implied total (2.3 goals)</div>
+      </div>
+      <div class="card-score" style="color:#ff4444">-0</div>
     </div><button class="show-all" onclick="showAll('sec-D', this)">Show all 60 defensemen (52 more)</button></div>
   <h2 class="section-title" id="h-G">Goalies <small>projected DraftKings points; Confirmed beats Projected beats hope</small></h2><div id="sec-G">
     <div class="player-card" style="border-left:4px solid #7f93b3" data-hidden="0" data-team="TBL" data-main="1">
@@ -7348,7 +7348,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#7f93b3">Andrei Vasilevskiy</span>
           <span class="ctx">G &bull; TBL vs PHI &bull; 7:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ffb74d">11.6 DK projected &bull; 66% to win</div>
         <div class="card-stats">
@@ -7365,8 +7365,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .904 (regressed)</div>
             <div class="stat-sub">+24.8 GSAx &bull; last 5 starts .906 &bull; 1528 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 1-1-0</div>
-            <div class="stat-sub">Vasilevskiy is expected to start vs. Philadelphia on Monday.</div></div>
+            <div class="stat-val">Confirmed &bull; 1-1-0</div>
+            <div class="stat-sub">Vasilevskiy led the Lightning onto the ice for warmups; he'll start Monday vs. Philadelphia.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-03</div>
             <div class="stat-sub">team rested &bull; 2 starts this season</div></div>
@@ -7853,7 +7853,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">PIT scores 3.83/gm</div></div>
           <div><div class="stat-label">Save quality</div>
             <div class="stat-val">sv .889 (regressed)</div>
-            <div class="stat-sub">+10.3 GSAx &bull; last 5 starts .895 &bull; 1332 shots seen</div></div>
+            <div class="stat-sub">+10.3 GSAx &bull; last 5 starts .896 &bull; 1332 shots seen</div></div>
           <div><div class="stat-label">Status</div>
             <div class="stat-val">Backup &bull; 1-0-1</div>
             <div class="stat-sub">not expected to start</div></div>
