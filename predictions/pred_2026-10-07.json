@@ -2,7 +2,7 @@
  "date": "2026-10-07",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-07T17:25:09",
+ "logged_at": "2026-10-07T19:33:38",
  "games": [
   {
    "game_id": 2026020053,
@@ -2087,7 +2087,7 @@
    "opp": "EDM",
    "game_id": 2026020055,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.92,
    "p_win": 0.449,
    "e_saves": 26.2,
