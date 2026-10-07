@@ -6480,5 +6480,189 @@
    "e_ga": 2.93,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-06",
+  "matched": 363,
+  "scratched": 40,
+  "brier": 0.1094,
+  "sog_mae": 0.95,
+  "dk_mae": 4.7,
+  "hit_rate": 0.146,
+  "avg_p": 0.151,
+  "tiers": {
+   "B": {
+    "n": 32,
+    "p_sum": 7.9667,
+    "hits": 9,
+    "sog": 51.0,
+    "e_sog": 71.27000000000001,
+    "dk": 283.1,
+    "e_dk": 281.46999999999997,
+    "hit_rate": 0.281,
+    "avg_p": 0.249,
+    "avg_sog": 1.59,
+    "avg_e_sog": 2.23,
+    "avg_dk": 8.8,
+    "avg_e_dk": 8.8
+   },
+   "D": {
+    "n": 234,
+    "p_sum": 22.5781,
+    "hits": 14,
+    "sog": 205.0,
+    "e_sog": 279.3500000000001,
+    "dk": 977.2999999999989,
+    "e_dk": 1214.6099999999997,
+    "hit_rate": 0.06,
+    "avg_p": 0.096,
+    "avg_sog": 0.88,
+    "avg_e_sog": 1.19,
+    "avg_dk": 4.2,
+    "avg_e_dk": 5.2
+   },
+   "A": {
+    "n": 14,
+    "p_sum": 4.7258000000000004,
+    "hits": 5,
+    "sog": 47.0,
+    "e_sog": 41.73,
+    "dk": 211.8,
+    "e_dk": 170.15000000000003,
+    "hit_rate": 0.357,
+    "avg_p": 0.338,
+    "avg_sog": 3.36,
+    "avg_e_sog": 2.98,
+    "avg_dk": 15.1,
+    "avg_e_dk": 12.2
+   },
+   "C": {
+    "n": 55,
+    "p_sum": 10.8603,
+    "hits": 12,
+    "sog": 95.0,
+    "e_sog": 100.44999999999997,
+    "dk": 428.60000000000014,
+    "e_dk": 394.40999999999997,
+    "hit_rate": 0.218,
+    "avg_p": 0.197,
+    "avg_sog": 1.73,
+    "avg_e_sog": 1.83,
+    "avg_dk": 7.8,
+    "avg_e_dk": 7.2
+   },
+   "B+": {
+    "n": 23,
+    "p_sum": 6.7737,
+    "hits": 10,
+    "sog": 67.0,
+    "e_sog": 58.33,
+    "dk": 293.9,
+    "e_dk": 236.20999999999998,
+    "hit_rate": 0.435,
+    "avg_p": 0.295,
+    "avg_sog": 2.91,
+    "avg_e_sog": 2.54,
+    "avg_dk": 12.8,
+    "avg_e_dk": 10.3
+   },
+   "A+": {
+    "n": 5,
+    "p_sum": 1.9828999999999999,
+    "hits": 3,
+    "sog": 17.0,
+    "e_sog": 16.93,
+    "dk": 90.69999999999999,
+    "e_dk": 65.49000000000001,
+    "hit_rate": 0.6,
+    "avg_p": 0.397,
+    "avg_sog": 3.4,
+    "avg_e_sog": 3.39,
+    "avg_dk": 18.1,
+    "avg_e_dk": 13.1
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 18,
+   "started": 17,
+   "dk_mae": 5.2
+  },
+  "top_calls": [
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.4158,
+    "g": 0,
+    "sog": 1,
+    "dk": 2.8
+   },
+   {
+    "name": "Auston Matthews",
+    "team": "TOR",
+    "grade": "A+",
+    "p_goal": 0.4056,
+    "g": 1,
+    "sog": 4,
+    "dk": 33.8
+   },
+   {
+    "name": "Steven Stamkos",
+    "team": "NSH",
+    "grade": "A+",
+    "p_goal": 0.3985,
+    "g": 2,
+    "sog": 3,
+    "dk": 22.8
+   },
+   {
+    "name": "Pavel Dorofeyev",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.3863,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Tage Thompson",
+    "team": "BUF",
+    "grade": "A+",
+    "p_goal": 0.3767,
+    "g": 1,
+    "sog": 9,
+    "dk": 31.3
+   },
+   {
+    "name": "William Nylander",
+    "team": "TOR",
+    "grade": "A",
+    "p_goal": 0.3752,
+    "g": 1,
+    "sog": 1,
+    "dk": 23.0
+   },
+   {
+    "name": "Mark Stone",
+    "team": "VGK",
+    "grade": "A",
+    "p_goal": 0.3528,
+    "g": 1,
+    "sog": 4,
+    "dk": 22.1
+   },
+   {
+    "name": "Kirill Kaprizov",
+    "team": "MIN",
+    "grade": "A",
+    "p_goal": 0.3524,
+    "g": 0,
+    "sog": 3,
+    "dk": 4.5
+   }
+  ],
+  "preseason": false
+ }
 }
