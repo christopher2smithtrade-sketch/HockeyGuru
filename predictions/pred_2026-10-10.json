@@ -2,7 +2,7 @@
  "date": "2026-10-10",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-10T18:03:22",
+ "logged_at": "2026-10-10T18:40:43",
  "games": [
   {
    "game_id": 2026020070,
@@ -8842,7 +8842,7 @@
    "team": "LAK",
    "opp": "VGK",
    "game_id": 2026020083,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 4.0,
    "p_goal": 0.0905,
    "e_sog": 0.83,
