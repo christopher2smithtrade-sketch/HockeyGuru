@@ -2,7 +2,7 @@
  "date": "2026-10-11",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-11T16:20:44",
+ "logged_at": "2026-10-11T18:29:06",
  "games": [
   {
    "game_id": 2026020084,
@@ -1801,7 +1801,7 @@
    "team": "PHI",
    "opp": "CAR",
    "game_id": 2026020086,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 13.5,
    "p_goal": 0.1668,
    "e_sog": 1.43,
