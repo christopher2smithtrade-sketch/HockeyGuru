@@ -91,8 +91,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
 <div class="header">
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; Sunday, October 11, 2026 &bull; 3 games</p>
-  <p>Generated 2026-10-11 06:53 PM EDT &bull; <span class="lock">first puck drop 5:00 PM ET</span></p>
-  <p style="font-size:12px;color:#6e7681">totals 3/3 &bull; win probs 3/3 &bull; 4 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
+  <p>Generated 2026-10-11 08:36 PM EDT &bull; <span class="lock">first puck drop 5:00 PM ET</span></p>
+  <p style="font-size:12px;color:#6e7681">totals 3/3 &bull; win probs 3/3 &bull; 6 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
   
 </div>
 <div class="container">
@@ -110,14 +110,14 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     <span class="muted" style="font-size:12px">Tap a game to see only its players.</span></div>
   <div class="games-row"><div class="game-chip active all-chip" id="all-chip" onclick="pickGame(this)"><div class="teams">All games</div><div class="time">tap a game to filter</div></div><div class="game-chip" data-teams="SEA,WSH" data-main="0" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg" alt="SEA" loading="lazy">SEA @ <img src="https://assets.nhle.com/logos/nhl/svg/WSH_dark.svg" alt="WSH" loading="lazy">WSH</div>
-          <div class="time">5:00 PM ET &bull; LIVE &bull; O/U 7.5 &bull; WSH 60%</div>
+          <div class="time">5:00 PM ET &bull; FINAL &bull; O/U 7.5 &bull; WSH 60%</div>
           <div class="meta"><span class="g">SEA: <span class="conf">Daccord</span></span> &nbsp; <span class="g">WSH: <span class="conf">Thompson</span></span></div></div><div class="game-chip" data-teams="VAN,NYR" data-main="0" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg" alt="VAN" loading="lazy">VAN @ <img src="https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg" alt="NYR" loading="lazy">NYR</div>
-          <div class="time">6:00 PM ET &bull; LIVE &bull; O/U 5.5 &bull; NYR 81%</div>
+          <div class="time">6:00 PM ET &bull; FINAL &bull; O/U 5.5 &bull; NYR 81%</div>
           <div class="meta"><span class="g">VAN: <span class="conf">Lankinen</span></span> &nbsp; <span class="g">NYR: <span class="conf">Garand</span></span></div></div><div class="game-chip" data-teams="CAR,PHI" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg" alt="CAR" loading="lazy">CAR @ <img src="https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg" alt="PHI" loading="lazy">PHI</div>
-          <div class="time">7:00 PM ET &bull; O/U 5.5 &bull; CAR 66%</div>
-          <div class="meta"><span class="g">CAR: <span class="proj">Kochetkov</span></span> &nbsp; <span class="g">PHI: <span class="proj">Woll</span></span></div></div></div>
+          <div class="time">7:00 PM ET &bull; LIVE &bull; O/U 5.5 &bull; CAR 66%</div>
+          <div class="meta"><span class="g">CAR: <span class="conf">Kochetkov</span></span> &nbsp; <span class="g">PHI: <span class="conf">Woll</span></span></div></div></div>
   <div class="filter-banner" id="filter-banner"></div>
   <h2 class="section-title" id="h-C">Centers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-C">
     <div class="player-card" style="border-left:4px solid #7f9bd3" data-hidden="0" data-team="NYR" data-main="0">
@@ -186,7 +186,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -198,7 +198,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">12.4 pts</div>
             <div class="stat-sub">0.67 A &bull; 0.3 BLK &bull; season 2.8 SOG/gm, 19.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.8 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · volume up: 3.8 SOG/gm last 10 · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.8 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · volume up: 3.8 SOG/gm last 10 · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#69f0ae">35</div>
     </div>
@@ -350,7 +350,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -362,7 +362,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.6 pts</div>
             <div class="stat-sub">0.25 A &bull; 0.3 BLK &bull; season 2.2 SOG/gm, 16.1 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">28</div>
     </div>
@@ -432,7 +432,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -444,7 +444,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.38 A &bull; 0.4 BLK &bull; season 1.7 SOG/gm, 18.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.1 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 1.2 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.1 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 1.2 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ffb74d">16</div>
     </div>
@@ -883,7 +883,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -895,7 +895,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.7 pts</div>
             <div class="stat-sub">0.28 A &bull; 0.8 BLK &bull; season 1.6 SOG/gm, 17.8 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 1.2 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 1.2 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
@@ -1088,7 +1088,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -1100,7 +1100,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.5 pts</div>
             <div class="stat-sub">0.26 A &bull; 0.4 BLK &bull; season 1.4 SOG/gm, 16.6 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">7</div>
     </div>
@@ -1129,7 +1129,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -1141,7 +1141,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.4 pts</div>
             <div class="stat-sub">0.24 A &bull; 0.5 BLK &bull; season 0.9 SOG/gm, 13.3 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">7</div>
     </div>
@@ -1211,7 +1211,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -1223,7 +1223,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.0 pts</div>
             <div class="stat-sub">0.23 A &bull; 0.3 BLK &bull; season 0.9 SOG/gm, 11.4 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · volume down: 0.5 SOG/gm last 10 · ice time trending up · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · volume down: 0.5 SOG/gm last 10 · ice time trending up · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">6</div>
     </div>
@@ -1293,7 +1293,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -1305,7 +1305,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.3 pts</div>
             <div class="stat-sub">0.10 A &bull; 1.1 BLK &bull; season 1.1 SOG/gm, 13.9 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 0.4 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 0.4 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -1457,7 +1457,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -1469,7 +1469,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.9 pts</div>
             <div class="stat-sub">0.15 A &bull; 0.5 BLK &bull; season 1.3 SOG/gm, 16.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff4444">19</div>
     </div>
@@ -1662,7 +1662,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -1674,7 +1674,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">12.4 pts</div>
             <div class="stat-sub">0.49 A &bull; 0.2 BLK &bull; season 2.8 SOG/gm, 17.0 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.6 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · volume up: 3.7 SOG/gm last 10 · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.6 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · volume up: 3.7 SOG/gm last 10 · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#69f0ae">39</div>
     </div>
@@ -1908,7 +1908,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -1920,7 +1920,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.3 pts</div>
             <div class="stat-sub">0.56 A &bull; 0.4 BLK &bull; season 2.3 SOG/gm, 16.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.2 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.2 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">28</div>
     </div>
@@ -2072,7 +2072,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -2084,7 +2084,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.4 pts</div>
             <div class="stat-sub">0.53 A &bull; 0.2 BLK &bull; season 2.3 SOG/gm, 16.2 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.3 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.3 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#fff176">25</div>
     </div>
@@ -2113,7 +2113,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -2125,7 +2125,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.0 pts</div>
             <div class="stat-sub">0.36 A &bull; 0.3 BLK &bull; season 1.9 SOG/gm, 14.4 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · volume up: 2.3 SOG/gm last 10 · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · volume up: 2.3 SOG/gm last 10 · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#fff176">24</div>
     </div>
@@ -2400,7 +2400,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2412,7 +2412,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.4 pts</div>
             <div class="stat-sub">0.08 A &bull; 0.8 BLK &bull; season 2.2 SOG/gm, 17.4 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.5 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (2.5 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ffb74d">19</div>
     </div>
@@ -2564,7 +2564,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2576,7 +2576,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.22 A &bull; 0.5 BLK &bull; season 1.8 SOG/gm, 15.0 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.5 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume up: 2.3 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (2.5 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume up: 2.3 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ffb74d">18</div>
     </div>
@@ -2605,7 +2605,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2617,7 +2617,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.7 pts</div>
             <div class="stat-sub">0.17 A &bull; 0.7 BLK &bull; season 2.7 SOG/gm, 16.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.2 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (2.2 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ffb74d">17</div>
     </div>
@@ -2646,7 +2646,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -2658,7 +2658,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.2 pts</div>
             <div class="stat-sub">0.15 A &bull; 0.5 BLK &bull; season 1.0 SOG/gm, 11.8 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · ice time trending up · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · ice time trending up · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ffb74d">16</div>
     </div>
@@ -2687,7 +2687,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -2699,7 +2699,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.9 pts</div>
             <div class="stat-sub">0.16 A &bull; 0.1 BLK &bull; season 1.3 SOG/gm, 11.7 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ffb74d">15</div>
     </div>
@@ -2728,7 +2728,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -2740,7 +2740,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.5 pts</div>
             <div class="stat-sub">0.26 A &bull; 0.2 BLK &bull; season 1.2 SOG/gm, 11.0 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · volume up: 1.5 SOG/gm last 10 · ice time trending up · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · volume up: 1.5 SOG/gm last 10 · ice time trending up · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">14</div>
     </div>
@@ -2892,7 +2892,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -2904,7 +2904,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.0 pts</div>
             <div class="stat-sub">0.28 A &bull; 0.1 BLK &bull; season 2.2 SOG/gm, 15.2 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 1.5 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 1.5 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">11</div>
     </div>
@@ -2974,7 +2974,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -2986,7 +2986,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.9 pts</div>
             <div class="stat-sub">0.20 A &bull; 0.5 BLK &bull; season 1.5 SOG/gm, 14.8 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">11</div>
     </div>
@@ -3056,7 +3056,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3068,7 +3068,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.4 pts</div>
             <div class="stat-sub">0.19 A &bull; 0.3 BLK &bull; season 1.6 SOG/gm, 14.2 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 1.2 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 1.2 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">9</div>
     </div>
@@ -3138,7 +3138,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3150,7 +3150,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.8 pts</div>
             <div class="stat-sub">0.21 A &bull; 0.6 BLK &bull; season 1.4 SOG/gm, 15.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">9</div>
     </div>
@@ -3261,7 +3261,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3273,7 +3273,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.6 pts</div>
             <div class="stat-sub">0.06 A &bull; 0.7 BLK &bull; season 1.2 SOG/gm, 11.7 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">6</div>
     </div>
@@ -3425,7 +3425,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -3437,7 +3437,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">2.4 pts</div>
             <div class="stat-sub">0.06 A &bull; 0.2 BLK &bull; season 0.5 SOG/gm, 8.4 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -3466,7 +3466,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3478,7 +3478,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">1.9 pts</div>
             <div class="stat-sub">0.00 A &bull; 0.0 BLK &bull; season 0.7 SOG/gm, 9.5 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -3548,7 +3548,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3560,7 +3560,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.0 pts</div>
             <div class="stat-sub">0.46 A &bull; 0.7 BLK &bull; season 2.0 SOG/gm, 18.5 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.0 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 1.4 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.0 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 1.4 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff4444">13</div>
     </div>
@@ -3630,7 +3630,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -3642,7 +3642,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">2.5 pts</div>
             <div class="stat-sub">0.15 A &bull; 0.4 BLK &bull; season 0.6 SOG/gm, 11.3 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 0.3 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 0.3 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff4444">-1</div>
     </div><button class="show-all" onclick="showAll('sec-W', this)">Show all 51 wingers (39 more)</button></div><h2 class="section-title" id="h-D">Defensemen <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-D">
@@ -3794,7 +3794,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -3806,7 +3806,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.5 pts</div>
             <div class="stat-sub">0.62 A &bull; 0.8 BLK &bull; season 2.0 SOG/gm, 19.1 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.7 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · volume down: 1.5 SOG/gm last 10 · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (3.7 PP min projected) · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · volume down: 1.5 SOG/gm last 10 · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">12</div>
     </div>
@@ -3999,7 +3999,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -4011,7 +4011,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.5 pts</div>
             <div class="stat-sub">0.38 A &bull; 1.0 BLK &bull; season 1.6 SOG/gm, 22.4 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
@@ -4040,7 +4040,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -4052,7 +4052,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.3 pts</div>
             <div class="stat-sub">0.39 A &bull; 1.3 BLK &bull; season 2.0 SOG/gm, 21.6 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">9</div>
     </div>
@@ -4204,7 +4204,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -4216,7 +4216,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.2 pts</div>
             <div class="stat-sub">0.28 A &bull; 1.1 BLK &bull; season 0.0 SOG/gm, 19.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back · no NHL track record -- position averages only</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back · no NHL track record -- position averages only</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -4409,7 +4409,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -4421,7 +4421,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.0 pts</div>
             <div class="stat-sub">0.19 A &bull; 0.8 BLK &bull; season 1.4 SOG/gm, 20.2 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -4450,7 +4450,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -4462,7 +4462,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.22 A &bull; 1.5 BLK &bull; season 1.5 SOG/gm, 21.3 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -4532,7 +4532,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4544,7 +4544,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.5 pts</div>
             <div class="stat-sub">0.23 A &bull; 2.3 BLK &bull; season 1.3 SOG/gm, 24.4 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -4655,7 +4655,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4667,7 +4667,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.1 pts</div>
             <div class="stat-sub">0.18 A &bull; 1.7 BLK &bull; season 1.2 SOG/gm, 21.5 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.5 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP1 (2.5 PP min projected) · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">2</div>
     </div>
@@ -4778,7 +4778,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:79%;background:#f2cc60"></i></span> 28.6 SOG allowed/gm</div>
             <div class="stat-sub">#10 most shots allowed &bull; 5v5 xGA/60 2.62 (#9)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joseph Woll <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Joseph Woll <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; -3.1 GSAx &bull; factor 1.02</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; CAR implied 3.2</div>
@@ -4790,7 +4790,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.7 pts</div>
             <div class="stat-sub">0.25 A &bull; 0.7 BLK &bull; season 1.5 SOG/gm, 14.7 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (projected) · 2nd of a back-to-back</div>
+        <div class="card-scout">PHI takes penalties (#2 most SH time) · backup Woll expected in net (confirmed) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">1</div>
     </div>
@@ -4942,7 +4942,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -4954,7 +4954,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.7 pts</div>
             <div class="stat-sub">0.04 A &bull; 1.1 BLK &bull; season 0.7 SOG/gm, 13.0 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume up: 1.0 SOG/gm last 10 · ice time trending up · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume up: 1.0 SOG/gm last 10 · ice time trending up · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">-1</div>
     </div>
@@ -5188,7 +5188,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -5200,7 +5200,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.2 pts</div>
             <div class="stat-sub">0.09 A &bull; 2.4 BLK &bull; season 1.0 SOG/gm, 17.9 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 0.7 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 0.7 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">-2</div>
     </div>
@@ -5229,7 +5229,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -5241,7 +5241,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.1 pts</div>
             <div class="stat-sub">0.00 A &bull; 1.1 BLK &bull; season 0.0 SOG/gm, 12.4 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">-2</div>
     </div>
@@ -5311,7 +5311,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -5323,7 +5323,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.1 pts</div>
             <div class="stat-sub">0.05 A &bull; 1.5 BLK &bull; season 0.7 SOG/gm, 16.5 min</div></div>
         </div>
-        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume up: 1.0 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume up: 1.0 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff5252">-3</div>
     </div>
@@ -5434,7 +5434,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -5446,7 +5446,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.0 pts</div>
             <div class="stat-sub">0.21 A &bull; 1.8 BLK &bull; season 1.3 SOG/gm, 20.9 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff4444">-0</div>
     </div>
@@ -5475,7 +5475,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:64%;background:#f2cc60"></i></span> 23.3 SOG allowed/gm</div>
             <div class="stat-sub">#32 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Pyotr Kochetkov <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Pyotr Kochetkov <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .891 &bull; +1.2 GSAx &bull; factor 0.98</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; PHI implied 2.3</div>
@@ -5487,7 +5487,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.19 A &bull; 2.3 BLK &bull; season 1.2 SOG/gm, 22.4 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (projected) · volume down: 0.8 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
+        <div class="card-scout">PP2 · CAR suppresses shots (23.3/gm, #1 fewest) · backup Kochetkov expected in net (confirmed) · volume down: 0.8 SOG/gm last 10 · low implied total (2.3 goals) · 2nd of a back-to-back</div>
       </div>
       <div class="card-score" style="color:#ff4444">-0</div>
     </div>
@@ -5611,7 +5611,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#e57f7f">Pyotr Kochetkov</span>
           <span class="ctx">G &bull; CAR @ PHI &bull; 7:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ffb74d">10.7 DK projected &bull; 66% to win</div>
         <div class="card-stats">
@@ -5628,8 +5628,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .891 (regressed)</div>
             <div class="stat-sub">+1.2 GSAx &bull; last 5 starts .882 &bull; 227 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 2-0-0</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-val">Confirmed &bull; 2-0-0</div>
+            <div class="stat-sub">Kochetkov will start Sunday in Philadelphia.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-08</div>
             <div class="stat-sub">team on a back-to-back &bull; 2 starts this season</div></div>
@@ -5681,7 +5681,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#f74902">Joseph Woll</span>
           <span class="ctx">G &bull; PHI vs CAR &bull; 7:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.2 DK projected &bull; 34% to win</div>
         <div class="card-stats">
@@ -5698,8 +5698,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .897 (regressed)</div>
             <div class="stat-sub">-3.1 GSAx &bull; last 5 starts .890 &bull; 1330 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 0-1-2</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-val">Confirmed &bull; 0-1-2</div>
+            <div class="stat-sub">Woll will start Sunday vs. the Hurricanes.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-08</div>
             <div class="stat-sub">team on a back-to-back &bull; 3 starts this season</div></div>
