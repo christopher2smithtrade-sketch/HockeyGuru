@@ -2214,5 +2214,171 @@
    "e_ga": 4.06,
    "main": false
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-11",
+  "matched": 122,
+  "scratched": 15,
+  "brier": 0.1173,
+  "sog_mae": 0.96,
+  "dk_mae": 4.2,
+  "hit_rate": 0.156,
+  "avg_p": 0.152,
+  "tiers": {
+   "D": {
+    "n": 78,
+    "p_sum": 7.4156,
+    "hits": 6,
+    "sog": 62.0,
+    "e_sog": 93.70999999999998,
+    "dk": 342.60000000000014,
+    "e_dk": 407.03999999999996,
+    "hit_rate": 0.077,
+    "avg_p": 0.095,
+    "avg_sog": 0.79,
+    "avg_e_sog": 1.2,
+    "avg_dk": 4.4,
+    "avg_e_dk": 5.2
+   },
+   "C": {
+    "n": 19,
+    "p_sum": 3.6799,
+    "hits": 4,
+    "sog": 28.0,
+    "e_sog": 32.10999999999999,
+    "dk": 112.89999999999998,
+    "e_dk": 127.4,
+    "hit_rate": 0.211,
+    "avg_p": 0.194,
+    "avg_sog": 1.47,
+    "avg_e_sog": 1.69,
+    "avg_dk": 5.9,
+    "avg_e_dk": 6.7
+   },
+   "B": {
+    "n": 10,
+    "p_sum": 2.4132,
+    "hits": 2,
+    "sog": 28.0,
+    "e_sog": 22.4,
+    "dk": 95.0,
+    "e_dk": 90.18,
+    "hit_rate": 0.2,
+    "avg_p": 0.241,
+    "avg_sog": 2.8,
+    "avg_e_sog": 2.24,
+    "avg_dk": 9.5,
+    "avg_e_dk": 9.0
+   },
+   "B+": {
+    "n": 9,
+    "p_sum": 2.6515999999999997,
+    "hits": 4,
+    "sog": 26.0,
+    "e_sog": 22.76,
+    "dk": 98.6,
+    "e_dk": 89.63,
+    "hit_rate": 0.444,
+    "avg_p": 0.295,
+    "avg_sog": 2.89,
+    "avg_e_sog": 2.53,
+    "avg_dk": 11.0,
+    "avg_e_dk": 10.0
+   },
+   "A": {
+    "n": 4,
+    "p_sum": 1.4284999999999999,
+    "hits": 3,
+    "sog": 7.0,
+    "e_sog": 11.739999999999998,
+    "dk": 54.900000000000006,
+    "e_dk": 48.15,
+    "hit_rate": 0.75,
+    "avg_p": 0.357,
+    "avg_sog": 1.75,
+    "avg_e_sog": 2.93,
+    "avg_dk": 13.7,
+    "avg_e_dk": 12.0
+   },
+   "A+": {
+    "n": 2,
+    "p_sum": 0.8995,
+    "hits": 0,
+    "sog": 5.0,
+    "e_sog": 6.49,
+    "dk": 21.400000000000002,
+    "e_dk": 28.37,
+    "hit_rate": 0.0,
+    "avg_p": 0.45,
+    "avg_sog": 2.5,
+    "avg_e_sog": 3.25,
+    "avg_dk": 10.7,
+    "avg_e_dk": 14.2
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 6,
+   "started": 5,
+   "dk_mae": 7.7
+  },
+  "top_calls": [
+   {
+    "name": "Pavel Dorofeyev",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.4764,
+    "g": 0,
+    "sog": 2,
+    "dk": 4.3
+   },
+   {
+    "name": "Mika Zibanejad",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.4231,
+    "g": 0,
+    "sog": 3,
+    "dk": 17.1
+   },
+   {
+    "name": "Andrei Svechnikov",
+    "team": "CAR",
+    "grade": "A",
+    "p_goal": 0.3696,
+    "g": 1,
+    "sog": 1,
+    "dk": 15.0
+   },
+   {
+    "name": "Alexis Lafreni\u00e8re",
+    "team": "NYR",
+    "grade": "A",
+    "p_goal": 0.3687,
+    "g": 1,
+    "sog": 2,
+    "dk": 16.5
+   },
+   {
+    "name": "Alex Tuch",
+    "team": "WSH",
+    "grade": "A",
+    "p_goal": 0.3476,
+    "g": 0,
+    "sog": 2,
+    "dk": 4.3
+   },
+   {
+    "name": "Sebastian Aho",
+    "team": "CAR",
+    "grade": "A",
+    "p_goal": 0.3426,
+    "g": 1,
+    "sog": 2,
+    "dk": 19.1
+   }
+  ],
+  "preseason": false
+ }
 }
