@@ -2,7 +2,7 @@
  "date": "2026-10-14",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-14T15:30:00",
+ "logged_at": "2026-10-14T18:11:13",
  "games": [
   {
    "game_id": 2026020106,
@@ -325,7 +325,7 @@
    "team": "MTL",
    "opp": "WSH",
    "game_id": 2026020106,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 5.9,
    "p_goal": 0.0868,
    "e_sog": 1.56,
