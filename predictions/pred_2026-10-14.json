@@ -1428,5 +1428,144 @@
    "e_ga": 2.73,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-14",
+  "matched": 77,
+  "scratched": 7,
+  "brier": 0.1133,
+  "sog_mae": 1.04,
+  "dk_mae": 4.8,
+  "hit_rate": 0.13,
+  "avg_p": 0.141,
+  "tiers": {
+   "D": {
+    "n": 53,
+    "p_sum": 4.9106,
+    "hits": 6,
+    "sog": 59.0,
+    "e_sog": 58.26,
+    "dk": 280.9000000000001,
+    "e_dk": 270.5700000000001,
+    "hit_rate": 0.113,
+    "avg_p": 0.093,
+    "avg_sog": 1.11,
+    "avg_e_sog": 1.1,
+    "avg_dk": 5.3,
+    "avg_e_dk": 5.1
+   },
+   "C": {
+    "n": 12,
+    "p_sum": 2.4352,
+    "hits": 2,
+    "sog": 16.0,
+    "e_sog": 22.560000000000002,
+    "dk": 86.39999999999999,
+    "e_dk": 94.83,
+    "hit_rate": 0.167,
+    "avg_p": 0.203,
+    "avg_sog": 1.33,
+    "avg_e_sog": 1.88,
+    "avg_dk": 7.2,
+    "avg_e_dk": 7.9
+   },
+   "A+": {
+    "n": 1,
+    "p_sum": 0.4917,
+    "hits": 0,
+    "sog": 0.0,
+    "e_sog": 3.62,
+    "dk": 0.0,
+    "e_dk": 14.56,
+    "hit_rate": 0.0,
+    "avg_p": 0.492,
+    "avg_sog": 0.0,
+    "avg_e_sog": 3.62,
+    "avg_dk": 0.0,
+    "avg_e_dk": 14.6
+   },
+   "A": {
+    "n": 2,
+    "p_sum": 0.6921999999999999,
+    "hits": 0,
+    "sog": 8.0,
+    "e_sog": 6.35,
+    "dk": 13.3,
+    "e_dk": 27.44,
+    "hit_rate": 0.0,
+    "avg_p": 0.346,
+    "avg_sog": 4.0,
+    "avg_e_sog": 3.17,
+    "avg_dk": 6.7,
+    "avg_e_dk": 13.7
+   },
+   "B+": {
+    "n": 2,
+    "p_sum": 0.6233,
+    "hits": 1,
+    "sog": 3.0,
+    "e_sog": 5.18,
+    "dk": 14.3,
+    "e_dk": 24.6,
+    "hit_rate": 0.5,
+    "avg_p": 0.312,
+    "avg_sog": 1.5,
+    "avg_e_sog": 2.59,
+    "avg_dk": 7.2,
+    "avg_e_dk": 12.3
+   },
+   "B": {
+    "n": 7,
+    "p_sum": 1.7386000000000004,
+    "hits": 1,
+    "sog": 14.0,
+    "e_sog": 16.919999999999998,
+    "dk": 56.599999999999994,
+    "e_dk": 66.99999999999999,
+    "hit_rate": 0.143,
+    "avg_p": 0.248,
+    "avg_sog": 2.0,
+    "avg_e_sog": 2.42,
+    "avg_dk": 8.1,
+    "avg_e_dk": 9.6
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 4,
+   "started": 4,
+   "dk_mae": 5.7
+  },
+  "top_calls": [
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.4917,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Nathan MacKinnon",
+    "team": "COL",
+    "grade": "A",
+    "p_goal": 0.3464,
+    "g": 0,
+    "sog": 4,
+    "dk": 7.3
+   },
+   {
+    "name": "Juraj Slafkovsk\u00fd",
+    "team": "MTL",
+    "grade": "A",
+    "p_goal": 0.3458,
+    "g": 0,
+    "sog": 4,
+    "dk": 6.0
+   }
+  ],
+  "preseason": false
+ }
 }
