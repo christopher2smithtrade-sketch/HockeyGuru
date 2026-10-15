@@ -2,7 +2,7 @@
  "date": "2026-10-15",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-15T22:41:25",
+ "logged_at": "2026-10-15T23:24:58",
  "games": [
   {
    "game_id": 2026020108,
@@ -7738,18 +7738,18 @@
    "main": true
   },
   {
-   "pid": "8478916",
-   "name": "Joey Daccord",
+   "pid": "8475831",
+   "name": "Philipp Grubauer",
    "pos": "G",
    "team": "SEA",
    "opp": "TBL",
    "game_id": 2026020111,
    "grade": "D",
-   "status": "Projected",
-   "dk": 8.71,
+   "status": "Backup",
+   "dk": 9.1,
    "p_win": 0.295,
-   "e_saves": 27.6,
-   "e_ga": 3.73,
+   "e_saves": 27.7,
+   "e_ga": 3.65,
    "main": true
   },
   {
@@ -8158,21 +8158,6 @@
    "main": true
   },
   {
-   "pid": "8475831",
-   "name": "Philipp Grubauer",
-   "pos": "G",
-   "team": "SEA",
-   "opp": "TBL",
-   "game_id": 2026020111,
-   "grade": "D",
-   "status": "Backup",
-   "dk": 9.1,
-   "p_win": 0.295,
-   "e_saves": 27.7,
-   "e_ga": 3.65,
-   "main": true
-  },
-  {
    "pid": "8482821",
    "name": "Arvid Soderblom",
    "pos": "G",
@@ -8230,6 +8215,21 @@
    "p_win": 0.489,
    "e_saves": 24.6,
    "e_ga": 3.35,
+   "main": true
+  },
+  {
+   "pid": "8478916",
+   "name": "Joey Daccord",
+   "pos": "G",
+   "team": "SEA",
+   "opp": "TBL",
+   "game_id": 2026020111,
+   "grade": "D",
+   "status": "Projected",
+   "dk": 8.71,
+   "p_win": 0.295,
+   "e_saves": 27.6,
+   "e_ga": 3.73,
    "main": true
   },
   {
