@@ -2,7 +2,7 @@
  "date": "2026-10-18",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-18T14:01:16",
+ "logged_at": "2026-10-18T16:57:44",
  "games": [
   {
    "game_id": 2026020135,
@@ -1391,7 +1391,7 @@
    "opp": "CAR",
    "game_id": 2026020136,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.78,
    "p_win": 0.343,
    "e_saves": 27.7,
