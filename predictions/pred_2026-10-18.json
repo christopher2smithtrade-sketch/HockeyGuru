@@ -2,7 +2,7 @@
  "date": "2026-10-18",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-18T23:19:31",
+ "logged_at": "2026-10-18T23:40:28",
  "games": [
   {
    "game_id": 2026020135,
@@ -790,7 +790,7 @@
    "team": "CAR",
    "opp": "CGY",
    "game_id": 2026020136,
-   "grade": "C",
+   "grade": "OUT",
    "composite": 20.1,
    "p_goal": 0.2269,
    "e_sog": 1.63,
