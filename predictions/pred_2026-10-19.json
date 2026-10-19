@@ -2,7 +2,7 @@
  "date": "2026-10-19",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-19T22:42:18",
+ "logged_at": "2026-10-19T23:07:16",
  "games": [
   {
    "game_id": 2026020137,
@@ -1132,7 +1132,7 @@
    "team": "PHI",
    "opp": "COL",
    "game_id": 2026020138,
-   "grade": "B",
+   "grade": "OUT",
    "composite": 21.5,
    "p_goal": 0.2275,
    "e_sog": 2.07,
@@ -2336,7 +2336,7 @@
    "composite": 8.4,
    "p_goal": 0.1121,
    "e_sog": 1.57,
-   "dk": 8.69,
+   "dk": 8.6,
    "pp_unit": "PP1",
    "main": true
   },
