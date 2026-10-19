@@ -91,8 +91,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
 <div class="header">
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; Monday, October 19, 2026 &bull; 4 games</p>
-  <p>Generated 2026-10-19 12:58 PM EDT &bull; <span class="lock">first puck drop 7:00 PM ET</span></p>
-  <p style="font-size:12px;color:#6e7681">totals 4/4 &bull; win probs 4/4 &bull; 4 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
+  <p>Generated 2026-10-19 03:30 PM EDT &bull; <span class="lock">first puck drop 7:00 PM ET</span></p>
+  <p style="font-size:12px;color:#6e7681">totals 4/4 &bull; win probs 4/4 &bull; 8 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
   
 </div>
 <div class="container">
@@ -111,16 +111,16 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
   <div class="games-row"><div class="game-chip active all-chip" id="all-chip" onclick="pickGame(this)"><div class="teams">All games</div><div class="time">tap a game to filter</div></div><div class="game-chip" data-teams="ANA,NYR" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg" alt="ANA" loading="lazy">ANA @ <img src="https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg" alt="NYR" loading="lazy">NYR</div>
           <div class="time">7:00 PM ET &bull; O/U 6.5 &bull; NYR 58%</div>
-          <div class="meta"><span class="g">ANA: <span class="conf">Husso</span></span> &nbsp; <span class="g">NYR: <span class="proj">Garand</span></span></div></div><div class="game-chip" data-teams="COL,PHI" data-main="1" onclick="pickGame(this)">
+          <div class="meta"><span class="g">ANA: <span class="conf">Husso</span></span> &nbsp; <span class="g">NYR: <span class="conf">Garand</span></span></div></div><div class="game-chip" data-teams="COL,PHI" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/COL_dark.svg" alt="COL" loading="lazy">COL @ <img src="https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg" alt="PHI" loading="lazy">PHI</div>
           <div class="time">7:00 PM ET &bull; O/U 6.5 &bull; COL 68%</div>
-          <div class="meta"><span class="g">COL: <span class="proj">Blackwood</span></span> &nbsp; <span class="g">PHI: <span class="conf">Woll</span></span></div></div><div class="game-chip" data-teams="SJS,TOR" data-main="1" onclick="pickGame(this)">
+          <div class="meta"><span class="g">COL: <span class="conf">Blackwood</span></span> &nbsp; <span class="g">PHI: <span class="conf">Woll</span></span></div></div><div class="game-chip" data-teams="SJS,TOR" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg" alt="SJS" loading="lazy">SJS @ <img src="https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg" alt="TOR" loading="lazy">TOR</div>
           <div class="time">7:30 PM ET &bull; O/U 6.5 &bull; TOR 55%</div>
           <div class="meta"><span class="g">SJS: <span class="conf">Askarov</span></span> &nbsp; <span class="g">TOR: <span class="conf">Bobrovsky</span></span></div></div><div class="game-chip" data-teams="PIT,UTA" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg" alt="PIT" loading="lazy">PIT @ <img src="https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg" alt="UTA" loading="lazy">UTA</div>
           <div class="time">9:00 PM ET &bull; O/U 6.5 &bull; UTA 62%</div>
-          <div class="meta"><span class="g">PIT: <span class="proj">Silovs</span></span> &nbsp; <span class="g">UTA: <span class="proj">Cossa</span></span></div></div></div>
+          <div class="meta"><span class="g">PIT: <span class="conf">Silovs</span></span> &nbsp; <span class="g">UTA: <span class="conf">Cossa</span></span></div></div></div>
   <div class="filter-banner" id="filter-banner"></div>
   <h2 class="section-title" id="h-C">Centers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-C">
     <div class="player-card" style="border-left:4px solid #b7929e" data-hidden="0" data-team="COL" data-main="1">
@@ -312,7 +312,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -558,7 +558,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -570,7 +570,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.7 pts</div>
             <div class="stat-sub">0.50 A &bull; 0.4 BLK &bull; season 2.3 SOG/gm, 19.4 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.2 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.2 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">29</div>
     </div>
@@ -599,7 +599,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -640,7 +640,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -681,7 +681,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -693,7 +693,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.6 pts</div>
             <div class="stat-sub">0.49 A &bull; 0.3 BLK &bull; season 2.5 SOG/gm, 17.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.9 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.9 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#fff176">23</div>
     </div>
@@ -886,7 +886,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -910,7 +910,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#f47a38">Mikael Granlund</span>
           <span class="ctx">C &bull; ANA @ NYR &bull; 7:00 PM ET</span>
-          <span class="tag pp1">PP1</span><span class="tag line" title="Killorn-Granlund-Sennecke">L3</span><span class="tag dtd" title="Upper Body return 2026-10-19">Day-To-Day</span>
+          <span class="tag pp1">PP1</span><span class="tag line" title="Killorn-Granlund-Sennecke">L3</span>
         </div>
         <div class="card-label" style="color:#ffb74d">22% to score &bull; 2.0 SOG projected</div>
         <div class="card-stats">
@@ -927,7 +927,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -968,7 +968,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -980,7 +980,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.0 pts</div>
             <div class="stat-sub">0.23 A &bull; 0.6 BLK &bull; season 2.3 SOG/gm, 15.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.3 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.3 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">20</div>
     </div>
@@ -1050,7 +1050,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -1091,7 +1091,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -1103,7 +1103,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.1 pts</div>
             <div class="stat-sub">0.36 A &bull; 0.7 BLK &bull; season 1.6 SOG/gm, 14.7 min</div></div>
         </div>
-        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">17</div>
     </div>
@@ -1132,7 +1132,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -1255,7 +1255,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -1296,7 +1296,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -1378,7 +1378,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -1501,7 +1501,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -1624,7 +1624,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -1706,7 +1706,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -1747,7 +1747,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -1759,7 +1759,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.2 pts</div>
             <div class="stat-sub">0.16 A &bull; 0.6 BLK &bull; season 1.4 SOG/gm, 13.6 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">7</div>
     </div>
@@ -1788,7 +1788,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -1911,7 +1911,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -1993,7 +1993,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -2005,7 +2005,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.9 pts</div>
             <div class="stat-sub">0.26 A &bull; 0.9 BLK &bull; season 1.0 SOG/gm, 13.5 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -2034,7 +2034,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -2116,7 +2116,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -2128,7 +2128,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.3 pts</div>
             <div class="stat-sub">0.21 A &bull; 0.3 BLK &bull; season 0.7 SOG/gm, 9.8 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume down: 0.4 SOG/gm last 10 · ice time trending up</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume down: 0.4 SOG/gm last 10 · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">4</div>
     </div>
@@ -2198,7 +2198,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -2321,7 +2321,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -2403,7 +2403,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -2567,7 +2567,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -2690,7 +2690,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -2813,7 +2813,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -2854,7 +2854,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -2866,7 +2866,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.2 pts</div>
             <div class="stat-sub">0.31 A &bull; 0.8 BLK &bull; season 2.6 SOG/gm, 19.3 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.3 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.3 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#fff176">26</div>
     </div>
@@ -2895,7 +2895,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -2977,7 +2977,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -3059,7 +3059,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -3264,7 +3264,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -3305,7 +3305,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -3317,7 +3317,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.2 pts</div>
             <div class="stat-sub">0.34 A &bull; 1.0 BLK &bull; season 2.2 SOG/gm, 19.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume down: 1.5 SOG/gm last 10</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume down: 1.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#fff176">21</div>
     </div>
@@ -3346,7 +3346,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -3358,7 +3358,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.9 pts</div>
             <div class="stat-sub">0.23 A &bull; 0.5 BLK &bull; season 1.9 SOG/gm, 14.3 min</div></div>
         </div>
-        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">21</div>
     </div>
@@ -3592,7 +3592,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -3715,7 +3715,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -3756,7 +3756,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -3797,7 +3797,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -3838,7 +3838,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -3879,7 +3879,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -3891,7 +3891,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.5 pts</div>
             <div class="stat-sub">0.17 A &bull; 0.2 BLK &bull; season 1.3 SOG/gm, 14.2 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.5 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.5 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">13</div>
     </div>
@@ -3920,7 +3920,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -3932,7 +3932,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.9 pts</div>
             <div class="stat-sub">0.11 A &bull; 0.6 BLK &bull; season 1.7 SOG/gm, 12.4 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">13</div>
     </div>
@@ -3961,7 +3961,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4043,7 +4043,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4084,7 +4084,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -4125,7 +4125,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -4166,7 +4166,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4207,7 +4207,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -4219,7 +4219,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.3 pts</div>
             <div class="stat-sub">0.18 A &bull; 0.4 BLK &bull; season 1.0 SOG/gm, 13.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">9</div>
     </div>
@@ -4248,7 +4248,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -4330,7 +4330,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4371,7 +4371,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -4383,7 +4383,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.4 pts</div>
             <div class="stat-sub">0.08 A &bull; 0.4 BLK &bull; season 1.0 SOG/gm, 11.1 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">6</div>
     </div>
@@ -4412,7 +4412,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -4453,7 +4453,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -4576,7 +4576,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4600,9 +4600,9 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#f74902">Owen Tippett</span>
           <span class="ctx">R &bull; PHI vs COL &bull; 7:00 PM ET</span>
-          <span class="tag pp2">PP2</span><span class="tag line" title="Zegras-Couturier-Tippett">L2</span><span class="tag out" title="Upper Body return 2026-10-21">OUT: Out</span>
+          <span class="tag pp2">PP2</span><span class="tag line" title="Zegras-Couturier-Tippett">L2</span><span class="tag out" title="Upper Body return 2026-10-24">OUT: Injured Reserve</span>
         </div>
-        <div class="card-label" style="color:#ff4444">Ruled out (Out)</div>
+        <div class="card-label" style="color:#ff4444">Ruled out (Injured Reserve)</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
             <div class="stat-val"><span class="bar"><i style="width:47%;background:#3fb950"></i></span> 24% (&lambda; 0.27)</div>
@@ -4617,7 +4617,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4658,7 +4658,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -4699,7 +4699,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -4863,7 +4863,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -4875,7 +4875,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.6 pts</div>
             <div class="stat-sub">0.26 A &bull; 0.8 BLK &bull; season 1.6 SOG/gm, 12.7 min</div></div>
         </div>
-        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume down: 0.9 SOG/gm last 10</div>
+        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume down: 0.9 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff4444">11</div>
     </div>
@@ -4945,7 +4945,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -5068,7 +5068,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -5437,7 +5437,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -5519,7 +5519,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -5531,7 +5531,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.7 pts</div>
             <div class="stat-sub">0.80 A &bull; 0.7 BLK &bull; season 2.0 SOG/gm, 23.2 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.4 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume down: 1.4 SOG/gm last 10</div>
+        <div class="card-scout">PP1 (3.4 PP min projected) · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume down: 1.4 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">8</div>
     </div>
@@ -5560,7 +5560,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -5683,7 +5683,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -5724,7 +5724,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -5847,7 +5847,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -5888,7 +5888,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -5929,7 +5929,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -5970,7 +5970,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -6257,7 +6257,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -6269,7 +6269,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.4 pts</div>
             <div class="stat-sub">0.12 A &bull; 1.6 BLK &bull; season 1.1 SOG/gm, 16.7 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume up: 1.3 SOG/gm last 10 · ice time trending up</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume up: 1.3 SOG/gm last 10 · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">2</div>
     </div>
@@ -6298,7 +6298,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -6339,7 +6339,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -6351,7 +6351,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.5 pts</div>
             <div class="stat-sub">0.42 A &bull; 1.2 BLK &bull; season 1.7 SOG/gm, 20.9 min</div></div>
         </div>
-        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected)</div>
+        <div class="card-scout">PP2 · UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">2</div>
     </div>
@@ -6421,7 +6421,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -6503,7 +6503,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -6515,7 +6515,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.8 pts</div>
             <div class="stat-sub">0.43 A &bull; 1.1 BLK &bull; season 1.0 SOG/gm, 18.4 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume up: 1.2 SOG/gm last 10</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume up: 1.2 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">1</div>
     </div>
@@ -6544,7 +6544,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -6585,7 +6585,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -6626,7 +6626,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -6790,7 +6790,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -6802,7 +6802,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.9 pts</div>
             <div class="stat-sub">0.28 A &bull; 1.6 BLK &bull; season 0.9 SOG/gm, 17.1 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · ice time trending up</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">0</div>
     </div>
@@ -6831,7 +6831,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -6872,7 +6872,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -6913,7 +6913,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -6954,7 +6954,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -6995,7 +6995,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -7077,7 +7077,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -7089,7 +7089,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.6 pts</div>
             <div class="stat-sub">0.23 A &bull; 1.2 BLK &bull; season 0.8 SOG/gm, 12.7 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · ice time trending up</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">-1</div>
     </div>
@@ -7118,7 +7118,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -7159,7 +7159,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -7200,7 +7200,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -7241,7 +7241,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -7253,7 +7253,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.3 pts</div>
             <div class="stat-sub">0.09 A &bull; 1.0 BLK &bull; season 0.8 SOG/gm, 15.7 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume down: 0.4 SOG/gm last 10</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume down: 0.4 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">-3</div>
     </div>
@@ -7323,7 +7323,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.6 SOG allowed/gm</div>
             <div class="stat-sub">#14 most shots allowed &bull; 5v5 xGA/60 2.59 (#11)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Arturs Silovs <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Arturs Silovs <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .888 &bull; -11.8 GSAx &bull; factor 1.08</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; UTA implied 3.6</div>
@@ -7364,7 +7364,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -7405,7 +7405,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:72%;background:#f2cc60"></i></span> 26.0 SOG allowed/gm</div>
             <div class="stat-sub">#25 most shots allowed &bull; 5v5 xGA/60 2.33 (#23)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Mackenzie Blackwood <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Mackenzie Blackwood <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .896 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.7</div>
@@ -7446,7 +7446,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:68%;background:#f2cc60"></i></span> 24.7 SOG allowed/gm</div>
             <div class="stat-sub">#31 most shots allowed &bull; 5v5 xGA/60 2.36 (#22)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Sebastian Cossa <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Sebastian Cossa <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .887 &bull; -1.0 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PIT implied 2.9</div>
@@ -7458,7 +7458,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.3 pts</div>
             <div class="stat-sub">0.12 A &bull; 1.7 BLK &bull; season 0.6 SOG/gm, 16.9 min</div></div>
         </div>
-        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (projected) · volume up: 0.8 SOG/gm last 10 · ice time trending up</div>
+        <div class="card-scout">UTA suppresses shots (24.7/gm, #2 fewest) · backup Cossa expected in net (confirmed) · volume up: 0.8 SOG/gm last 10 · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff4444">0</div>
     </div>
@@ -7487,7 +7487,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:75%;background:#f2cc60"></i></span> 27.0 SOG allowed/gm</div>
             <div class="stat-sub">#22 most shots allowed &bull; 5v5 xGA/60 2.41 (#20)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dylan Garand <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Dylan Garand <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +6.8 GSAx &bull; factor 0.85</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; ANA implied 3.0</div>
@@ -7553,7 +7553,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#b7929e">Mackenzie Blackwood</span>
           <span class="ctx">G &bull; COL @ PHI &bull; 7:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ffb74d">11.7 DK projected &bull; 68% to win</div>
         <div class="card-stats">
@@ -7570,8 +7570,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .896 (regressed)</div>
             <div class="stat-sub">+6.2 GSAx &bull; last 5 starts .896 &bull; 1089 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 4-2-0</div>
-            <div class="stat-sub">Blackwood was the first goalie off the ice at the Avalanche morning skate.</div></div>
+            <div class="stat-val">Confirmed &bull; 4-2-0</div>
+            <div class="stat-sub">Blackwood will start in Philadelphia on Monday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-16</div>
             <div class="stat-sub">team rested &bull; 6 starts this season</div></div>
@@ -7588,7 +7588,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#7f9bd3">Dylan Garand</span>
           <span class="ctx">G &bull; NYR vs ANA &bull; 7:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ffb74d">11.0 DK projected &bull; 58% to win</div>
         <div class="card-stats">
@@ -7605,8 +7605,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .899 (regressed)</div>
             <div class="stat-sub">+6.8 GSAx &bull; last 5 starts .928 &bull; 219 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 3-2-1</div>
-            <div class="stat-sub">Garand was the first goalie off the ice at New York's morning skate.</div></div>
+            <div class="stat-val">Confirmed &bull; 3-2-1</div>
+            <div class="stat-sub">Garand will start vs. Anaheim on Monday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-17</div>
             <div class="stat-sub">team rested &bull; 5 starts this season</div></div>
@@ -7658,7 +7658,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#71afe5">Sebastian Cossa</span>
           <span class="ctx">G &bull; UTA vs PIT &bull; 9:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">10.2 DK projected &bull; 62% to win</div>
         <div class="card-stats">
@@ -7675,8 +7675,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .887 (regressed)</div>
             <div class="stat-sub">-1.0 GSAx &bull; last 2 starts .852 &bull; 31 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 1-1-0</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-val">Confirmed &bull; 1-1-0</div>
+            <div class="stat-sub">Cossa will start vs. Pittsburgh on Monday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-08</div>
             <div class="stat-sub">team rested &bull; 2 starts this season</div></div>
@@ -7763,7 +7763,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#fcb514">Arturs Silovs</span>
           <span class="ctx">G &bull; PIT @ UTA &bull; 9:00 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.1 DK projected &bull; 38% to win</div>
         <div class="card-stats">
@@ -7780,8 +7780,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .888 (regressed)</div>
             <div class="stat-sub">-11.8 GSAx &bull; last 5 starts .875 &bull; 1148 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 3-2-0</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-val">Confirmed &bull; 3-2-0</div>
+            <div class="stat-sub">Silovs will start in Utah on Monday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-16</div>
             <div class="stat-sub">team rested &bull; 5 starts this season</div></div>
