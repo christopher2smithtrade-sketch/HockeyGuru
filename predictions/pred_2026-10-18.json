@@ -1488,5 +1488,153 @@
    "e_ga": 3.62,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-18",
+  "matched": 78,
+  "scratched": 7,
+  "brier": 0.0913,
+  "sog_mae": 0.97,
+  "dk_mae": 4.4,
+  "hit_rate": 0.103,
+  "avg_p": 0.149,
+  "tiers": {
+   "B": {
+    "n": 8,
+    "p_sum": 1.9459,
+    "hits": 2,
+    "sog": 19.0,
+    "e_sog": 18.749999999999996,
+    "dk": 58.3,
+    "e_dk": 75.4,
+    "hit_rate": 0.25,
+    "avg_p": 0.243,
+    "avg_sog": 2.38,
+    "avg_e_sog": 2.34,
+    "avg_dk": 7.3,
+    "avg_e_dk": 9.4
+   },
+   "D": {
+    "n": 53,
+    "p_sum": 5.2151999999999985,
+    "hits": 4,
+    "sog": 61.0,
+    "e_sog": 66.56999999999998,
+    "dk": 222.5,
+    "e_dk": 286.86999999999995,
+    "hit_rate": 0.075,
+    "avg_p": 0.098,
+    "avg_sog": 1.15,
+    "avg_e_sog": 1.26,
+    "avg_dk": 4.2,
+    "avg_e_dk": 5.4
+   },
+   "C": {
+    "n": 11,
+    "p_sum": 2.1989,
+    "hits": 1,
+    "sog": 19.0,
+    "e_sog": 21.03,
+    "dk": 68.5,
+    "e_dk": 81.76,
+    "hit_rate": 0.091,
+    "avg_p": 0.2,
+    "avg_sog": 1.73,
+    "avg_e_sog": 1.91,
+    "avg_dk": 6.2,
+    "avg_e_dk": 7.4
+   },
+   "A+": {
+    "n": 2,
+    "p_sum": 0.9223,
+    "hits": 1,
+    "sog": 11.0,
+    "e_sog": 7.24,
+    "dk": 31.0,
+    "e_dk": 31.53,
+    "hit_rate": 0.5,
+    "avg_p": 0.461,
+    "avg_sog": 5.5,
+    "avg_e_sog": 3.62,
+    "avg_dk": 15.5,
+    "avg_e_dk": 15.8
+   },
+   "A": {
+    "n": 2,
+    "p_sum": 0.7055,
+    "hits": 0,
+    "sog": 3.0,
+    "e_sog": 6.49,
+    "dk": 9.5,
+    "e_dk": 25.380000000000003,
+    "hit_rate": 0.0,
+    "avg_p": 0.353,
+    "avg_sog": 1.5,
+    "avg_e_sog": 3.25,
+    "avg_dk": 4.8,
+    "avg_e_dk": 12.7
+   },
+   "B+": {
+    "n": 2,
+    "p_sum": 0.6027,
+    "hits": 0,
+    "sog": 5.0,
+    "e_sog": 5.720000000000001,
+    "dk": 12.5,
+    "e_dk": 24.27,
+    "hit_rate": 0.0,
+    "avg_p": 0.301,
+    "avg_sog": 2.5,
+    "avg_e_sog": 2.86,
+    "avg_dk": 6.2,
+    "avg_e_dk": 12.1
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 4,
+   "started": 4,
+   "dk_mae": 5.3
+  },
+  "top_calls": [
+   {
+    "name": "Matt Boldy",
+    "team": "MIN",
+    "grade": "A+",
+    "p_goal": 0.4747,
+    "g": 0,
+    "sog": 6,
+    "dk": 12.0
+   },
+   {
+    "name": "Kirill Kaprizov",
+    "team": "MIN",
+    "grade": "A+",
+    "p_goal": 0.4476,
+    "g": 1,
+    "sog": 5,
+    "dk": 19.0
+   },
+   {
+    "name": "Joel Eriksson Ek",
+    "team": "MIN",
+    "grade": "A",
+    "p_goal": 0.3537,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Andrei Svechnikov",
+    "team": "CAR",
+    "grade": "A",
+    "p_goal": 0.3518,
+    "g": 0,
+    "sog": 1,
+    "dk": 1.5
+   }
+  ],
+  "preseason": false
+ }
 }
