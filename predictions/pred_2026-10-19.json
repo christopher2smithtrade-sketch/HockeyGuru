@@ -3030,5 +3030,189 @@
    "e_ga": 3.51,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-19",
+  "matched": 162,
+  "scratched": 20,
+  "brier": 0.1188,
+  "sog_mae": 0.94,
+  "dk_mae": 4.4,
+  "hit_rate": 0.142,
+  "avg_p": 0.163,
+  "tiers": {
+   "B+": {
+    "n": 8,
+    "p_sum": 2.3476999999999997,
+    "hits": 2,
+    "sog": 16.0,
+    "e_sog": 19.51,
+    "dk": 54.9,
+    "e_dk": 81.13,
+    "hit_rate": 0.25,
+    "avg_p": 0.293,
+    "avg_sog": 2.0,
+    "avg_e_sog": 2.44,
+    "avg_dk": 6.9,
+    "avg_e_dk": 10.1
+   },
+   "D": {
+    "n": 103,
+    "p_sum": 10.169899999999995,
+    "hits": 10,
+    "sog": 101.0,
+    "e_sog": 122.86999999999998,
+    "dk": 526.2000000000002,
+    "e_dk": 538.39,
+    "hit_rate": 0.097,
+    "avg_p": 0.099,
+    "avg_sog": 0.98,
+    "avg_e_sog": 1.19,
+    "avg_dk": 5.1,
+    "avg_e_dk": 5.2
+   },
+   "A": {
+    "n": 7,
+    "p_sum": 2.4455,
+    "hits": 1,
+    "sog": 16.0,
+    "e_sog": 19.810000000000002,
+    "dk": 58.099999999999994,
+    "e_dk": 81.32000000000001,
+    "hit_rate": 0.143,
+    "avg_p": 0.349,
+    "avg_sog": 2.29,
+    "avg_e_sog": 2.83,
+    "avg_dk": 8.3,
+    "avg_e_dk": 11.6
+   },
+   "C": {
+    "n": 17,
+    "p_sum": 3.5155999999999996,
+    "hits": 2,
+    "sog": 26.0,
+    "e_sog": 28.25,
+    "dk": 106.99999999999999,
+    "e_dk": 122.77000000000001,
+    "hit_rate": 0.118,
+    "avg_p": 0.207,
+    "avg_sog": 1.53,
+    "avg_e_sog": 1.66,
+    "avg_dk": 6.3,
+    "avg_e_dk": 7.2
+   },
+   "B": {
+    "n": 20,
+    "p_sum": 5.0531,
+    "hits": 6,
+    "sog": 40.0,
+    "e_sog": 43.12,
+    "dk": 156.6,
+    "e_dk": 179.76000000000005,
+    "hit_rate": 0.3,
+    "avg_p": 0.253,
+    "avg_sog": 2.0,
+    "avg_e_sog": 2.16,
+    "avg_dk": 7.8,
+    "avg_e_dk": 9.0
+   },
+   "A+": {
+    "n": 7,
+    "p_sum": 2.9336,
+    "hits": 2,
+    "sog": 21.0,
+    "e_sog": 24.509999999999998,
+    "dk": 81.39999999999999,
+    "e_dk": 109.39,
+    "hit_rate": 0.286,
+    "avg_p": 0.419,
+    "avg_sog": 3.0,
+    "avg_e_sog": 3.5,
+    "avg_dk": 11.6,
+    "avg_e_dk": 15.6
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 8,
+   "started": 8,
+   "dk_mae": 7.9
+  },
+  "top_calls": [
+   {
+    "name": "Nathan MacKinnon",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.4714,
+    "g": 0,
+    "sog": 1,
+    "dk": 1.5
+   },
+   {
+    "name": "William Nylander",
+    "team": "TOR",
+    "grade": "A+",
+    "p_goal": 0.4233,
+    "g": 0,
+    "sog": 3,
+    "dk": 9.5
+   },
+   {
+    "name": "Auston Matthews",
+    "team": "TOR",
+    "grade": "A+",
+    "p_goal": 0.417,
+    "g": 1,
+    "sog": 3,
+    "dk": 27.3
+   },
+   {
+    "name": "Macklin Celebrini",
+    "team": "SJS",
+    "grade": "A+",
+    "p_goal": 0.4155,
+    "g": 0,
+    "sog": 5,
+    "dk": 10.5
+   },
+   {
+    "name": "Dylan Guenther",
+    "team": "UTA",
+    "grade": "A+",
+    "p_goal": 0.4077,
+    "g": 0,
+    "sog": 2,
+    "dk": 5.6
+   },
+   {
+    "name": "Martin Necas",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.4011,
+    "g": 1,
+    "sog": 2,
+    "dk": 11.5
+   },
+   {
+    "name": "Pavel Dorofeyev",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.3976,
+    "g": 0,
+    "sog": 5,
+    "dk": 15.5
+   },
+   {
+    "name": "Nick Schmaltz",
+    "team": "UTA",
+    "grade": "A",
+    "p_goal": 0.3797,
+    "g": 1,
+    "sog": 2,
+    "dk": 16.5
+   }
+  ],
+  "preseason": false
+ }
 }
