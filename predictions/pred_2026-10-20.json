@@ -2,7 +2,7 @@
  "date": "2026-10-20",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-20T18:07:33",
+ "logged_at": "2026-10-20T18:30:34",
  "games": [
   {
    "game_id": 2026020141,
@@ -5329,7 +5329,7 @@
    "team": "MIN",
    "opp": "EDM",
    "game_id": 2026020148,
-   "grade": "OUT",
+   "grade": "D",
    "composite": 2.7,
    "p_goal": 0.081,
    "e_sog": 0.69,
