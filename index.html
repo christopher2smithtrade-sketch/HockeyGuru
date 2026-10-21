@@ -91,8 +91,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
 <div class="header">
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; Wednesday, October 21, 2026 &bull; 2 games</p>
-  <p>Generated 2026-10-21 11:37 AM EDT &bull; <span class="lock">first puck drop 7:30 PM ET</span></p>
-  <p style="font-size:12px;color:#6e7681">totals 2/2 &bull; win probs 2/2 &bull; 0 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
+  <p>Generated 2026-10-21 02:16 PM EDT &bull; <span class="lock">first puck drop 7:30 PM ET</span></p>
+  <p style="font-size:12px;color:#6e7681">totals 2/2 &bull; win probs 2/2 &bull; 3 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
   
 </div>
 <div class="container">
@@ -111,10 +111,10 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
   <div class="games-row"><div class="game-chip active all-chip" id="all-chip" onclick="pickGame(this)"><div class="teams">All games</div><div class="time">tap a game to filter</div></div><div class="game-chip" data-teams="PHI,BUF" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg" alt="PHI" loading="lazy">PHI @ <img src="https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg" alt="BUF" loading="lazy">BUF</div>
           <div class="time">7:30 PM ET &bull; O/U 6.5 &bull; BUF 63%</div>
-          <div class="meta"><span class="g">PHI: <span class="proj">Vladar</span></span> &nbsp; <span class="g">BUF: <span class="proj">Luukkonen</span></span></div></div><div class="game-chip" data-teams="FLA,OTT" data-main="1" onclick="pickGame(this)">
+          <div class="meta"><span class="g">PHI: <span class="conf">Vladar</span></span> &nbsp; <span class="g">BUF: <span class="conf">Luukkonen</span></span></div></div><div class="game-chip" data-teams="FLA,OTT" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg" alt="FLA" loading="lazy">FLA @ <img src="https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg" alt="OTT" loading="lazy">OTT</div>
           <div class="time">7:30 PM ET &bull; O/U 5.5 &bull; FLA 50%</div>
-          <div class="meta"><span class="g">FLA: <span class="proj">Schmid</span></span> &nbsp; <span class="g">OTT: <span class="proj">Ullmark</span></span></div></div></div>
+          <div class="meta"><span class="g">FLA: <span class="conf">Schmid</span></span> &nbsp; <span class="g">OTT: <span class="proj">Ullmark</span></span></div></div></div>
   <div class="filter-banner" id="filter-banner"></div>
   <h2 class="section-title" id="h-C">Centers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-C">
     <div class="player-card" style="border-left:4px solid #7f97c3" data-hidden="0" data-team="BUF" data-main="1">
@@ -142,7 +142,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -154,7 +154,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">17.5 pts</div>
             <div class="stat-sub">0.52 A &bull; 0.5 BLK &bull; season 3.9 SOG/gm, 19.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.8 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume up: 4.8 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP1 (3.8 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume up: 4.8 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#00e676">53</div>
     </div>
@@ -224,7 +224,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -236,7 +236,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.7 pts</div>
             <div class="stat-sub">0.29 A &bull; 0.4 BLK &bull; season 2.3 SOG/gm, 17.5 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.5 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.5 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">27</div>
     </div>
@@ -265,7 +265,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -277,7 +277,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.1 pts</div>
             <div class="stat-sub">0.38 A &bull; 0.3 BLK &bull; season 1.6 SOG/gm, 16.2 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume up: 2.1 SOG/gm last 10 · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume up: 2.1 SOG/gm last 10 · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">27</div>
     </div>
@@ -306,7 +306,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -318,7 +318,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.0 pts</div>
             <div class="stat-sub">0.65 A &bull; 0.6 BLK &bull; season 2.1 SOG/gm, 21.1 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.8 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · volume down: 1.7 SOG/gm last 10 · ice time trending up</div>
+        <div class="card-scout">PP1 (3.8 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · volume down: 1.7 SOG/gm last 10 · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#fff176">25</div>
     </div>
@@ -429,7 +429,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -470,7 +470,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -482,7 +482,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.2 pts</div>
             <div class="stat-sub">0.40 A &bull; 0.7 BLK &bull; season 1.9 SOG/gm, 19.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">20</div>
     </div>
@@ -511,7 +511,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -523,7 +523,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.5 pts</div>
             <div class="stat-sub">0.34 A &bull; 0.6 BLK &bull; season 1.5 SOG/gm, 15.4 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.8 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP1 (2.8 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ffb74d">20</div>
     </div>
@@ -593,7 +593,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -605,7 +605,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.9 pts</div>
             <div class="stat-sub">0.23 A &bull; 0.2 BLK &bull; season 1.5 SOG/gm, 13.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ffb74d">16</div>
     </div>
@@ -634,7 +634,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -646,7 +646,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.1 pts</div>
             <div class="stat-sub">0.24 A &bull; 0.6 BLK &bull; season 1.4 SOG/gm, 14.8 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume down: 1.1 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume down: 1.1 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">15</div>
     </div>
@@ -675,7 +675,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -687,7 +687,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.5 pts</div>
             <div class="stat-sub">0.17 A &bull; 0.6 BLK &bull; season 1.2 SOG/gm, 9.9 min</div></div>
         </div>
-        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · ice time trending up</div>
+        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">14</div>
     </div>
@@ -716,7 +716,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -757,7 +757,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -769,7 +769,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.9 pts</div>
             <div class="stat-sub">0.22 A &bull; 0.8 BLK &bull; season 1.6 SOG/gm, 16.6 min</div></div>
         </div>
-        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">12</div>
     </div>
@@ -839,7 +839,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -880,7 +880,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -892,7 +892,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.8 pts</div>
             <div class="stat-sub">0.42 A &bull; 0.3 BLK &bull; season 0.9 SOG/gm, 13.9 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
@@ -921,7 +921,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -933,7 +933,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.2 pts</div>
             <div class="stat-sub">0.35 A &bull; 0.3 BLK &bull; season 1.0 SOG/gm, 16.6 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">9</div>
     </div>
@@ -962,7 +962,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1003,7 +1003,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1085,7 +1085,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1126,7 +1126,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -1138,7 +1138,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.8 pts</div>
             <div class="stat-sub">0.14 A &bull; 0.7 BLK &bull; season 0.7 SOG/gm, 10.5 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -1167,7 +1167,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -1179,7 +1179,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.4 pts</div>
             <div class="stat-sub">0.09 A &bull; 0.6 BLK &bull; season 0.6 SOG/gm, 11.1 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume down: 0.4 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume down: 0.4 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">4</div>
     </div>
@@ -1249,7 +1249,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1331,7 +1331,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -1343,7 +1343,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.6 pts</div>
             <div class="stat-sub">0.08 A &bull; 0.3 BLK &bull; season 0.9 SOG/gm, 9.9 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff4444">8</div>
     </div><button class="show-all" onclick="showAll('sec-C', this)">Show all 30 centers (22 more)</button></div><h2 class="section-title" id="h-W">Wingers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-W">
@@ -1372,7 +1372,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -1384,7 +1384,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">12.3 pts</div>
             <div class="stat-sub">0.44 A &bull; 0.2 BLK &bull; season 2.5 SOG/gm, 17.4 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.1 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP1 (3.1 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#69f0ae">36</div>
     </div>
@@ -1413,7 +1413,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -1425,7 +1425,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.2 pts</div>
             <div class="stat-sub">0.34 A &bull; 0.3 BLK &bull; season 2.2 SOG/gm, 17.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.6 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.6 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">31</div>
     </div>
@@ -1495,7 +1495,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -1507,7 +1507,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.4 pts</div>
             <div class="stat-sub">0.25 A &bull; 0.5 BLK &bull; season 1.8 SOG/gm, 16.0 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.6 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume down: 1.4 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP1 (2.6 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume down: 1.4 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#fff176">26</div>
     </div>
@@ -1536,7 +1536,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -1548,7 +1548,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.6 pts</div>
             <div class="stat-sub">0.60 A &bull; 0.4 BLK &bull; season 1.9 SOG/gm, 17.7 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.8 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP1 (2.8 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#fff176">26</div>
     </div>
@@ -1618,7 +1618,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1659,7 +1659,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1700,7 +1700,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -1712,7 +1712,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.4 pts</div>
             <div class="stat-sub">0.46 A &bull; 0.2 BLK &bull; season 1.6 SOG/gm, 16.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · volume up: 1.9 SOG/gm last 10</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · volume up: 1.9 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ffb74d">16</div>
     </div>
@@ -1741,7 +1741,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -1753,7 +1753,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.7 pts</div>
             <div class="stat-sub">0.20 A &bull; 0.4 BLK &bull; season 1.6 SOG/gm, 13.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">16</div>
     </div>
@@ -1782,7 +1782,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1823,7 +1823,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1864,7 +1864,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1905,7 +1905,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -1946,7 +1946,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -1958,7 +1958,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.9 pts</div>
             <div class="stat-sub">0.22 A &bull; 0.6 BLK &bull; season 1.1 SOG/gm, 15.9 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
@@ -2028,7 +2028,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2040,7 +2040,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.9 pts</div>
             <div class="stat-sub">0.12 A &bull; 0.3 BLK &bull; season 1.2 SOG/gm, 12.9 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">9</div>
     </div>
@@ -2069,7 +2069,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -2110,7 +2110,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2122,7 +2122,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.2 pts</div>
             <div class="stat-sub">0.21 A &bull; 0.6 BLK &bull; season 1.0 SOG/gm, 15.5 min</div></div>
         </div>
-        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · volume down: 0.5 SOG/gm last 10</div>
+        <div class="card-scout">PP2 · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · volume down: 0.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">6</div>
     </div>
@@ -2151,7 +2151,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -2192,7 +2192,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -2204,7 +2204,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.9 pts</div>
             <div class="stat-sub">0.16 A &bull; 0.7 BLK &bull; season 0.6 SOG/gm, 10.7 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume down: 0.2 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume down: 0.2 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">4</div>
     </div>
@@ -2233,7 +2233,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2245,7 +2245,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">1.7 pts</div>
             <div class="stat-sub">0.00 A &bull; 0.0 BLK &bull; season 0.3 SOG/gm, 6.7 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · volume up: 0.4 SOG/gm last 10</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · volume up: 0.4 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">2</div>
     </div>
@@ -2356,7 +2356,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -2438,7 +2438,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -2479,7 +2479,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2491,7 +2491,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.5 pts</div>
             <div class="stat-sub">0.41 A &bull; 0.6 BLK &bull; season 2.3 SOG/gm, 17.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff4444">16</div>
     </div>
@@ -2520,7 +2520,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -2532,7 +2532,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.0 pts</div>
             <div class="stat-sub">0.00 A &bull; 0.5 BLK &bull; season 0.3 SOG/gm, 10.0 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff4444">6</div>
     </div>
@@ -2602,7 +2602,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -2643,7 +2643,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -2655,7 +2655,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">12.2 pts</div>
             <div class="stat-sub">0.65 A &bull; 1.2 BLK &bull; season 2.7 SOG/gm, 24.0 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.6 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP1 (3.6 PP min projected) · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#fff176">22</div>
     </div>
@@ -2684,7 +2684,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -2696,7 +2696,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.4 pts</div>
             <div class="stat-sub">0.18 A &bull; 0.7 BLK &bull; season 1.9 SOG/gm, 18.1 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">14</div>
     </div>
@@ -2725,7 +2725,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2737,7 +2737,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.9 pts</div>
             <div class="stat-sub">0.53 A &bull; 2.0 BLK &bull; season 2.1 SOG/gm, 23.8 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.0 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.0 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">14</div>
     </div>
@@ -2807,7 +2807,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -2819,7 +2819,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.4 pts</div>
             <div class="stat-sub">0.49 A &bull; 1.2 BLK &bull; season 1.4 SOG/gm, 23.1 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">11</div>
     </div>
@@ -2848,7 +2848,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -2860,7 +2860,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.0 pts</div>
             <div class="stat-sub">0.48 A &bull; 0.8 BLK &bull; season 1.4 SOG/gm, 23.9 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
@@ -2889,7 +2889,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2901,7 +2901,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.3 pts</div>
             <div class="stat-sub">0.13 A &bull; 1.0 BLK &bull; season 1.4 SOG/gm, 18.0 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.1 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · ice time trending up</div>
+        <div class="card-scout">PP1 (3.1 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">7</div>
     </div>
@@ -2930,7 +2930,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -2971,7 +2971,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -2983,7 +2983,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.0 pts</div>
             <div class="stat-sub">0.22 A &bull; 1.3 BLK &bull; season 1.2 SOG/gm, 20.4 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · ice time trending up</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -3012,7 +3012,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3053,7 +3053,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -3065,7 +3065,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.6 pts</div>
             <div class="stat-sub">0.19 A &bull; 1.1 BLK &bull; season 1.3 SOG/gm, 16.2 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">4</div>
     </div>
@@ -3094,7 +3094,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3135,7 +3135,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -3147,7 +3147,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.4 pts</div>
             <div class="stat-sub">0.31 A &bull; 1.9 BLK &bull; season 1.1 SOG/gm, 20.7 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · ice time trending up</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -3258,7 +3258,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -3270,7 +3270,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.16 A &bull; 2.1 BLK &bull; season 1.2 SOG/gm, 19.1 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · volume down: 0.9 SOG/gm last 10 · ice time trending up</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · volume down: 0.9 SOG/gm last 10 · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ff5252">0</div>
     </div>
@@ -3381,7 +3381,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -3393,7 +3393,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.4 pts</div>
             <div class="stat-sub">0.21 A &bull; 1.1 BLK &bull; season 0.3 SOG/gm, 11.9 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">0</div>
     </div>
@@ -3422,7 +3422,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3463,7 +3463,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3504,7 +3504,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -3516,7 +3516,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.5 pts</div>
             <div class="stat-sub">0.16 A &bull; 0.8 BLK &bull; season 0.5 SOG/gm, 11.9 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume down: 0.3 SOG/gm last 10 · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume down: 0.3 SOG/gm last 10 · ice time trending up · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff5252">-1</div>
     </div>
@@ -3545,7 +3545,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -3557,7 +3557,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">2.6 pts</div>
             <div class="stat-sub">0.10 A &bull; 0.5 BLK &bull; season 0.5 SOG/gm, 13.5 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">-2</div>
     </div>
@@ -3586,7 +3586,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3709,7 +3709,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3750,7 +3750,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -3762,7 +3762,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.3 pts</div>
             <div class="stat-sub">0.06 A &bull; 1.2 BLK &bull; season 0.7 SOG/gm, 15.6 min</div></div>
         </div>
-        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected) · volume down: 0.5 SOG/gm last 10</div>
+        <div class="card-scout">FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed) · volume down: 0.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">-3</div>
     </div>
@@ -3791,7 +3791,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.5 SOG allowed/gm</div>
             <div class="stat-sub">#27 most shots allowed &bull; 5v5 xGA/60 2.29 (#26)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Akira Schmid <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Akira Schmid <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .890 &bull; -1.8 GSAx &bull; factor 1.01</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; OTT implied 2.7</div>
@@ -3803,7 +3803,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.0 pts</div>
             <div class="stat-sub">0.36 A &bull; 2.4 BLK &bull; season 1.9 SOG/gm, 23.8 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · FLA takes penalties (#4 most SH time) · FLA suppresses shots (25.5/gm, #6 fewest) · backup Schmid expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff4444">9</div>
     </div>
@@ -3832,7 +3832,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -3844,7 +3844,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.9 pts</div>
             <div class="stat-sub">0.22 A &bull; 1.8 BLK &bull; season 1.1 SOG/gm, 18.8 min</div></div>
         </div>
-        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff4444">2</div>
     </div>
@@ -3873,7 +3873,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3914,7 +3914,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.5 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.46 (#18)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Ukko-Pekka Luukkonen <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +6.2 GSAx &bull; factor 0.96</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; PHI implied 2.8</div>
@@ -3955,7 +3955,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:81%;background:#f2cc60"></i></span> 29.2 SOG allowed/gm</div>
             <div class="stat-sub">#7 most shots allowed &bull; 5v5 xGA/60 2.68 (#8)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dan Vladar <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Dan Vladar <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .899 &bull; +12.9 GSAx &bull; factor 0.93</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; BUF implied 3.7</div>
@@ -3967,7 +3967,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.7 pts</div>
             <div class="stat-sub">0.18 A &bull; 0.7 BLK &bull; season 0.9 SOG/gm, 16.8 min</div></div>
         </div>
-        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (projected) · volume down: 0.6 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
+        <div class="card-scout">PP2 · PHI takes penalties (#1 most SH time) · PHI allows 29.2 SOG/gm (#7 most) · backup Vladar expected in net (confirmed) · volume down: 0.6 SOG/gm last 10 · Vegas likes BUF: 3.7 implied goals</div>
       </div>
       <div class="card-score" style="color:#ff4444">-1</div>
     </div><button class="show-all" onclick="showAll('sec-D', this)">Show all 33 defensemen (25 more)</button></div>
@@ -3980,7 +3980,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#7f97c3">Ukko-Pekka Luukkonen</span>
           <span class="ctx">G &bull; BUF vs PHI &bull; 7:30 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ffb74d">10.7 DK projected &bull; 63% to win</div>
         <div class="card-stats">
@@ -3997,8 +3997,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .897 (regressed)</div>
             <div class="stat-sub">+6.2 GSAx &bull; last 5 starts .867 &bull; 1101 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 3-2-2</div>
-            <div class="stat-sub">Luukkonen is in the starter's crease at Buffalo's morning skate.</div></div>
+            <div class="stat-val">Confirmed &bull; 3-2-2</div>
+            <div class="stat-sub">Luukkonen will start vs. Philadelphia on Wednesday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-17</div>
             <div class="stat-sub">team rested &bull; 6 starts this season</div></div>
@@ -4015,7 +4015,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#f74902">Dan Vladar</span>
           <span class="ctx">G &bull; PHI @ BUF &bull; 7:30 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.9 DK projected &bull; 37% to win</div>
         <div class="card-stats">
@@ -4032,8 +4032,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .899 (regressed)</div>
             <div class="stat-sub">+12.9 GSAx &bull; last 5 starts .889 &bull; 1445 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 1-3-1</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-val">Confirmed &bull; 1-3-1</div>
+            <div class="stat-sub">Vladar will start in Buffalo on Wednesday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-17</div>
             <div class="stat-sub">team rested &bull; 5 starts this season</div></div>
@@ -4068,7 +4068,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">-5.1 GSAx &bull; last 5 starts .944 &bull; 1362 shots seen</div></div>
           <div><div class="stat-label">Status</div>
             <div class="stat-val">Projected &bull; 6-1-0</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-sub">Ullmark is expected to start vs. Florida on Wednesday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-17</div>
             <div class="stat-sub">team rested &bull; 7 starts this season</div></div>
@@ -4085,7 +4085,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#e38796">Akira Schmid</span>
           <span class="ctx">G &bull; FLA @ OTT &bull; 7:30 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.3 DK projected &bull; 50% to win</div>
         <div class="card-stats">
@@ -4102,8 +4102,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .890 (regressed)</div>
             <div class="stat-sub">-1.8 GSAx &bull; last 5 starts .860 &bull; 889 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 2-1-1</div>
-            <div class="stat-sub">DailyFaceoff projected</div></div>
+            <div class="stat-val">Confirmed &bull; 2-1-1</div>
+            <div class="stat-sub">Schmid will start in Ottawa on Wednesday.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-15</div>
             <div class="stat-sub">team rested &bull; 3 starts this season</div></div>
