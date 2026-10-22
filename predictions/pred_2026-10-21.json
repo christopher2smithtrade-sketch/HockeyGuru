@@ -1578,5 +1578,135 @@
    "e_ga": 2.97,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-21",
+  "matched": 80,
+  "scratched": 10,
+  "brier": 0.0875,
+  "sog_mae": 0.91,
+  "dk_mae": 4.1,
+  "hit_rate": 0.1,
+  "avg_p": 0.142,
+  "tiers": {
+   "B": {
+    "n": 9,
+    "p_sum": 2.2131,
+    "hits": 2,
+    "sog": 21.0,
+    "e_sog": 19.79,
+    "dk": 63.7,
+    "e_dk": 82.46,
+    "hit_rate": 0.222,
+    "avg_p": 0.246,
+    "avg_sog": 2.33,
+    "avg_e_sog": 2.2,
+    "avg_dk": 7.1,
+    "avg_e_dk": 9.2
+   },
+   "C": {
+    "n": 7,
+    "p_sum": 1.3865,
+    "hits": 2,
+    "sog": 8.0,
+    "e_sog": 12.34,
+    "dk": 39.2,
+    "e_dk": 47.69,
+    "hit_rate": 0.286,
+    "avg_p": 0.198,
+    "avg_sog": 1.14,
+    "avg_e_sog": 1.76,
+    "avg_dk": 5.6,
+    "avg_e_dk": 6.8
+   },
+   "D": {
+    "n": 57,
+    "p_sum": 5.481900000000001,
+    "hits": 3,
+    "sog": 54.0,
+    "e_sog": 64.44999999999999,
+    "dk": 229.20000000000002,
+    "e_dk": 280.49999999999994,
+    "hit_rate": 0.053,
+    "avg_p": 0.096,
+    "avg_sog": 0.95,
+    "avg_e_sog": 1.13,
+    "avg_dk": 4.0,
+    "avg_e_dk": 4.9
+   },
+   "B+": {
+    "n": 5,
+    "p_sum": 1.45,
+    "hits": 1,
+    "sog": 11.0,
+    "e_sog": 12.07,
+    "dk": 41.3,
+    "e_dk": 46.809999999999995,
+    "hit_rate": 0.2,
+    "avg_p": 0.29,
+    "avg_sog": 2.2,
+    "avg_e_sog": 2.41,
+    "avg_dk": 8.3,
+    "avg_e_dk": 9.4
+   },
+   "A": {
+    "n": 1,
+    "p_sum": 0.3267,
+    "hits": 0,
+    "sog": 4.0,
+    "e_sog": 3.58,
+    "dk": 11.0,
+    "e_dk": 12.32,
+    "hit_rate": 0.0,
+    "avg_p": 0.327,
+    "avg_sog": 4.0,
+    "avg_e_sog": 3.58,
+    "avg_dk": 11.0,
+    "avg_e_dk": 12.3
+   },
+   "A+": {
+    "n": 1,
+    "p_sum": 0.467,
+    "hits": 0,
+    "sog": 3.0,
+    "e_sog": 4.64,
+    "dk": 4.5,
+    "e_dk": 17.56,
+    "hit_rate": 0.0,
+    "avg_p": 0.467,
+    "avg_sog": 3.0,
+    "avg_e_sog": 4.64,
+    "avg_dk": 4.5,
+    "avg_e_dk": 17.6
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 4,
+   "started": 4,
+   "dk_mae": 7.6
+  },
+  "top_calls": [
+   {
+    "name": "Tage Thompson",
+    "team": "BUF",
+    "grade": "A+",
+    "p_goal": 0.467,
+    "g": 0,
+    "sog": 3,
+    "dk": 4.5
+   },
+   {
+    "name": "Jack Quinn",
+    "team": "BUF",
+    "grade": "A",
+    "p_goal": 0.3267,
+    "g": 0,
+    "sog": 4,
+    "dk": 11.0
+   }
+  ],
+  "preseason": false
+ }
 }
