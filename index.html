@@ -91,8 +91,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
 <div class="header">
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; Wednesday, October 21, 2026 &bull; 2 games</p>
-  <p>Generated 2026-10-21 06:48 PM EDT &bull; <span class="lock">first puck drop 7:30 PM ET</span></p>
-  <p style="font-size:12px;color:#6e7681">totals 2/2 &bull; win probs 2/2 &bull; 3 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
+  <p>Generated 2026-10-21 08:01 PM EDT &bull; <span class="lock">first puck drop 7:30 PM ET</span></p>
+  <p style="font-size:12px;color:#6e7681">totals 2/2 &bull; win probs 2/2 &bull; 4 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
   
 </div>
 <div class="container">
@@ -110,11 +110,11 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     <span class="muted" style="font-size:12px">Tap a game to see only its players.</span></div>
   <div class="games-row"><div class="game-chip active all-chip" id="all-chip" onclick="pickGame(this)"><div class="teams">All games</div><div class="time">tap a game to filter</div></div><div class="game-chip" data-teams="PHI,BUF" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg" alt="PHI" loading="lazy">PHI @ <img src="https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg" alt="BUF" loading="lazy">BUF</div>
-          <div class="time">7:30 PM ET &bull; O/U 6.5 &bull; BUF 64%</div>
+          <div class="time">7:30 PM ET &bull; LIVE &bull; O/U 6.5 &bull; BUF 64%</div>
           <div class="meta"><span class="g">PHI: <span class="conf">Vladar</span></span> &nbsp; <span class="g">BUF: <span class="conf">Luukkonen</span></span></div></div><div class="game-chip" data-teams="FLA,OTT" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg" alt="FLA" loading="lazy">FLA @ <img src="https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg" alt="OTT" loading="lazy">OTT</div>
-          <div class="time">7:30 PM ET &bull; O/U 5.5 &bull; OTT 50%</div>
-          <div class="meta"><span class="g">FLA: <span class="conf">Schmid</span></span> &nbsp; <span class="g">OTT: <span class="proj">Ullmark</span></span></div></div></div>
+          <div class="time">7:30 PM ET &bull; LIVE &bull; O/U 5.5 &bull; OTT 50%</div>
+          <div class="meta"><span class="g">FLA: <span class="conf">Schmid</span></span> &nbsp; <span class="g">OTT: <span class="conf">Ullmark</span></span></div></div></div>
   <div class="filter-banner" id="filter-banner"></div>
   <h2 class="section-title" id="h-C">Centers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-C">
     <div class="player-card" style="border-left:4px solid #7f97c3" data-hidden="0" data-team="BUF" data-main="1">
@@ -183,7 +183,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -347,7 +347,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -388,7 +388,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -552,7 +552,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -798,7 +798,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -1044,7 +1044,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -1208,7 +1208,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -1290,7 +1290,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -1454,7 +1454,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -1577,7 +1577,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -1601,7 +1601,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#f74902">Tyson Foerster</span>
           <span class="ctx">R &bull; PHI @ BUF &bull; 7:30 PM ET</span>
-          <span class="tag pp1">PP1</span><span class="tag line" title="Barkey-Dvorak-Foerster">L2</span><span class="tag dtd" title="Hand return 2026-10-21">Day-To-Day</span>
+          <span class="tag pp1">PP1</span><span class="tag line" title="Barkey-Dvorak-Foerster">L2</span>
         </div>
         <div class="card-label" style="color:#fff176">23% to score &bull; 1.9 SOG projected</div>
         <div class="card-stats">
@@ -1987,7 +1987,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -2274,7 +2274,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -2315,7 +2315,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -2397,7 +2397,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -2561,7 +2561,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -2807,7 +2807,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -3176,7 +3176,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -3217,7 +3217,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -3299,7 +3299,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -3340,7 +3340,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -3627,7 +3627,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -3668,7 +3668,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:70%;background:#f2cc60"></i></span> 25.2 SOG allowed/gm</div>
             <div class="stat-sub">#28 most shots allowed &bull; 5v5 xGA/60 2.18 (#32)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Linus Ullmark <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Linus Ullmark <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .894 &bull; -5.1 GSAx &bull; factor 1.03</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 2.8</div>
@@ -4050,7 +4050,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#ec8c98">Linus Ullmark</span>
           <span class="ctx">G &bull; OTT vs FLA &bull; 7:30 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.4 DK projected &bull; 50% to win</div>
         <div class="card-stats">
@@ -4067,8 +4067,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .894 (regressed)</div>
             <div class="stat-sub">-5.1 GSAx &bull; last 5 starts .944 &bull; 1362 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 6-1-0</div>
-            <div class="stat-sub">Ullmark is expected to start vs. Florida on Wednesday.</div></div>
+            <div class="stat-val">Confirmed &bull; 6-1-0</div>
+            <div class="stat-sub">Ullmark will start Wednesday vs. the Panthers.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-17</div>
             <div class="stat-sub">team rested &bull; 7 starts this season</div></div>
