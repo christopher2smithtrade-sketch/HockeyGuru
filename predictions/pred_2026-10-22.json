@@ -2,7 +2,7 @@
  "date": "2026-10-22",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-22T22:47:31",
+ "logged_at": "2026-10-23T00:00:13",
  "games": [
   {
    "game_id": 2026020154,
@@ -4615,7 +4615,7 @@
    "team": "VGK",
    "opp": "STL",
    "game_id": 2026020160,
-   "grade": "B",
+   "grade": "OUT",
    "composite": 21.8,
    "p_goal": 0.2281,
    "e_sog": 2.18,
@@ -8471,7 +8471,7 @@
    "opp": "STL",
    "game_id": 2026020160,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.49,
    "p_win": 0.543,
    "e_saves": 23.9,
