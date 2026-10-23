@@ -2,7 +2,7 @@
  "date": "2026-10-23",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-23T22:08:19",
+ "logged_at": "2026-10-23T22:39:56",
  "games": [
   {
    "game_id": 2026020166,
@@ -145,7 +145,7 @@
    "team": "CHI",
    "opp": "MTL",
    "game_id": 2026020166,
-   "grade": "OUT",
+   "grade": "D",
    "composite": 5.2,
    "p_goal": 0.101,
    "e_sog": 0.88,
