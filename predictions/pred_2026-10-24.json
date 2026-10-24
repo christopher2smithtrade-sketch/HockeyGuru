@@ -2,7 +2,7 @@
  "date": "2026-10-24",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-24T17:01:16",
+ "logged_at": "2026-10-24T17:28:53",
  "games": [
   {
    "game_id": 2026020168,
@@ -4660,7 +4660,7 @@
    "team": "VGK",
    "opp": "CBJ",
    "game_id": 2026020174,
-   "grade": "B+",
+   "grade": "OUT",
    "composite": 28.1,
    "p_goal": 0.2887,
    "e_sog": 2.23,
