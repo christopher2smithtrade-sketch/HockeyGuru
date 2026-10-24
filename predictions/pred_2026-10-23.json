@@ -1443,5 +1443,153 @@
    "e_ga": 3.62,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-23",
+  "matched": 79,
+  "scratched": 8,
+  "brier": 0.1255,
+  "sog_mae": 1.04,
+  "dk_mae": 5.2,
+  "hit_rate": 0.152,
+  "avg_p": 0.151,
+  "tiers": {
+   "B+": {
+    "n": 4,
+    "p_sum": 1.1804999999999999,
+    "hits": 3,
+    "sog": 11.0,
+    "e_sog": 10.62,
+    "dk": 70.39999999999999,
+    "e_dk": 48.32,
+    "hit_rate": 0.75,
+    "avg_p": 0.295,
+    "avg_sog": 2.75,
+    "avg_e_sog": 2.65,
+    "avg_dk": 17.6,
+    "avg_e_dk": 12.1
+   },
+   "B": {
+    "n": 7,
+    "p_sum": 1.7016999999999998,
+    "hits": 2,
+    "sog": 10.0,
+    "e_sog": 15.170000000000002,
+    "dk": 50.9,
+    "e_dk": 58.77,
+    "hit_rate": 0.286,
+    "avg_p": 0.243,
+    "avg_sog": 1.43,
+    "avg_e_sog": 2.17,
+    "avg_dk": 7.3,
+    "avg_e_dk": 8.4
+   },
+   "D": {
+    "n": 50,
+    "p_sum": 4.708599999999999,
+    "hits": 6,
+    "sog": 55.0,
+    "e_sog": 62.17999999999998,
+    "dk": 262.00000000000006,
+    "e_dk": 266.24999999999994,
+    "hit_rate": 0.12,
+    "avg_p": 0.094,
+    "avg_sog": 1.1,
+    "avg_e_sog": 1.24,
+    "avg_dk": 5.2,
+    "avg_e_dk": 5.3
+   },
+   "C": {
+    "n": 14,
+    "p_sum": 2.7862999999999998,
+    "hits": 0,
+    "sog": 18.0,
+    "e_sog": 26.009999999999998,
+    "dk": 49.599999999999994,
+    "e_dk": 104.62,
+    "hit_rate": 0.0,
+    "avg_p": 0.199,
+    "avg_sog": 1.29,
+    "avg_e_sog": 1.86,
+    "avg_dk": 3.5,
+    "avg_e_dk": 7.5
+   },
+   "A+": {
+    "n": 2,
+    "p_sum": 0.8862,
+    "hits": 1,
+    "sog": 8.0,
+    "e_sog": 8.35,
+    "dk": 39.8,
+    "e_dk": 33.68,
+    "hit_rate": 0.5,
+    "avg_p": 0.443,
+    "avg_sog": 4.0,
+    "avg_e_sog": 4.17,
+    "avg_dk": 19.9,
+    "avg_e_dk": 16.8
+   },
+   "A": {
+    "n": 2,
+    "p_sum": 0.6950000000000001,
+    "hits": 0,
+    "sog": 5.0,
+    "e_sog": 5.99,
+    "dk": 13.8,
+    "e_dk": 25.66,
+    "hit_rate": 0.0,
+    "avg_p": 0.348,
+    "avg_sog": 2.5,
+    "avg_e_sog": 3.0,
+    "avg_dk": 6.9,
+    "avg_e_dk": 12.8
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 4,
+   "started": 4,
+   "dk_mae": 8.2
+  },
+  "top_calls": [
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.5114,
+    "g": 0,
+    "sog": 4,
+    "dk": 6.0
+   },
+   {
+    "name": "Nathan MacKinnon",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.3748,
+    "g": 1,
+    "sog": 4,
+    "dk": 33.8
+   },
+   {
+    "name": "Brandon Hagel",
+    "team": "TBL",
+    "grade": "A",
+    "p_goal": 0.3652,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Juraj Slafkovsk\u00fd",
+    "team": "MTL",
+    "grade": "A",
+    "p_goal": 0.3298,
+    "g": 0,
+    "sog": 3,
+    "dk": 5.8
+   }
+  ],
+  "preseason": false
+ }
 }
