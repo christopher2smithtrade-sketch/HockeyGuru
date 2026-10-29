@@ -2,7 +2,7 @@
  "date": "2026-10-29",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-29T19:16:44",
+ "logged_at": "2026-10-29T19:41:28",
  "games": [
   {
    "game_id": 2026020204,
@@ -5824,7 +5824,7 @@
    "team": "BUF",
    "opp": "ANA",
    "game_id": 2026020211,
-   "grade": "OUT",
+   "grade": "D",
    "composite": 7.2,
    "p_goal": 0.1191,
    "e_sog": 0.94,
@@ -5869,7 +5869,7 @@
    "team": "BUF",
    "opp": "ANA",
    "game_id": 2026020211,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 12.4,
    "p_goal": 0.1577,
    "e_sog": 1.37,
