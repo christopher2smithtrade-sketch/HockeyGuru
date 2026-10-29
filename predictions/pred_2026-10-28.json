@@ -3120,5 +3120,171 @@
    "e_ga": 3.37,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-28",
+  "matched": 163,
+  "scratched": 19,
+  "brier": 0.117,
+  "sog_mae": 1.01,
+  "dk_mae": 4.5,
+  "hit_rate": 0.141,
+  "avg_p": 0.154,
+  "tiers": {
+   "D": {
+    "n": 103,
+    "p_sum": 10.2258,
+    "hits": 10,
+    "sog": 97.0,
+    "e_sog": 124.55999999999999,
+    "dk": 448.60000000000025,
+    "e_dk": 533.5099999999999,
+    "hit_rate": 0.097,
+    "avg_p": 0.099,
+    "avg_sog": 0.94,
+    "avg_e_sog": 1.21,
+    "avg_dk": 4.4,
+    "avg_e_dk": 5.2
+   },
+   "C": {
+    "n": 25,
+    "p_sum": 4.9472000000000005,
+    "hits": 6,
+    "sog": 44.0,
+    "e_sog": 47.76,
+    "dk": 171.9,
+    "e_dk": 186.95,
+    "hit_rate": 0.24,
+    "avg_p": 0.198,
+    "avg_sog": 1.76,
+    "avg_e_sog": 1.91,
+    "avg_dk": 6.9,
+    "avg_e_dk": 7.5
+   },
+   "B": {
+    "n": 18,
+    "p_sum": 4.4432,
+    "hits": 3,
+    "sog": 37.0,
+    "e_sog": 40.64999999999999,
+    "dk": 143.79999999999998,
+    "e_dk": 167.8,
+    "hit_rate": 0.167,
+    "avg_p": 0.247,
+    "avg_sog": 2.06,
+    "avg_e_sog": 2.26,
+    "avg_dk": 8.0,
+    "avg_e_dk": 9.3
+   },
+   "B+": {
+    "n": 11,
+    "p_sum": 3.2273,
+    "hits": 1,
+    "sog": 20.0,
+    "e_sog": 29.400000000000002,
+    "dk": 118.29999999999998,
+    "e_dk": 116.54,
+    "hit_rate": 0.091,
+    "avg_p": 0.293,
+    "avg_sog": 1.82,
+    "avg_e_sog": 2.67,
+    "avg_dk": 10.8,
+    "avg_e_dk": 10.6
+   },
+   "A": {
+    "n": 3,
+    "p_sum": 1.0669,
+    "hits": 2,
+    "sog": 12.0,
+    "e_sog": 9.08,
+    "dk": 60.8,
+    "e_dk": 39.489999999999995,
+    "hit_rate": 0.667,
+    "avg_p": 0.356,
+    "avg_sog": 4.0,
+    "avg_e_sog": 3.03,
+    "avg_dk": 20.3,
+    "avg_e_dk": 13.2
+   },
+   "A+": {
+    "n": 3,
+    "p_sum": 1.21,
+    "hits": 1,
+    "sog": 7.0,
+    "e_sog": 11.35,
+    "dk": 29.0,
+    "e_dk": 57.89,
+    "hit_rate": 0.333,
+    "avg_p": 0.403,
+    "avg_sog": 2.33,
+    "avg_e_sog": 3.78,
+    "avg_dk": 9.7,
+    "avg_e_dk": 19.3
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 8,
+   "started": 8,
+   "dk_mae": 7.7
+  },
+  "top_calls": [
+   {
+    "name": "Leon Draisaitl",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.4405,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   },
+   {
+    "name": "Connor McDavid",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.3982,
+    "g": 0,
+    "sog": 3,
+    "dk": 14.5
+   },
+   {
+    "name": "Nathan MacKinnon",
+    "team": "COL",
+    "grade": "A+",
+    "p_goal": 0.3713,
+    "g": 1,
+    "sog": 2,
+    "dk": 11.5
+   },
+   {
+    "name": "William Nylander",
+    "team": "TOR",
+    "grade": "A",
+    "p_goal": 0.3636,
+    "g": 0,
+    "sog": 3,
+    "dk": 5.8
+   },
+   {
+    "name": "Auston Matthews",
+    "team": "TOR",
+    "grade": "A",
+    "p_goal": 0.3561,
+    "g": 1,
+    "sog": 4,
+    "dk": 27.5
+   },
+   {
+    "name": "Alex Tuch",
+    "team": "WSH",
+    "grade": "A",
+    "p_goal": 0.3472,
+    "g": 2,
+    "sog": 5,
+    "dk": 27.5
+   }
+  ],
+  "preseason": false
+ }
 }
