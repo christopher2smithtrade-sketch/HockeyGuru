@@ -2,7 +2,7 @@
  "date": "2026-10-30",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-30T16:44:25",
+ "logged_at": "2026-10-30T18:53:52",
  "games": [
   {
    "game_id": 2026020214,
@@ -1471,7 +1471,7 @@
    "team": "CGY",
    "opp": "SEA",
    "game_id": 2026020216,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 10.3,
    "p_goal": 0.1437,
    "e_sog": 1.15,
