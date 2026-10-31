@@ -2289,5 +2289,147 @@
    "e_ga": 3.78,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-10-30",
+  "matched": 121,
+  "scratched": 14,
+  "brier": 0.1095,
+  "sog_mae": 1.06,
+  "dk_mae": 4.9,
+  "hit_rate": 0.149,
+  "avg_p": 0.158,
+  "tiers": {
+   "D": {
+    "n": 73,
+    "p_sum": 7.1411,
+    "hits": 3,
+    "sog": 68.0,
+    "e_sog": 87.59,
+    "dk": 247.50000000000003,
+    "e_dk": 372.14999999999986,
+    "hit_rate": 0.041,
+    "avg_p": 0.098,
+    "avg_sog": 0.93,
+    "avg_e_sog": 1.2,
+    "avg_dk": 3.4,
+    "avg_e_dk": 5.1
+   },
+   "C": {
+    "n": 19,
+    "p_sum": 3.8039,
+    "hits": 4,
+    "sog": 28.0,
+    "e_sog": 34.8,
+    "dk": 152.1,
+    "e_dk": 138.66,
+    "hit_rate": 0.211,
+    "avg_p": 0.2,
+    "avg_sog": 1.47,
+    "avg_e_sog": 1.83,
+    "avg_dk": 8.0,
+    "avg_e_dk": 7.3
+   },
+   "B+": {
+    "n": 10,
+    "p_sum": 2.945299999999999,
+    "hits": 6,
+    "sog": 23.0,
+    "e_sog": 26.320000000000004,
+    "dk": 141.2,
+    "e_dk": 108.69999999999999,
+    "hit_rate": 0.6,
+    "avg_p": 0.295,
+    "avg_sog": 2.3,
+    "avg_e_sog": 2.63,
+    "avg_dk": 14.1,
+    "avg_e_dk": 10.9
+   },
+   "B": {
+    "n": 14,
+    "p_sum": 3.4531000000000005,
+    "hits": 4,
+    "sog": 28.0,
+    "e_sog": 29.400000000000006,
+    "dk": 156.89999999999998,
+    "e_dk": 116.1,
+    "hit_rate": 0.286,
+    "avg_p": 0.247,
+    "avg_sog": 2.0,
+    "avg_e_sog": 2.1,
+    "avg_dk": 11.2,
+    "avg_e_dk": 8.3
+   },
+   "A": {
+    "n": 5,
+    "p_sum": 1.7526,
+    "hits": 1,
+    "sog": 17.0,
+    "e_sog": 14.309999999999999,
+    "dk": 47.0,
+    "e_dk": 59.58,
+    "hit_rate": 0.2,
+    "avg_p": 0.351,
+    "avg_sog": 3.4,
+    "avg_e_sog": 2.86,
+    "avg_dk": 9.4,
+    "avg_e_dk": 11.9
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 6,
+   "started": 5,
+   "dk_mae": 2.7
+  },
+  "top_calls": [
+   {
+    "name": "Sam Reinhart",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3771,
+    "g": 1,
+    "sog": 4,
+    "dk": 19.5
+   },
+   {
+    "name": "Matthew Tkachuk",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3529,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   },
+   {
+    "name": "Carter Verhaeghe",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3494,
+    "g": 0,
+    "sog": 3,
+    "dk": 9.5
+   },
+   {
+    "name": "Brady Tkachuk",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3382,
+    "g": 0,
+    "sog": 6,
+    "dk": 12.0
+   },
+   {
+    "name": "Sam Bennett",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.335,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   }
+  ],
+  "preseason": false
+ }
 }
