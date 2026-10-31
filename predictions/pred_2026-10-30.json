@@ -2,7 +2,7 @@
  "date": "2026-10-30",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-30T23:17:38",
+ "logged_at": "2026-10-31T00:52:26",
  "games": [
   {
    "game_id": 2026020214,
@@ -2035,18 +2035,18 @@
    "main": true
   },
   {
-   "pid": "8478916",
-   "name": "Joey Daccord",
+   "pid": "8475831",
+   "name": "Philipp Grubauer",
    "pos": "G",
    "team": "SEA",
    "opp": "CGY",
    "game_id": 2026020216,
    "grade": "B",
-   "status": "Projected",
-   "dk": 12.97,
+   "status": "Backup",
+   "dk": 13.34,
    "p_win": 0.511,
-   "e_saves": 28.5,
-   "e_ga": 3.1,
+   "e_saves": 28.6,
+   "e_ga": 3.02,
    "main": true
   },
   {
@@ -2125,18 +2125,18 @@
    "main": true
   },
   {
-   "pid": "8475831",
-   "name": "Philipp Grubauer",
+   "pid": "8478916",
+   "name": "Joey Daccord",
    "pos": "G",
    "team": "SEA",
    "opp": "CGY",
    "game_id": 2026020216,
    "grade": "B",
-   "status": "Backup",
-   "dk": 13.34,
+   "status": "Projected",
+   "dk": 12.97,
    "p_win": 0.511,
-   "e_saves": 28.6,
-   "e_ga": 3.02,
+   "e_saves": 28.5,
+   "e_ga": 3.1,
    "main": true
   },
   {
