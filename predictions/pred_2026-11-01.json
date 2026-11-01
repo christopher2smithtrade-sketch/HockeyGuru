@@ -2,7 +2,7 @@
  "date": "2026-11-01",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-01T18:36:27",
+ "logged_at": "2026-11-01T18:58:46",
  "games": [
   {
    "game_id": 2026020227,
@@ -1573,7 +1573,7 @@
    "team": "PHI",
    "opp": "UTA",
    "game_id": 2026020229,
-   "grade": "OUT",
+   "grade": "C",
    "composite": 17.0,
    "p_goal": 0.196,
    "e_sog": 1.63,
@@ -1633,7 +1633,7 @@
    "team": "PHI",
    "opp": "UTA",
    "game_id": 2026020229,
-   "grade": "OUT",
+   "grade": "B",
    "composite": 23.8,
    "p_goal": 0.2409,
    "e_sog": 2.42,
