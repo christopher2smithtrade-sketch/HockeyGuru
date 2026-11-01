@@ -1,7 +1,8 @@
 name: Hockey Guru
 
-# Times are UTC. The NHL runs on Eastern time (EDT = UTC-4 until Nov 1 2026,
-# then EST = UTC-5 -- bump every hour below by +1 when DST ends).
+# Times are UTC. The NHL runs on Eastern time: EST = UTC-5 from Nov 1 2026 (the
+# hours below were moved +1 that day). When DST starts on Mar 14 2027 (EDT =
+# UTC-4), move every hour below back by 1 -- same day as Basketball Guru.
 #
 # GitHub's free cron runs 1-3 h late (Gridiron lesson), so each window gets
 # several crons spaced 30 min apart and aimed ~1-2 h ahead. Whatever lands,
@@ -23,19 +24,19 @@ name: Hockey Guru
 on:
   schedule:
     # 7:00 AM ET scoring
-    - cron: '17 10 * * *'
-    - cron: '47 10 * * *'
+    - cron: '17 11 * * *'
+    - cron: '47 11 * * *'
     # 11:00 AM ET morning board
-    - cron: '47 13 * * *'
-    - cron: '17 14 * * *'
     - cron: '47 14 * * *'
+    - cron: '17 15 * * *'
+    - cron: '47 15 * * *'
     # 4:30 PM ET pre-lock board
-    - cron: '47 18 * * *'
-    - cron: '17 19 * * *'
     - cron: '47 19 * * *'
+    - cron: '17 20 * * *'
+    - cron: '47 20 * * *'
     # 6:15 PM ET last look
-    - cron: '17 21 * * *'
-    - cron: '47 21 * * *'
+    - cron: '17 22 * * *'
+    - cron: '47 22 * * *'
   workflow_dispatch:
 
 permissions:
