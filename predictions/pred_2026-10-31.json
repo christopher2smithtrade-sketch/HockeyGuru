@@ -2,7 +2,7 @@
  "date": "2026-10-31",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-10-31T22:51:25",
+ "logged_at": "2026-11-01T00:10:56",
  "games": [
   {
    "game_id": 2026020217,
@@ -7117,18 +7117,18 @@
    "main": false
   },
   {
-   "pid": "8480947",
-   "name": "Kevin Lankinen",
+   "pid": "8482447",
+   "name": "Leevi Meril\u00e4inen",
    "pos": "G",
    "team": "VAN",
    "opp": "TOR",
    "game_id": 2026020224,
    "grade": "D",
-   "status": "Projected",
-   "dk": 8.45,
+   "status": "Backup",
+   "dk": 8.92,
    "p_win": 0.369,
-   "e_saves": 26.3,
-   "e_ga": 3.64,
+   "e_saves": 26.4,
+   "e_ga": 3.54,
    "main": true
   },
   {
@@ -7492,21 +7492,6 @@
    "main": false
   },
   {
-   "pid": "8482447",
-   "name": "Leevi Meril\u00e4inen",
-   "pos": "G",
-   "team": "VAN",
-   "opp": "TOR",
-   "game_id": 2026020224,
-   "grade": "D",
-   "status": "Backup",
-   "dk": 8.92,
-   "p_win": 0.369,
-   "e_saves": 26.4,
-   "e_ga": 3.54,
-   "main": true
-  },
-  {
    "pid": "8481692",
    "name": "Dustin Wolf",
    "pos": "G",
@@ -7519,6 +7504,21 @@
    "p_win": 0.24,
    "e_saves": 29.0,
    "e_ga": 3.95,
+   "main": true
+  },
+  {
+   "pid": "8480947",
+   "name": "Kevin Lankinen",
+   "pos": "G",
+   "team": "VAN",
+   "opp": "TOR",
+   "game_id": 2026020224,
+   "grade": "D",
+   "status": "Projected",
+   "dk": 8.45,
+   "p_win": 0.369,
+   "e_saves": 26.3,
+   "e_ga": 3.64,
    "main": true
   },
   {
