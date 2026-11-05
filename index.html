@@ -91,8 +91,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
 <div class="header">
   <h1>HOCKEY GURU</h1>
   <p>NHL anytime-goal board &bull; Wednesday, November 04, 2026 &bull; 4 games</p>
-  <p>Generated 2026-11-04 04:21 PM EST &bull; <span class="lock">first puck drop 7:30 PM ET</span></p>
-  <p style="font-size:12px;color:#6e7681">totals 4/4 &bull; win probs 4/4 &bull; 4 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
+  <p>Generated 2026-11-04 07:33 PM EST &bull; <span class="lock">first puck drop 7:30 PM ET</span></p>
+  <p style="font-size:12px;color:#6e7681">totals 4/4 &bull; win probs 4/4 &bull; 6 confirmed goalies &bull; grades: <span style="color:#00e676">A+ &ge;40</span> <span style="color:#69f0ae">A &ge;33</span> <span style="color:#b9f6ca">B+ &ge;27</span> <span style="color:#fff176">B &ge;21</span> <span style="color:#ffb74d">C &ge;15</span></p>
   
 </div>
 <div class="container">
@@ -111,15 +111,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
   <div class="games-row"><div class="game-chip active all-chip" id="all-chip" onclick="pickGame(this)"><div class="teams">All games</div><div class="time">tap a game to filter</div></div><div class="game-chip" data-teams="OTT,BUF" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg" alt="OTT" loading="lazy">OTT @ <img src="https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg" alt="BUF" loading="lazy">BUF</div>
           <div class="time">7:30 PM ET &bull; O/U 6.5 &bull; BUF 54%</div>
-          <div class="meta"><span class="g">OTT: <span class="conf">Ersson</span></span> &nbsp; <span class="g">BUF: <span class="proj">Ellis</span></span></div></div><div class="game-chip" data-teams="CHI,FLA" data-main="1" onclick="pickGame(this)">
+          <div class="meta"><span class="g">OTT: <span class="conf">Ersson</span></span> &nbsp; <span class="g">BUF: <span class="conf">Ellis</span></span></div></div><div class="game-chip" data-teams="CHI,FLA" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg" alt="CHI" loading="lazy">CHI @ <img src="https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg" alt="FLA" loading="lazy">FLA</div>
           <div class="time">7:30 PM ET &bull; O/U 5.5 &bull; FLA 69%</div>
-          <div class="meta"><span class="g">CHI: <span class="proj">Knight</span></span> &nbsp; <span class="g">FLA: <span class="conf">Markstrom</span></span></div></div><div class="game-chip" data-teams="SJS,LAK" data-main="1" onclick="pickGame(this)">
+          <div class="meta"><span class="g">CHI: <span class="conf">Knight</span></span> &nbsp; <span class="g">FLA: <span class="conf">Markstrom</span></span></div></div><div class="game-chip" data-teams="SJS,LAK" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg" alt="SJS" loading="lazy">SJS @ <img src="https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg" alt="LAK" loading="lazy">LAK</div>
           <div class="time">10:00 PM ET &bull; O/U 6.5 &bull; LAK 60%</div>
           <div class="meta"><span class="g">SJS: <span class="conf">Askarov</span></span> &nbsp; <span class="g">LAK: <span class="proj">Kuemper</span></span></div></div><div class="game-chip" data-teams="CGY,SEA" data-main="1" onclick="pickGame(this)">
           <div class="teams"><img src="https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg" alt="CGY" loading="lazy">CGY @ <img src="https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg" alt="SEA" loading="lazy">SEA</div>
-          <div class="time">10:00 PM ET &bull; O/U 6.5 &bull; SEA 55%</div>
+          <div class="time">10:00 PM ET &bull; O/U 6.5 &bull; SEA 54%</div>
           <div class="meta"><span class="g">CGY: <span class="conf">Wolf</span></span> &nbsp; <span class="g">SEA: <span class="proj">Daccord</span></span></div></div></div>
   <div class="filter-banner" id="filter-banner"></div>
   <h2 class="section-title" id="h-C">Centers <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-C">
@@ -189,7 +189,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -271,7 +271,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -312,7 +312,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -398,7 +398,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.2 SOG/gm &bull; 1 G &bull; 3 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 3 4 2 1 2 0 &bull; TOI 17.7 vs 16.6 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -406,7 +406,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.3 pts</div>
             <div class="stat-sub">0.17 A &bull; 0.5 BLK &bull; season 2.6 SOG/gm, 16.6 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">31</div>
     </div>
@@ -435,7 +435,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -447,7 +447,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.3 pts</div>
             <div class="stat-sub">0.38 A &bull; 0.4 BLK &bull; season 2.2 SOG/gm, 17.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.4 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.4 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">29</div>
     </div>
@@ -517,7 +517,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -529,7 +529,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.8 pts</div>
             <div class="stat-sub">0.73 A &bull; 0.6 BLK &bull; season 2.2 SOG/gm, 21.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.8 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.8 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">27</div>
     </div>
@@ -591,7 +591,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 13.4% (raw 15.2%, shot quality 12.3%) &bull; PP 14.0%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:40%;background:#58a6ff"></i></span> 2.0 SOG</div>
-            <div class="stat-sub">3+ SOG 33% &bull; 5+ SOG 5% &bull; 5v5 1.5 + PP 0.5</div></div>
+            <div class="stat-sub">3+ SOG 32% &bull; 5+ SOG 5% &bull; 5v5 1.5 + PP 0.5</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP1 &bull; 2.7 min proj</div>
             <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
@@ -603,15 +603,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.2 SOG/gm &bull; 2 G &bull; 4 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 0 0 1* 2 0 &bull; TOI 18.5 vs 18.2 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">8.8 pts</div>
-            <div class="stat-sub">0.33 A &bull; 0.8 BLK &bull; season 1.2 SOG/gm, 18.2 min</div></div>
+            <div class="stat-sub">0.32 A &bull; 0.8 BLK &bull; season 1.2 SOG/gm, 18.2 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#fff176">26</div>
     </div>
@@ -640,7 +640,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -669,7 +669,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#fff176">25% to score &bull; 2.0 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:50%;background:#3fb950"></i></span> 25% (&lambda; 0.29)</div>
+            <div class="stat-val"><span class="bar"><i style="width:49%;background:#3fb950"></i></span> 25% (&lambda; 0.29)</div>
             <div class="stat-sub">5v5 finishing 11.7% (raw 11.6%, shot quality 12.0%) &bull; PP 14.3%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:40%;background:#58a6ff"></i></span> 2.0 SOG</div>
@@ -685,17 +685,17 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.8 SOG/gm &bull; 3 G &bull; 9 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1* 5* 1 1 2 &bull; TOI 15.5 vs 14.5 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">8.5 pts</div>
-            <div class="stat-sub">0.42 A &bull; 0.5 BLK &bull; season 1.6 SOG/gm, 14.5 min</div></div>
+            <div class="stat-sub">0.41 A &bull; 0.5 BLK &bull; season 1.6 SOG/gm, 14.5 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
-      <div class="card-score" style="color:#fff176">24</div>
+      <div class="card-score" style="color:#fff176">23</div>
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#fff17622;color:#fff176;border:1px solid #fff17644">
@@ -722,7 +722,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -734,7 +734,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.2 pts</div>
             <div class="stat-sub">0.37 A &bull; 0.5 BLK &bull; season 1.9 SOG/gm, 19.6 min</div></div>
         </div>
-        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#fff176">23</div>
     </div>
@@ -751,11 +751,11 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#fff176">24% to score &bull; 1.9 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:48%;background:#3fb950"></i></span> 24% (&lambda; 0.27)</div>
+            <div class="stat-val"><span class="bar"><i style="width:48%;background:#3fb950"></i></span> 24% (&lambda; 0.28)</div>
             <div class="stat-sub">5v5 finishing 10.6% (raw 11.0%, shot quality 10.5%) &bull; PP 18.2%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:37%;background:#58a6ff"></i></span> 1.9 SOG</div>
-            <div class="stat-sub">3+ SOG 29% &bull; 5+ SOG 4% &bull; 5v5 1.4 + PP 0.4</div></div>
+            <div class="stat-sub">3+ SOG 29% &bull; 5+ SOG 4% &bull; 5v5 1.5 + PP 0.4</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP1 &bull; 2.5 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -767,13 +767,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.7 SOG/gm &bull; 2 G &bull; 7 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1 1* 1 2 0 &bull; TOI 15.0 vs 15.2 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">7.5 pts</div>
-            <div class="stat-sub">0.31 A &bull; 0.4 BLK &bull; season 1.8 SOG/gm, 15.2 min</div></div>
+            <div class="stat-sub">0.32 A &bull; 0.4 BLK &bull; season 1.8 SOG/gm, 15.2 min</div></div>
         </div>
         <div class="card-scout">PP1 (2.5 PP min projected) · SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
       </div>
@@ -789,13 +789,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
           <span class="ctx">C &bull; CGY @ SEA &bull; 10:00 PM ET</span>
           <span class="tag line" title="Farabee-Backlund-Coronato">L2</span>
         </div>
-        <div class="card-label" style="color:#fff176">23% to score &bull; 2.3 SOG projected</div>
+        <div class="card-label" style="color:#fff176">23% to score &bull; 2.4 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
             <div class="stat-val"><span class="bar"><i style="width:45%;background:#3fb950"></i></span> 23% (&lambda; 0.26)</div>
             <div class="stat-sub">5v5 finishing 9.0% (raw 7.8%, shot quality 10.6%) &bull; PP 14.0%</div></div>
           <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:46%;background:#58a6ff"></i></span> 2.3 SOG</div>
+            <div class="stat-val"><span class="bar"><i style="width:47%;background:#58a6ff"></i></span> 2.4 SOG</div>
             <div class="stat-sub">3+ SOG 42% &bull; 5+ SOG 9% &bull; 5v5 2.3 + PP 0.1</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.4 min proj</div>
@@ -808,7 +808,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.8 SOG/gm &bull; 2 G &bull; 5 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 4 5 1 2 1* 2 &bull; TOI 18.9 vs 18.1 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -833,11 +833,11 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#fff176">23% to score &bull; 2.0 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:46%;background:#3fb950"></i></span> 23% (&lambda; 0.26)</div>
+            <div class="stat-val"><span class="bar"><i style="width:46%;background:#3fb950"></i></span> 23% (&lambda; 0.27)</div>
             <div class="stat-sub">5v5 finishing 11.0% (raw 10.6%, shot quality 11.4%) &bull; PP 15.8%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:39%;background:#58a6ff"></i></span> 2.0 SOG</div>
-            <div class="stat-sub">3+ SOG 31% &bull; 5+ SOG 5% &bull; 5v5 1.8 + PP 0.1</div></div>
+            <div class="stat-sub">3+ SOG 32% &bull; 5+ SOG 5% &bull; 5v5 1.8 + PP 0.1</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP2 &bull; 1.1 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -849,12 +849,12 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.5 SOG/gm &bull; 2 G &bull; 4 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1 2* 4 5 3* &bull; TOI 14.4 vs 13.9 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">6.8 pts</div>
+            <div class="stat-val">6.9 pts</div>
             <div class="stat-sub">0.21 A &bull; 0.3 BLK &bull; season 2.0 SOG/gm, 13.9 min</div></div>
         </div>
         <div class="card-scout">PP2 · SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected) · volume up: 2.5 SOG/gm last 10</div>
@@ -878,7 +878,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 9.3% (raw 7.9%, shot quality 10.7%) &bull; PP 15.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:37%;background:#58a6ff"></i></span> 1.9 SOG</div>
-            <div class="stat-sub">3+ SOG 29% &bull; 5+ SOG 4% &bull; 5v5 1.7 + PP 0.2</div></div>
+            <div class="stat-sub">3+ SOG 30% &bull; 5+ SOG 4% &bull; 5v5 1.7 + PP 0.2</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP2 &bull; 1.2 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -890,7 +890,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.7 SOG/gm &bull; 2 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 3 1 1 1 0 &bull; TOI 16.2 vs 16.2 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -1095,7 +1095,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.1 SOG/gm &bull; 1 G &bull; 6 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 2 1 0 3 1 &bull; TOI 13.0 vs 12.4 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -1103,7 +1103,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.8 pts</div>
             <div class="stat-sub">0.33 A &bull; 0.7 BLK &bull; season 1.0 SOG/gm, 12.4 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">16</div>
     </div>
@@ -1173,7 +1173,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -1214,7 +1214,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -1226,7 +1226,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.5 pts</div>
             <div class="stat-sub">0.15 A &bull; 0.6 BLK &bull; season 1.5 SOG/gm, 10.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.6 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected) · volume up: 1.8 SOG/gm last 10</div>
+        <div class="card-scout">PP1 (2.6 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed) · volume up: 1.8 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">15</div>
     </div>
@@ -1243,7 +1243,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#ff5252">18% to score &bull; 1.3 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:35%;background:#3fb950"></i></span> 18% (&lambda; 0.20)</div>
+            <div class="stat-val"><span class="bar"><i style="width:35%;background:#3fb950"></i></span> 18% (&lambda; 0.19)</div>
             <div class="stat-sub">5v5 finishing 12.6% (raw 15.3%, shot quality 11.6%) &bull; PP 17.5%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:26%;background:#58a6ff"></i></span> 1.3 SOG</div>
@@ -1259,7 +1259,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.1 SOG/gm &bull; 6 G &bull; 9 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2* 0 1 1* 1 1* &bull; TOI 16.0 vs 15.7 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -1267,7 +1267,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.24 A &bull; 1.1 BLK &bull; season 1.1 SOG/gm, 15.7 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">14</div>
     </div>
@@ -1382,7 +1382,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.5 SOG/gm &bull; 3 G &bull; 6 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 2* 1 3 2* 1 &bull; TOI 13.9 vs 12.8 <span style="color:#3fb950">&#9650;</span></div></div>
@@ -1419,7 +1419,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -1431,7 +1431,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.2 pts</div>
             <div class="stat-sub">0.19 A &bull; 1.0 BLK &bull; season 1.5 SOG/gm, 17.2 min</div></div>
         </div>
-        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">13</div>
     </div>
@@ -1460,7 +1460,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -1587,15 +1587,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.5 SOG/gm &bull; 1 G &bull; 8 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 1* 1 0 1 1 &bull; TOI 17.5 vs 17.9 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">7.3 pts</div>
-            <div class="stat-sub">0.66 A &bull; 0.5 BLK &bull; season 0.8 SOG/gm, 17.9 min</div></div>
+            <div class="stat-sub">0.65 A &bull; 0.5 BLK &bull; season 0.8 SOG/gm, 17.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.5 SOG/gm last 10 · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">12</div>
     </div>
@@ -1628,15 +1628,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.2 SOG/gm &bull; 2 G &bull; 5 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1 0 2 0 2 &bull; TOI 12.5 vs 12.8 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">6.1 pts</div>
-            <div class="stat-sub">0.28 A &bull; 0.7 BLK &bull; season 1.4 SOG/gm, 12.8 min</div></div>
+            <div class="stat-sub">0.27 A &bull; 0.7 BLK &bull; season 1.4 SOG/gm, 12.8 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">12</div>
     </div>
@@ -1650,10 +1650,10 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
           <span class="ctx">C &bull; CGY @ SEA &bull; 10:00 PM ET</span>
           <span class="tag line" title="Klapka-Castagna-Tsyplakov">L4</span>
         </div>
-        <div class="card-label" style="color:#ff5252">14% to score &bull; 1.2 SOG projected</div>
+        <div class="card-label" style="color:#ff5252">15% to score &bull; 1.2 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:28%;background:#3fb950"></i></span> 14% (&lambda; 0.16)</div>
+            <div class="stat-val"><span class="bar"><i style="width:29%;background:#3fb950"></i></span> 15% (&lambda; 0.16)</div>
             <div class="stat-sub">5v5 finishing 10.7% (raw 0.0%, shot quality 11.6%) &bull; PP 15.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:24%;background:#58a6ff"></i></span> 1.2 SOG</div>
@@ -1669,7 +1669,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.8 SOG/gm &bull; 0 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 1 2 0 1 0 &bull; TOI 11.5 vs 12.4 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -1710,7 +1710,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.9 SOG/gm &bull; 1 G &bull; 3 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 0 0 1 0 3 &bull; TOI 11.1 vs 9.2 <span style="color:#3fb950">&#9650;</span></div></div>
@@ -1720,7 +1720,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         </div>
         <div class="card-scout">SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected) · ice time trending up</div>
       </div>
-      <div class="card-score" style="color:#ff5252">9</div>
+      <div class="card-score" style="color:#ff5252">10</div>
     </div>
     <div class="player-card" style="border-left:4px solid #e78495" data-hidden="1" data-team="CHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
@@ -2157,7 +2157,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -2169,7 +2169,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.1 pts</div>
             <div class="stat-sub">0.09 A &bull; 0.5 BLK &bull; season 0.7 SOG/gm, 9.5 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">4</div>
     </div>
@@ -2230,7 +2230,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:16%;background:#3fb950"></i></span> 8% (&lambda; 0.09)</div>
             <div class="stat-sub">5v5 finishing 10.6% (raw 3.3%, shot quality 12.3%) &bull; PP 15.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:14%;background:#58a6ff"></i></span> 0.7 SOG</div>
+            <div class="stat-val"><span class="bar"><i style="width:13%;background:#58a6ff"></i></span> 0.7 SOG</div>
             <div class="stat-sub">3+ SOG 3% &bull; 5+ SOG 0% &bull; 5v5 0.7 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.0 min proj</div>
@@ -2243,7 +2243,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.3 SOG/gm &bull; 1 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 0 1 0 0 0 &bull; TOI 7.1 vs 6.6 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -2251,7 +2251,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">2.8 pts</div>
             <div class="stat-sub">0.06 A &bull; 0.5 BLK &bull; season 0.6 SOG/gm, 6.6 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.3 SOG/gm last 10 · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.3 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -2362,7 +2362,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -2395,7 +2395,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 11.0% (raw n/a, shot quality 11.6%) &bull; PP 15.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:38%;background:#58a6ff"></i></span> 1.9 SOG</div>
-            <div class="stat-sub">3+ SOG 31% &bull; 5+ SOG 5% &bull; 5v5 1.7 + PP 0.2</div></div>
+            <div class="stat-sub">3+ SOG 30% &bull; 5+ SOG 5% &bull; 5v5 1.7 + PP 0.2</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP2 &bull; 1.0 min proj</div>
             <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
@@ -2407,7 +2407,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.0 SOG/gm &bull; 0 G &bull; 0 pts</div>
             <div class="stat-sub">SOG by game (* = goal): no games &bull; TOI 0.0 vs 14.0 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -2415,7 +2415,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.2 pts</div>
             <div class="stat-sub">0.40 A &bull; 0.6 BLK &bull; season 0.0 SOG/gm, 14.0 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals · no NHL track record -- position averages only</div>
+        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · no NHL track record -- position averages only</div>
       </div>
       <div class="card-score" style="color:#ff4444">21</div>
     </div>
@@ -2509,7 +2509,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#a2aaad">Alex Turcotte</span>
           <span class="ctx">C &bull; LAK vs SJS &bull; 10:00 PM ET</span>
-          <span class="tag out" title="Undisclosed return 2026-11-04">OUT: Injured Reserve</span>
+          <span class="tag out" title="Undisclosed return 2026-11-07">OUT: Injured Reserve</span>
         </div>
         <div class="card-label" style="color:#ff4444">Ruled out (Injured Reserve)</div>
         <div class="card-stats">
@@ -2690,7 +2690,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -2817,15 +2817,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.6 SOG/gm &bull; 2 G &bull; 6 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 1 2 5* 4 1 &bull; TOI 17.4 vs 17.2 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">11.5 pts</div>
+            <div class="stat-val">11.4 pts</div>
             <div class="stat-sub">0.43 A &bull; 0.9 BLK &bull; season 2.3 SOG/gm, 17.2 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.8 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.8 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#69f0ae">33</div>
     </div>
@@ -2854,7 +2854,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -2936,7 +2936,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -2948,7 +2948,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">10.1 pts</div>
             <div class="stat-sub">0.55 A &bull; 0.4 BLK &bull; season 2.3 SOG/gm, 17.5 min</div></div>
         </div>
-        <div class="card-scout">PP1 (3.5 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (3.5 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#b9f6ca">30</div>
     </div>
@@ -3009,7 +3009,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:54%;background:#3fb950"></i></span> 27% (&lambda; 0.32)</div>
             <div class="stat-sub">5v5 finishing 8.0% (raw 6.4%, shot quality 10.0%) &bull; PP 16.4%</div></div>
           <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:55%;background:#58a6ff"></i></span> 2.8 SOG</div>
+            <div class="stat-val"><span class="bar"><i style="width:56%;background:#58a6ff"></i></span> 2.8 SOG</div>
             <div class="stat-sub">3+ SOG 53% &bull; 5+ SOG 15% &bull; 5v5 2.3 + PP 0.5</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP1 &bull; 2.5 min proj</div>
@@ -3022,7 +3022,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.4 SOG/gm &bull; 2 G &bull; 11 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 2 1* 3 2 2 &bull; TOI 16.9 vs 17.1 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -3088,7 +3088,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#fff176">27% to score &bull; 2.4 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:54%;background:#3fb950"></i></span> 27% (&lambda; 0.31)</div>
+            <div class="stat-val"><span class="bar"><i style="width:54%;background:#3fb950"></i></span> 27% (&lambda; 0.32)</div>
             <div class="stat-sub">5v5 finishing 9.9% (raw 9.0%, shot quality 10.6%) &bull; PP 14.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:48%;background:#58a6ff"></i></span> 2.4 SOG</div>
@@ -3104,7 +3104,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.4 SOG/gm &bull; 5 G &bull; 9 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 2 5* 1 5** 4* &bull; TOI 16.9 vs 15.5 <span style="color:#3fb950">&#9650;</span></div></div>
@@ -3174,7 +3174,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 10.3% (raw 9.3%, shot quality 11.4%) &bull; PP 13.8%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:48%;background:#58a6ff"></i></span> 2.4 SOG</div>
-            <div class="stat-sub">3+ SOG 44% &bull; 5+ SOG 10% &bull; 5v5 2.0 + PP 0.4</div></div>
+            <div class="stat-sub">3+ SOG 43% &bull; 5+ SOG 10% &bull; 5v5 2.0 + PP 0.4</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP2 &bull; 1.7 min proj</div>
             <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
@@ -3186,15 +3186,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.7 SOG/gm &bull; 4 G &bull; 8 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 4* 0 2 3* 2* 1 &bull; TOI 15.6 vs 15.1 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">9.0 pts</div>
-            <div class="stat-sub">0.31 A &bull; 0.6 BLK &bull; season 1.9 SOG/gm, 15.1 min</div></div>
+            <div class="stat-val">8.9 pts</div>
+            <div class="stat-sub">0.30 A &bull; 0.6 BLK &bull; season 1.9 SOG/gm, 15.1 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#fff176">26</div>
     </div>
@@ -3227,12 +3227,12 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.1 SOG/gm &bull; 5 G &bull; 12 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 3* 1* 3 2* 3* &bull; TOI 18.8 vs 18.2 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">9.8 pts</div>
+            <div class="stat-val">9.9 pts</div>
             <div class="stat-sub">0.56 A &bull; 0.7 BLK &bull; season 2.1 SOG/gm, 18.2 min</div></div>
         </div>
         <div class="card-scout">PP1 (2.1 PP min projected) · SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
@@ -3416,10 +3416,10 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#fff176">24% to score &bull; 1.8 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:48%;background:#3fb950"></i></span> 24% (&lambda; 0.28)</div>
+            <div class="stat-val"><span class="bar"><i style="width:47%;background:#3fb950"></i></span> 24% (&lambda; 0.27)</div>
             <div class="stat-sub">5v5 finishing 12.4% (raw 13.5%, shot quality 12.0%) &bull; PP 15.9%</div></div>
           <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:36%;background:#58a6ff"></i></span> 1.8 SOG</div>
+            <div class="stat-val"><span class="bar"><i style="width:35%;background:#58a6ff"></i></span> 1.8 SOG</div>
             <div class="stat-sub">3+ SOG 27% &bull; 5+ SOG 4% &bull; 5v5 1.4 + PP 0.4</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP2 &bull; 1.7 min proj</div>
@@ -3432,7 +3432,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.5 SOG/gm &bull; 0 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 0 0 3 3 1 &bull; TOI 12.6 vs 13.5 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -3440,7 +3440,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.16 A &bull; 0.4 BLK &bull; season 1.4 SOG/gm, 13.5 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#fff176">22</div>
     </div>
@@ -3543,7 +3543,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 11.3% (raw 13.0%, shot quality 11.2%) &bull; PP 16.2%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:36%;background:#58a6ff"></i></span> 1.8 SOG</div>
-            <div class="stat-sub">3+ SOG 27% &bull; 5+ SOG 4% &bull; 5v5 1.6 + PP 0.2</div></div>
+            <div class="stat-sub">3+ SOG 28% &bull; 5+ SOG 4% &bull; 5v5 1.6 + PP 0.2</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP2 &bull; 1.2 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -3555,7 +3555,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.6 SOG/gm &bull; 3 G &bull; 4 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 1 2* 0 6 0 &bull; TOI 14.5 vs 13.4 <span style="color:#3fb950">&#9650;</span></div></div>
@@ -3674,7 +3674,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -3686,7 +3686,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.3 pts</div>
             <div class="stat-sub">0.29 A &bull; 0.5 BLK &bull; season 2.1 SOG/gm, 13.5 min</div></div>
         </div>
-        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected) · volume up: 2.6 SOG/gm last 10 · ice time trending up</div>
+        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed) · volume up: 2.6 SOG/gm last 10 · ice time trending up</div>
       </div>
       <div class="card-score" style="color:#ffb74d">19</div>
     </div>
@@ -3719,7 +3719,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.8 SOG/gm &bull; 1 G &bull; 7 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 0 1 2 0 1 &bull; TOI 14.8 vs 14.3 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -3727,7 +3727,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">8.0 pts</div>
             <div class="stat-sub">0.60 A &bull; 0.3 BLK &bull; season 0.9 SOG/gm, 14.3 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.2 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.2 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">18</div>
     </div>
@@ -3756,7 +3756,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -3797,7 +3797,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -3826,11 +3826,11 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#ffb74d">18% to score &bull; 1.7 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:35%;background:#3fb950"></i></span> 18% (&lambda; 0.20)</div>
+            <div class="stat-val"><span class="bar"><i style="width:36%;background:#3fb950"></i></span> 18% (&lambda; 0.20)</div>
             <div class="stat-sub">5v5 finishing 9.4% (raw 8.0%, shot quality 10.6%) &bull; PP 17.1%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:34%;background:#58a6ff"></i></span> 1.7 SOG</div>
-            <div class="stat-sub">3+ SOG 24% &bull; 5+ SOG 3% &bull; 5v5 1.6 + PP 0.1</div></div>
+            <div class="stat-sub">3+ SOG 25% &bull; 5+ SOG 3% &bull; 5v5 1.6 + PP 0.1</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.5 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -3842,7 +3842,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.9 SOG/gm &bull; 2 G &bull; 5 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2* 3 1 2 0 3 &bull; TOI 12.3 vs 11.3 <span style="color:#3fb950">&#9650;</span></div></div>
@@ -4002,7 +4002,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -4014,7 +4014,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.6 pts</div>
             <div class="stat-sub">0.44 A &bull; 0.3 BLK &bull; season 1.4 SOG/gm, 16.7 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.6 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.6 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">13</div>
     </div>
@@ -4084,7 +4084,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -4154,7 +4154,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#ff5252">15% to score &bull; 1.2 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:30%;background:#3fb950"></i></span> 15% (&lambda; 0.16)</div>
+            <div class="stat-val"><span class="bar"><i style="width:29%;background:#3fb950"></i></span> 15% (&lambda; 0.16)</div>
             <div class="stat-sub">5v5 finishing 11.2% (raw 10.3%, shot quality 11.6%) &bull; PP 16.0%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:23%;background:#58a6ff"></i></span> 1.2 SOG</div>
@@ -4170,7 +4170,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.8 SOG/gm &bull; 0 G &bull; 3 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1 1 0 0 0 &bull; TOI 9.5 vs 10.5 <span style="color:#ff7b72">&#9660;</span></div></div>
@@ -4178,7 +4178,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.0 pts</div>
             <div class="stat-sub">0.11 A &bull; 0.2 BLK &bull; season 1.2 SOG/gm, 10.5 min</div></div>
         </div>
-        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.8 SOG/gm last 10 · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP2 · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.8 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">11</div>
     </div>
@@ -4207,7 +4207,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -4219,54 +4219,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.8 pts</div>
             <div class="stat-sub">0.20 A &bull; 0.5 BLK &bull; season 1.2 SOG/gm, 16.0 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">11</div>
     </div>
     <div class="player-card" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
         #42<strong style="font-size:1.2rem">D</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#e87f8d">Brennan Othmann</span>
-          <span class="ctx">L &bull; CGY @ SEA &bull; 10:00 PM ET</span>
-          <span class="tag dtd" title="Upper Body return 2026-11-04">Day-To-Day</span>
-        </div>
-        <div class="card-label" style="color:#ff5252">13% to score &bull; 1.1 SOG projected</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:26%;background:#3fb950"></i></span> 13% (&lambda; 0.14)</div>
-            <div class="stat-sub">5v5 finishing 11.2% (raw 10.0%, shot quality 11.6%) &bull; PP 15.7%</div></div>
-          <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:21%;background:#58a6ff"></i></span> 1.1 SOG</div>
-            <div class="stat-sub">3+ SOG 9% &bull; 5+ SOG 0% &bull; 5v5 1.0 + PP 0.0</div></div>
-          <div><div class="stat-label">Power play</div>
-            <div class="stat-val">no PP role &bull; 0.2 min proj</div>
-            <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
-          <div><div class="stat-label">Matchup (SEA defense)</div>
-            <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.3 SOG allowed/gm</div>
-            <div class="stat-sub">#2 most shots allowed &bull; 5v5 xGA/60 2.71 (#8)</div></div>
-          <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Joey Daccord <span class="tag bkp">Projected</span></div>
-            <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
-          <div><div class="stat-label">Environment</div>
-            <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
-          <div><div class="stat-label">Form (last 10)</div>
-            <div class="stat-val">0.8 SOG/gm &bull; 1 G &bull; 2 pts</div>
-            <div class="stat-sub">SOG by game (* = goal): 0 1 2 0 1 1 &bull; TOI 9.1 vs 9.8 <span style="color:#8b949e">&#8212;</span></div></div>
-          <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">3.5 pts</div>
-            <div class="stat-sub">0.04 A &bull; 0.3 BLK &bull; season 0.8 SOG/gm, 9.8 min</div></div>
-        </div>
-        <div class="card-scout">SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
-      </div>
-      <div class="card-score" style="color:#ff5252">9</div>
-    </div>
-    <div class="player-card" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
-      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #43<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4293,7 +4252,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.0 SOG/gm &bull; 1 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2* 1 1 0 &bull; TOI 7.6 vs 7.6 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -4307,7 +4266,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #44<strong style="font-size:1.2rem">D</strong>
+        #43<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4334,7 +4293,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.6 SOG/gm &bull; 0 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 2 1 0 1 0 &bull; TOI 10.7 vs 10.0 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -4348,7 +4307,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #7f97c3" data-hidden="1" data-team="BUF" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #45<strong style="font-size:1.2rem">D</strong>
+        #44<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4389,7 +4348,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #e78495" data-hidden="1" data-team="CHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #46<strong style="font-size:1.2rem">D</strong>
+        #45<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4430,7 +4389,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #e38796" data-hidden="1" data-team="FLA" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #47<strong style="font-size:1.2rem">D</strong>
+        #46<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4453,7 +4412,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -4471,7 +4430,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #e78495" data-hidden="1" data-team="CHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #48<strong style="font-size:1.2rem">D</strong>
+        #47<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4512,7 +4471,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #49<strong style="font-size:1.2rem">D</strong>
+        #48<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4535,7 +4494,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -4547,13 +4506,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">1.8 pts</div>
             <div class="stat-sub">0.00 A &bull; 0.1 BLK &bull; season 0.3 SOG/gm, 6.3 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected) · volume up: 0.5 SOG/gm last 10</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed) · volume up: 0.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">2</div>
     </div>
     <div class="player-card" style="border-left:4px solid #e78495" data-hidden="1" data-team="CHI" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #50<strong style="font-size:1.2rem">D</strong>
+        #49<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4594,7 +4553,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card" style="border-left:4px solid #e38796" data-hidden="1" data-team="FLA" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #51<strong style="font-size:1.2rem">D</strong>
+        #50<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4617,7 +4576,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -4635,7 +4594,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #a2aaad" data-hidden="1" data-team="LAK" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #52<strong style="font-size:1.2rem">OUT</strong>
+        #51<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4676,7 +4635,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #99d9d9" data-hidden="1" data-team="SEA" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #53<strong style="font-size:1.2rem">OUT</strong>
+        #52<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4703,21 +4662,21 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.4 SOG/gm &bull; 3 G &bull; 5 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1 2 3* 4 2* &bull; TOI 17.3 vs 16.3 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">10.1 pts</div>
-            <div class="stat-sub">0.45 A &bull; 0.4 BLK &bull; season 2.4 SOG/gm, 16.3 min</div></div>
+            <div class="stat-sub">0.44 A &bull; 0.4 BLK &bull; season 2.4 SOG/gm, 16.3 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.8 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.8 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff4444">30</div>
     </div>
     <div class="player-card out" style="border-left:4px solid #e38796" data-hidden="1" data-team="FLA" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #54<strong style="font-size:1.2rem">OUT</strong>
+        #53<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4740,7 +4699,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -4758,7 +4717,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #55<strong style="font-size:1.2rem">OUT</strong>
+        #54<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4785,12 +4744,12 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.8 SOG/gm &bull; 2 G &bull; 4 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 3* 0 0 4 5* 3 &bull; TOI 16.2 vs 18.1 <span style="color:#ff7b72">&#9660;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">7.9 pts</div>
+            <div class="stat-val">8.0 pts</div>
             <div class="stat-sub">0.30 A &bull; 0.5 BLK &bull; season 1.7 SOG/gm, 18.1 min</div></div>
         </div>
         <div class="card-scout">PP1 (3.0 PP min projected) · SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
@@ -4799,7 +4758,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #a2aaad" data-hidden="1" data-team="LAK" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #56<strong style="font-size:1.2rem">OUT</strong>
+        #55<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4840,7 +4799,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #57<strong style="font-size:1.2rem">OUT</strong>
+        #56<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4863,7 +4822,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -4875,13 +4834,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.6 pts</div>
             <div class="stat-sub">0.44 A &bull; 0.6 BLK &bull; season 2.3 SOG/gm, 17.6 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.6 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.6 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff4444">16</div>
     </div>
     <div class="player-card out" style="border-left:4px solid #e78495" data-hidden="1" data-team="CHI" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #58<strong style="font-size:1.2rem">OUT</strong>
+        #57<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4922,7 +4881,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #7fb6ba" data-hidden="1" data-team="SJS" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #59<strong style="font-size:1.2rem">OUT</strong>
+        #58<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4963,7 +4922,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
     </div>
     <div class="player-card out" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #60<strong style="font-size:1.2rem">OUT</strong>
+        #59<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -4986,7 +4945,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -4998,13 +4957,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.0 pts</div>
             <div class="stat-sub">0.17 A &bull; 0.3 BLK &bull; season 1.2 SOG/gm, 12.7 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff4444">13</div>
     </div>
     <div class="player-card out" style="border-left:4px solid #99d9d9" data-hidden="1" data-team="SEA" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
-        #61<strong style="font-size:1.2rem">OUT</strong>
+        #60<strong style="font-size:1.2rem">OUT</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -5018,7 +4977,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:28%;background:#3fb950"></i></span> 14% (&lambda; 0.16)</div>
             <div class="stat-sub">5v5 finishing 11.1% (raw 5.9%, shot quality 12.5%) &bull; PP 15.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:24%;background:#58a6ff"></i></span> 1.2 SOG</div>
+            <div class="stat-val"><span class="bar"><i style="width:23%;background:#58a6ff"></i></span> 1.2 SOG</div>
             <div class="stat-sub">3+ SOG 12% &bull; 5+ SOG 1% &bull; 5v5 1.2 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.0 min proj</div>
@@ -5031,17 +4990,58 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.0 SOG/gm &bull; 0 G &bull; 0 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 2 4 0 0 1 &bull; TOI 8.4 vs 9.4 <span style="color:#ff7b72">&#9660;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">4.2 pts</div>
+            <div class="stat-val">4.1 pts</div>
             <div class="stat-sub">0.08 A &bull; 0.4 BLK &bull; season 0.9 SOG/gm, 9.4 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
-      <div class="card-score" style="color:#ff4444">11</div>
+      <div class="card-score" style="color:#ff4444">10</div>
+    </div>
+    <div class="player-card out" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
+      <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
+        #61<strong style="font-size:1.2rem">OUT</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#e87f8d">Brennan Othmann</span>
+          <span class="ctx">L &bull; CGY @ SEA &bull; 10:00 PM ET</span>
+          <span class="tag out" title="Upper Body return 2026-11-06">OUT: Out</span>
+        </div>
+        <div class="card-label" style="color:#ff4444">Ruled out (Out)</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Goal odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:26%;background:#3fb950"></i></span> 13% (&lambda; 0.14)</div>
+            <div class="stat-sub">5v5 finishing 11.2% (raw 10.0%, shot quality 11.6%) &bull; PP 15.7%</div></div>
+          <div><div class="stat-label">SOG floor</div>
+            <div class="stat-val"><span class="bar"><i style="width:21%;background:#58a6ff"></i></span> 1.1 SOG</div>
+            <div class="stat-sub">3+ SOG 9% &bull; 5+ SOG 0% &bull; 5v5 1.0 + PP 0.0</div></div>
+          <div><div class="stat-label">Power play</div>
+            <div class="stat-val">no PP role &bull; 0.2 min proj</div>
+            <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
+          <div><div class="stat-label">Matchup (SEA defense)</div>
+            <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.3 SOG allowed/gm</div>
+            <div class="stat-sub">#2 most shots allowed &bull; 5v5 xGA/60 2.71 (#8)</div></div>
+          <div><div class="stat-label">Opposing goalie</div>
+            <div class="stat-val">Joey Daccord <span class="tag bkp">Projected</span></div>
+            <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
+          <div><div class="stat-label">Environment</div>
+            <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
+          <div><div class="stat-label">Form (last 10)</div>
+            <div class="stat-val">0.8 SOG/gm &bull; 1 G &bull; 2 pts</div>
+            <div class="stat-sub">SOG by game (* = goal): 0 1 2 0 1 1 &bull; TOI 9.1 vs 9.8 <span style="color:#8b949e">&#8212;</span></div></div>
+          <div><div class="stat-label">DraftKings projection</div>
+            <div class="stat-val">3.5 pts</div>
+            <div class="stat-sub">0.04 A &bull; 0.3 BLK &bull; season 0.8 SOG/gm, 9.8 min</div></div>
+        </div>
+        <div class="card-scout">SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
+      </div>
+      <div class="card-score" style="color:#ff4444">9</div>
     </div>
     <div class="player-card out" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
@@ -5056,7 +5056,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#ff4444">Ruled out (Injured Reserve)</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:25%;background:#3fb950"></i></span> 13% (&lambda; 0.13)</div>
+            <div class="stat-val"><span class="bar"><i style="width:25%;background:#3fb950"></i></span> 13% (&lambda; 0.14)</div>
             <div class="stat-sub">5v5 finishing 10.1% (raw 4.3%, shot quality 11.2%) &bull; PP 15.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:22%;background:#58a6ff"></i></span> 1.1 SOG</div>
@@ -5072,7 +5072,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.7 SOG/gm &bull; 1 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 0 0 2 0 1* &bull; TOI 13.9 vs 13.1 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -5082,7 +5082,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         </div>
         <div class="card-scout">SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected) · volume down: 0.7 SOG/gm last 10</div>
       </div>
-      <div class="card-score" style="color:#ff4444">8</div>
+      <div class="card-score" style="color:#ff4444">9</div>
     </div>
     <div class="player-card out" style="border-left:4px solid #e38796" data-hidden="1" data-team="FLA" data-main="1">
       <div class="card-rank" style="background:#ff444422;color:#ff4444;border:1px solid #ff444444">
@@ -5109,7 +5109,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -5191,7 +5191,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -5203,7 +5203,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.5 pts</div>
             <div class="stat-sub">0.18 A &bull; 0.5 BLK &bull; season 0.8 SOG/gm, 14.2 min</div></div>
         </div>
-        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected) · volume down: 0.5 SOG/gm last 10</div>
+        <div class="card-scout">PP2 · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed) · volume down: 0.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff4444">4</div>
     </div><button class="show-all" onclick="showAll('sec-W', this)">Show all 65 wingers (53 more)</button></div><h2 class="section-title" id="h-D">Defensemen <small>ranked by anytime-goal probability, SOG floor as tiebreak</small></h2><div id="sec-D">
@@ -5277,15 +5277,15 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">2.0 SOG/gm &bull; 1 G &bull; 5 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 2 4 1 1 3 &bull; TOI 23.3 vs 22.7 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">10.8 pts</div>
-            <div class="stat-sub">0.50 A &bull; 1.5 BLK &bull; season 1.9 SOG/gm, 22.7 min</div></div>
+            <div class="stat-val">10.7 pts</div>
+            <div class="stat-sub">0.49 A &bull; 1.5 BLK &bull; season 1.9 SOG/gm, 22.7 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.8 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.8 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ffb74d">17</div>
     </div>
@@ -5302,7 +5302,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#ffb74d">16% to score &bull; 2.7 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:32%;background:#3fb950"></i></span> 16% (&lambda; 0.17)</div>
+            <div class="stat-val"><span class="bar"><i style="width:31%;background:#3fb950"></i></span> 16% (&lambda; 0.17)</div>
             <div class="stat-sub">5v5 finishing 5.3% (raw 5.4%, shot quality 4.7%) &bull; PP 6.9%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:53%;background:#58a6ff"></i></span> 2.7 SOG</div>
@@ -5318,17 +5318,17 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.6 SOG/gm &bull; 3 G &bull; 8 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 1* 2 2* 3* 2 &bull; TOI 26.6 vs 23.5 <span style="color:#3fb950">&#9650;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">11.1 pts</div>
+            <div class="stat-val">11.0 pts</div>
             <div class="stat-sub">0.49 A &bull; 1.5 BLK &bull; season 2.1 SOG/gm, 23.5 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.4 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 1.6 SOG/gm last 10 · ice time trending up · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">PP1 (2.4 PP min projected) · CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 1.6 SOG/gm last 10 · ice time trending up</div>
       </div>
-      <div class="card-score" style="color:#ffb74d">17</div>
+      <div class="card-score" style="color:#ffb74d">16</div>
     </div>
     <div class="player-card" style="border-left:4px solid #e38796" data-hidden="0" data-team="FLA" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
@@ -5355,7 +5355,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -5437,7 +5437,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -5449,7 +5449,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">11.5 pts</div>
             <div class="stat-sub">0.81 A &bull; 1.7 BLK &bull; season 2.0 SOG/gm, 23.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.9 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.9 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">12</div>
     </div>
@@ -5633,7 +5633,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:22%;background:#3fb950"></i></span> 11% (&lambda; 0.12)</div>
             <div class="stat-sub">5v5 finishing 5.2% (raw 2.1%, shot quality 5.6%) &bull; PP 11.8%</div></div>
           <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:29%;background:#58a6ff"></i></span> 1.5 SOG</div>
+            <div class="stat-val"><span class="bar"><i style="width:30%;background:#58a6ff"></i></span> 1.5 SOG</div>
             <div class="stat-sub">3+ SOG 19% &bull; 5+ SOG 2% &bull; 5v5 1.2 + PP 0.3</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">PP1 &bull; 2.4 min proj</div>
@@ -5646,13 +5646,13 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.6 SOG/gm &bull; 1 G &bull; 4 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 0 3 1 3 2* &bull; TOI 18.1 vs 17.5 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
             <div class="stat-val">5.6 pts</div>
-            <div class="stat-sub">0.23 A &bull; 0.7 BLK &bull; season 1.6 SOG/gm, 17.5 min</div></div>
+            <div class="stat-sub">0.24 A &bull; 0.7 BLK &bull; season 1.6 SOG/gm, 17.5 min</div></div>
         </div>
         <div class="card-scout">PP1 (2.4 PP min projected) · SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
       </div>
@@ -5671,7 +5671,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-label" style="color:#ff5252">11% to score &bull; 1.7 SOG projected</div>
         <div class="card-stats">
           <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:21%;background:#3fb950"></i></span> 11% (&lambda; 0.11)</div>
+            <div class="stat-val"><span class="bar"><i style="width:21%;background:#3fb950"></i></span> 11% (&lambda; 0.12)</div>
             <div class="stat-sub">5v5 finishing 5.4% (raw 5.0%, shot quality 5.1%) &bull; PP 8.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:33%;background:#58a6ff"></i></span> 1.7 SOG</div>
@@ -5687,7 +5687,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.4 SOG/gm &bull; 0 G &bull; 4 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 1 3 0 1 0 &bull; TOI 21.5 vs 20.9 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -5699,50 +5699,9 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ff5252">8</div>
     </div>
-    <div class="player-card" style="border-left:4px solid #99d9d9" data-hidden="1" data-team="SEA" data-main="1">
-      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #13<strong style="font-size:1.2rem">D</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#99d9d9">Ryker Evans</span>
-          <span class="ctx">D &bull; SEA vs CGY &bull; 10:00 PM ET</span>
-          <span class="tag line" title="Evans-Montour">P1</span>
-        </div>
-        <div class="card-label" style="color:#ff5252">11% to score &bull; 1.3 SOG projected</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:22%;background:#3fb950"></i></span> 11% (&lambda; 0.12)</div>
-            <div class="stat-sub">5v5 finishing 8.2% (raw 16.7%, shot quality 4.6%) &bull; PP 9.8%</div></div>
-          <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:25%;background:#58a6ff"></i></span> 1.3 SOG</div>
-            <div class="stat-sub">3+ SOG 13% &bull; 5+ SOG 1% &bull; 5v5 1.2 + PP 0.1</div></div>
-          <div><div class="stat-label">Power play</div>
-            <div class="stat-val">no PP role &bull; 0.5 min proj</div>
-            <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
-          <div><div class="stat-label">Matchup (CGY defense)</div>
-            <div class="stat-val"><span class="bar"><i style="width:83%;background:#f2cc60"></i></span> 29.9 SOG allowed/gm</div>
-            <div class="stat-sub">#6 most shots allowed &bull; 5v5 xGA/60 2.72 (#7)</div></div>
-          <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dustin Wolf <span class="tag conf">Confirmed</span></div>
-            <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
-          <div><div class="stat-label">Environment</div>
-            <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
-          <div><div class="stat-label">Form (last 10)</div>
-            <div class="stat-val">0.9 SOG/gm &bull; 3 G &bull; 5 pts</div>
-            <div class="stat-sub">SOG by game (* = goal): 1 2* 0 1 1* 2* &bull; TOI 22.0 vs 21.0 <span style="color:#8b949e">&#8212;</span></div></div>
-          <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">6.5 pts</div>
-            <div class="stat-sub">0.25 A &bull; 1.4 BLK &bull; season 0.9 SOG/gm, 21.0 min</div></div>
-        </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
-      </div>
-      <div class="card-score" style="color:#ff5252">8</div>
-    </div>
     <div class="player-card" style="border-left:4px solid #a2aaad" data-hidden="1" data-team="LAK" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #14<strong style="font-size:1.2rem">D</strong>
+        #13<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -5781,6 +5740,47 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ff5252">8</div>
     </div>
+    <div class="player-card" style="border-left:4px solid #99d9d9" data-hidden="1" data-team="SEA" data-main="1">
+      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
+        #14<strong style="font-size:1.2rem">D</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#99d9d9">Ryker Evans</span>
+          <span class="ctx">D &bull; SEA vs CGY &bull; 10:00 PM ET</span>
+          <span class="tag line" title="Evans-Montour">P1</span>
+        </div>
+        <div class="card-label" style="color:#ff5252">11% to score &bull; 1.2 SOG projected</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Goal odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:22%;background:#3fb950"></i></span> 11% (&lambda; 0.12)</div>
+            <div class="stat-sub">5v5 finishing 8.2% (raw 16.7%, shot quality 4.6%) &bull; PP 9.8%</div></div>
+          <div><div class="stat-label">SOG floor</div>
+            <div class="stat-val"><span class="bar"><i style="width:24%;background:#58a6ff"></i></span> 1.2 SOG</div>
+            <div class="stat-sub">3+ SOG 13% &bull; 5+ SOG 1% &bull; 5v5 1.2 + PP 0.1</div></div>
+          <div><div class="stat-label">Power play</div>
+            <div class="stat-val">no PP role &bull; 0.5 min proj</div>
+            <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
+          <div><div class="stat-label">Matchup (CGY defense)</div>
+            <div class="stat-val"><span class="bar"><i style="width:83%;background:#f2cc60"></i></span> 29.9 SOG allowed/gm</div>
+            <div class="stat-sub">#6 most shots allowed &bull; 5v5 xGA/60 2.72 (#7)</div></div>
+          <div><div class="stat-label">Opposing goalie</div>
+            <div class="stat-val">Dustin Wolf <span class="tag conf">Confirmed</span></div>
+            <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
+          <div><div class="stat-label">Environment</div>
+            <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
+          <div><div class="stat-label">Form (last 10)</div>
+            <div class="stat-val">0.9 SOG/gm &bull; 3 G &bull; 5 pts</div>
+            <div class="stat-sub">SOG by game (* = goal): 1 2* 0 1 1* 2* &bull; TOI 22.0 vs 21.0 <span style="color:#8b949e">&#8212;</span></div></div>
+          <div><div class="stat-label">DraftKings projection</div>
+            <div class="stat-val">6.5 pts</div>
+            <div class="stat-sub">0.25 A &bull; 1.4 BLK &bull; season 0.9 SOG/gm, 21.0 min</div></div>
+        </div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
+      </div>
+      <div class="card-score" style="color:#ff5252">8</div>
+    </div>
     <div class="player-card" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
         #15<strong style="font-size:1.2rem">D</strong>
@@ -5806,7 +5806,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -5818,7 +5818,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">9.8 pts</div>
             <div class="stat-sub">0.42 A &bull; 2.3 BLK &bull; season 1.8 SOG/gm, 23.5 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.4 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.4 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">7</div>
     </div>
@@ -5888,7 +5888,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -5900,7 +5900,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.5 pts</div>
             <div class="stat-sub">0.16 A &bull; 1.0 BLK &bull; season 1.5 SOG/gm, 17.9 min</div></div>
         </div>
-        <div class="card-scout">PP1 (2.7 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">PP1 (2.7 PP min projected) · BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">7</div>
     </div>
@@ -5929,7 +5929,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -5962,7 +5962,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 5.2% (raw 6.1%, shot quality 4.1%) &bull; PP 8.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:28%;background:#58a6ff"></i></span> 1.4 SOG</div>
-            <div class="stat-sub">3+ SOG 18% &bull; 5+ SOG 2% &bull; 5v5 1.4 + PP 0.0</div></div>
+            <div class="stat-sub">3+ SOG 17% &bull; 5+ SOG 2% &bull; 5v5 1.4 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.1 min proj</div>
             <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
@@ -5974,7 +5974,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.9 SOG/gm &bull; 0 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 0 1 0 1 1 &bull; TOI 19.8 vs 21.3 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -5982,7 +5982,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.7 pts</div>
             <div class="stat-sub">0.17 A &bull; 2.1 BLK &bull; season 1.0 SOG/gm, 21.3 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -6052,7 +6052,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -6064,7 +6064,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.8 pts</div>
             <div class="stat-sub">0.17 A &bull; 1.4 BLK &bull; season 1.1 SOG/gm, 20.4 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">5</div>
     </div>
@@ -6093,7 +6093,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -6261,7 +6261,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.6 SOG/gm &bull; 1 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 4 2 1 1* 1 &bull; TOI 10.7 vs 11.7 <span style="color:#ff7b72">&#9660;</span></div></div>
@@ -6269,7 +6269,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.7 pts</div>
             <div class="stat-sub">0.00 A &bull; 0.8 BLK &bull; season 1.6 SOG/gm, 11.7 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">3</div>
     </div>
@@ -6298,7 +6298,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -6421,7 +6421,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -6503,7 +6503,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -6515,7 +6515,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">6.4 pts</div>
             <div class="stat-sub">0.37 A &bull; 1.4 BLK &bull; season 1.0 SOG/gm, 20.0 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">2</div>
     </div>
@@ -6536,7 +6536,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 4.7% (raw 2.8%, shot quality 5.0%) &bull; PP 8.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:21%;background:#58a6ff"></i></span> 1.1 SOG</div>
-            <div class="stat-sub">3+ SOG 10% &bull; 5+ SOG 0% &bull; 5v5 1.1 + PP 0.0</div></div>
+            <div class="stat-sub">3+ SOG 10% &bull; 5+ SOG 1% &bull; 5v5 1.1 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.0 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -6548,12 +6548,12 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.1 SOG/gm &bull; 1 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 3 0 0 1 0 1 &bull; TOI 18.8 vs 18.1 <span style="color:#8b949e">&#8212;</span></div></div>
           <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">4.4 pts</div>
+            <div class="stat-val">4.5 pts</div>
             <div class="stat-sub">0.10 A &bull; 1.1 BLK &bull; season 1.0 SOG/gm, 18.1 min</div></div>
         </div>
         <div class="card-scout">SEA PK bleeds chances (#5 worst) · SEA allows 30.3 SOG/gm (#2 most) · backup Daccord expected in net (projected)</div>
@@ -6671,7 +6671,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">1.2 SOG/gm &bull; 0 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 1 1 0 1 2 2 &bull; TOI 19.9 vs 20.4 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -6683,50 +6683,9 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ff5252">1</div>
     </div>
-    <div class="player-card" style="border-left:4px solid #99d9d9" data-hidden="1" data-team="SEA" data-main="1">
-      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #37<strong style="font-size:1.2rem">D</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#99d9d9">Josh Mahura</span>
-          <span class="ctx">D &bull; SEA vs CGY &bull; 10:00 PM ET</span>
-          <span class="tag line" title="Mahura-Ottavainen">P3</span>
-        </div>
-        <div class="card-label" style="color:#ff5252">6% to score &bull; 0.9 SOG projected</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Goal odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:11%;background:#3fb950"></i></span> 6% (&lambda; 0.06)</div>
-            <div class="stat-sub">5v5 finishing 5.4% (raw 4.8%, shot quality 4.9%) &bull; PP 8.7%</div></div>
-          <div><div class="stat-label">SOG floor</div>
-            <div class="stat-val"><span class="bar"><i style="width:18%;background:#58a6ff"></i></span> 0.9 SOG</div>
-            <div class="stat-sub">3+ SOG 7% &bull; 5+ SOG 0% &bull; 5v5 0.9 + PP 0.0</div></div>
-          <div><div class="stat-label">Power play</div>
-            <div class="stat-val">no PP role &bull; 0.0 min proj</div>
-            <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
-          <div><div class="stat-label">Matchup (CGY defense)</div>
-            <div class="stat-val"><span class="bar"><i style="width:83%;background:#f2cc60"></i></span> 29.9 SOG allowed/gm</div>
-            <div class="stat-sub">#6 most shots allowed &bull; 5v5 xGA/60 2.72 (#7)</div></div>
-          <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Dustin Wolf <span class="tag conf">Confirmed</span></div>
-            <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
-          <div><div class="stat-label">Environment</div>
-            <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
-          <div><div class="stat-label">Form (last 10)</div>
-            <div class="stat-val">0.7 SOG/gm &bull; 1 G &bull; 3 pts</div>
-            <div class="stat-sub">SOG by game (* = goal): 0 1* 1 1 0 1 &bull; TOI 13.0 vs 14.6 <span style="color:#ff7b72">&#9660;</span></div></div>
-          <div><div class="stat-label">DraftKings projection</div>
-            <div class="stat-val">4.9 pts</div>
-            <div class="stat-sub">0.15 A &bull; 1.4 BLK &bull; season 0.6 SOG/gm, 14.6 min</div></div>
-        </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · Vegas likes SEA: 3.4 implied goals</div>
-      </div>
-      <div class="card-score" style="color:#ff5252">1</div>
-    </div>
     <div class="player-card" style="border-left:4px solid #7f97c3" data-hidden="1" data-team="BUF" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #38<strong style="font-size:1.2rem">D</strong>
+        #37<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -6765,6 +6724,47 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ff5252">1</div>
     </div>
+    <div class="player-card" style="border-left:4px solid #99d9d9" data-hidden="1" data-team="SEA" data-main="1">
+      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
+        #38<strong style="font-size:1.2rem">D</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#99d9d9">Josh Mahura</span>
+          <span class="ctx">D &bull; SEA vs CGY &bull; 10:00 PM ET</span>
+          <span class="tag line" title="Mahura-Ottavainen">P3</span>
+        </div>
+        <div class="card-label" style="color:#ff5252">6% to score &bull; 0.9 SOG projected</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Goal odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:11%;background:#3fb950"></i></span> 6% (&lambda; 0.06)</div>
+            <div class="stat-sub">5v5 finishing 5.4% (raw 4.8%, shot quality 4.9%) &bull; PP 8.7%</div></div>
+          <div><div class="stat-label">SOG floor</div>
+            <div class="stat-val"><span class="bar"><i style="width:18%;background:#58a6ff"></i></span> 0.9 SOG</div>
+            <div class="stat-sub">3+ SOG 7% &bull; 5+ SOG 0% &bull; 5v5 0.9 + PP 0.0</div></div>
+          <div><div class="stat-label">Power play</div>
+            <div class="stat-val">no PP role &bull; 0.0 min proj</div>
+            <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
+          <div><div class="stat-label">Matchup (CGY defense)</div>
+            <div class="stat-val"><span class="bar"><i style="width:83%;background:#f2cc60"></i></span> 29.9 SOG allowed/gm</div>
+            <div class="stat-sub">#6 most shots allowed &bull; 5v5 xGA/60 2.72 (#7)</div></div>
+          <div><div class="stat-label">Opposing goalie</div>
+            <div class="stat-val">Dustin Wolf <span class="tag conf">Confirmed</span></div>
+            <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
+          <div><div class="stat-label">Environment</div>
+            <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
+          <div><div class="stat-label">Form (last 10)</div>
+            <div class="stat-val">0.7 SOG/gm &bull; 1 G &bull; 3 pts</div>
+            <div class="stat-sub">SOG by game (* = goal): 0 1* 1 1 0 1 &bull; TOI 13.0 vs 14.6 <span style="color:#ff7b72">&#9660;</span></div></div>
+          <div><div class="stat-label">DraftKings projection</div>
+            <div class="stat-val">4.9 pts</div>
+            <div class="stat-sub">0.15 A &bull; 1.4 BLK &bull; season 0.6 SOG/gm, 14.6 min</div></div>
+        </div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed)</div>
+      </div>
+      <div class="card-score" style="color:#ff5252">1</div>
+    </div>
     <div class="player-card" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
         #39<strong style="font-size:1.2rem">D</strong>
@@ -6782,7 +6782,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 4.5% (raw 4.1%, shot quality 4.2%) &bull; PP 8.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:20%;background:#58a6ff"></i></span> 1.0 SOG</div>
-            <div class="stat-sub">3+ SOG 8% &bull; 5+ SOG 0% &bull; 5v5 1.0 + PP 0.0</div></div>
+            <div class="stat-sub">3+ SOG 9% &bull; 5+ SOG 0% &bull; 5v5 1.0 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.0 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -6794,7 +6794,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.9 SOG/gm &bull; 0 G &bull; 2 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 0 1 1 0 1 &bull; TOI 16.8 vs 18.2 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -6864,7 +6864,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 4.7% (raw 3.6%, shot quality 4.4%) &bull; PP 8.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:19%;background:#58a6ff"></i></span> 1.0 SOG</div>
-            <div class="stat-sub">3+ SOG 8% &bull; 5+ SOG 0% &bull; 5v5 1.0 + PP 0.0</div></div>
+            <div class="stat-sub">3+ SOG 7% &bull; 5+ SOG 0% &bull; 5v5 0.9 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.2 min proj</div>
             <div class="stat-sub">CGY PK 7.7 xGA/60 (#18 worst) &bull; SH time #11 most</div></div>
@@ -6876,7 +6876,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.6 SOG/gm &bull; 0 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 2 0 0 1 1 2 &bull; TOI 13.7 vs 15.5 <span style="color:#ff7b72">&#9660;</span></div></div>
@@ -6884,7 +6884,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">5.1 pts</div>
             <div class="stat-sub">0.12 A &bull; 1.5 BLK &bull; season 1.0 SOG/gm, 15.5 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.6 SOG/gm last 10 · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.6 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff5252">1</div>
     </div>
@@ -6999,7 +6999,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.5 SOG/gm &bull; 0 G &bull; 1 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 1 0 0 0 1 &bull; TOI 21.6 vs 22.0 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -7028,7 +7028,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">5v5 finishing 4.0% (raw 0.0%, shot quality 4.6%) &bull; PP 8.7%</div></div>
           <div><div class="stat-label">SOG floor</div>
             <div class="stat-val"><span class="bar"><i style="width:21%;background:#58a6ff"></i></span> 1.1 SOG</div>
-            <div class="stat-sub">3+ SOG 9% &bull; 5+ SOG 0% &bull; 5v5 1.0 + PP 0.0</div></div>
+            <div class="stat-sub">3+ SOG 9% &bull; 5+ SOG 0% &bull; 5v5 1.1 + PP 0.0</div></div>
           <div><div class="stat-label">Power play</div>
             <div class="stat-val">no PP role &bull; 0.0 min proj</div>
             <div class="stat-sub">SEA PK 8.5 xGA/60 (#5 worst) &bull; SH time #32 most</div></div>
@@ -7040,7 +7040,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -9.1 GSAx &bull; factor 1.05</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; CGY implied 3.1</div>
-            <div class="stat-sub">road &bull; 2d rest &bull; win prob 45%</div></div>
+            <div class="stat-sub">road &bull; 2d rest &bull; win prob 46%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.9 SOG/gm &bull; 0 G &bull; 0 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 0 0 3 1 2 &bull; TOI 15.2 vs 14.8 <span style="color:#8b949e">&#8212;</span></div></div>
@@ -7200,7 +7200,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -7241,7 +7241,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:84%;background:#f2cc60"></i></span> 30.2 SOG allowed/gm</div>
             <div class="stat-sub">#3 most shots allowed &bull; 5v5 xGA/60 3.04 (#1)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Spencer Knight <span class="tag proj">Projected</span></div>
+            <div class="stat-val">Spencer Knight <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .897 &bull; +13.1 GSAx &bull; factor 0.94</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 5.5 &bull; FLA implied 3.4</div>
@@ -7446,7 +7446,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -7458,7 +7458,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">3.5 pts</div>
             <div class="stat-sub">0.18 A &bull; 0.9 BLK &bull; season 0.8 SOG/gm, 15.4 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff5252">-3</div>
     </div>
@@ -7569,7 +7569,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val"><span class="bar"><i style="width:76%;background:#f2cc60"></i></span> 27.7 SOG allowed/gm</div>
             <div class="stat-sub">#16 most shots allowed &bull; 5v5 xGA/60 2.52 (#16)</div></div>
           <div><div class="stat-label">Opposing goalie</div>
-            <div class="stat-val">Colten Ellis <span class="tag bkp">Projected</span></div>
+            <div class="stat-val">Colten Ellis <span class="tag conf">Confirmed</span></div>
             <div class="stat-sub">sv .893 &bull; +3.0 GSAx &bull; factor 0.97</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; OTT implied 3.1</div>
@@ -7581,7 +7581,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">7.3 pts</div>
             <div class="stat-sub">0.09 A &bull; 2.4 BLK &bull; season 1.4 SOG/gm, 19.7 min</div></div>
         </div>
-        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (projected)</div>
+        <div class="card-scout">BUF PK bleeds chances (#7 worst) · backup Ellis expected in net (confirmed)</div>
       </div>
       <div class="card-score" style="color:#ff4444">2</div>
     </div>
@@ -7614,7 +7614,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">sv .893 &bull; -8.1 GSAx &bull; factor 1.04</div></div>
           <div><div class="stat-label">Environment</div>
             <div class="stat-val">total 6.5 &bull; SEA implied 3.4</div>
-            <div class="stat-sub">home &bull; 5d rest &bull; win prob 55%</div></div>
+            <div class="stat-sub">home &bull; 5d rest &bull; win prob 54%</div></div>
           <div><div class="stat-label">Form (last 10)</div>
             <div class="stat-val">0.5 SOG/gm &bull; 0 G &bull; 0 pts</div>
             <div class="stat-sub">SOG by game (* = goal): 0 1 2 0 0 1 &bull; TOI 13.6 vs 17.2 <span style="color:#ff7b72">&#9660;</span></div></div>
@@ -7622,7 +7622,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">4.4 pts</div>
             <div class="stat-sub">0.08 A &bull; 1.6 BLK &bull; season 0.7 SOG/gm, 17.2 min</div></div>
         </div>
-        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.5 SOG/gm last 10 · Vegas likes SEA: 3.4 implied goals</div>
+        <div class="card-scout">CGY allows 29.9 SOG/gm (#6 most) · backup Wolf expected in net (confirmed) · volume down: 0.5 SOG/gm last 10</div>
       </div>
       <div class="card-score" style="color:#ff4444">-1</div>
     </div>
@@ -7678,16 +7678,16 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
           <span class="ctx">G &bull; SEA vs CGY &bull; 10:00 PM ET</span>
           <span class="tag proj">Projected</span>
         </div>
-        <div class="card-label" style="color:#ffb74d">12.4 DK projected &bull; 55% to win</div>
+        <div class="card-label" style="color:#ffb74d">12.2 DK projected &bull; 54% to win</div>
         <div class="card-stats">
           <div><div class="stat-label">Win odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:68%;background:#3fb950"></i></span> 55%</div>
+            <div class="stat-val"><span class="bar"><i style="width:67%;background:#3fb950"></i></span> 54%</div>
             <div class="stat-sub">total 6.5 &bull; CGY implied 3.1 goals</div></div>
           <div><div class="stat-label">Workload</div>
             <div class="stat-val">29.5 shots faced &bull; 26.6 saves</div>
             <div class="stat-sub">CGY fires 28.1 SOG/gm (#11) &bull; 35+ saves 7%</div></div>
           <div><div class="stat-label">Goals against</div>
-            <div class="stat-val">2.91 projected &bull; shutout 5%</div>
+            <div class="stat-val">2.92 projected &bull; shutout 5%</div>
             <div class="stat-sub">CGY scores 2.53/gm</div></div>
           <div><div class="stat-label">Save quality</div>
             <div class="stat-val">sv .893 (regressed)</div>
@@ -7738,9 +7738,44 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ffb74d">11</div>
     </div>
-    <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="0" data-team="SJS" data-main="1">
+    <div class="player-card" style="border-left:4px solid #e87f8d" data-hidden="0" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
         #3<strong style="font-size:1.2rem">D</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#e87f8d">Dustin Wolf</span>
+          <span class="ctx">G &bull; CGY @ SEA &bull; 10:00 PM ET</span>
+          <span class="tag conf">Confirmed</span>
+        </div>
+        <div class="card-label" style="color:#ff5252">10.4 DK projected &bull; 46% to win</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Win odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:57%;background:#3fb950"></i></span> 46%</div>
+            <div class="stat-sub">total 6.5 &bull; SEA implied 3.4 goals</div></div>
+          <div><div class="stat-label">Workload</div>
+            <div class="stat-val">29.6 shots faced &bull; 26.4 saves</div>
+            <div class="stat-sub">SEA fires 25.3 SOG/gm (#28) &bull; 35+ saves 6%</div></div>
+          <div><div class="stat-label">Goals against</div>
+            <div class="stat-val">3.24 projected &bull; shutout 4%</div>
+            <div class="stat-sub">SEA scores 3.32/gm</div></div>
+          <div><div class="stat-label">Save quality</div>
+            <div class="stat-val">sv .893 (regressed)</div>
+            <div class="stat-sub">-8.1 GSAx &bull; last 5 starts .889 &bull; 1775 shots seen</div></div>
+          <div><div class="stat-label">Status</div>
+            <div class="stat-val">Confirmed &bull; 3-4-0</div>
+            <div class="stat-sub">Wolf will start in Seattle on Wednesday.</div></div>
+          <div><div class="stat-label">Rest</div>
+            <div class="stat-val">last start 2026-11-02</div>
+            <div class="stat-sub">team rested &bull; 7 starts this season</div></div>
+        </div>
+        <div class="card-scout">SEA generates little (25.3 SOG/gm) · -8.1 GSAx over the last two seasons</div>
+      </div>
+      <div class="card-score" style="color:#ff5252">10</div>
+    </div>
+    <div class="player-card" style="border-left:4px solid #7fb6ba" data-hidden="0" data-team="SJS" data-main="1">
+      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
+        #4<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -7770,41 +7805,6 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">team rested &bull; 10 starts this season</div></div>
         </div>
         <div class="card-scout">only 40% to win · -12.7 GSAx over the last two seasons</div>
-      </div>
-      <div class="card-score" style="color:#ff5252">10</div>
-    </div>
-    <div class="player-card" style="border-left:4px solid #e87f8d" data-hidden="0" data-team="CGY" data-main="1">
-      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #4<strong style="font-size:1.2rem">D</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#e87f8d">Dustin Wolf</span>
-          <span class="ctx">G &bull; CGY @ SEA &bull; 10:00 PM ET</span>
-          <span class="tag conf">Confirmed</span>
-        </div>
-        <div class="card-label" style="color:#ff5252">10.3 DK projected &bull; 45% to win</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Win odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:56%;background:#3fb950"></i></span> 45%</div>
-            <div class="stat-sub">total 6.5 &bull; SEA implied 3.4 goals</div></div>
-          <div><div class="stat-label">Workload</div>
-            <div class="stat-val">29.6 shots faced &bull; 26.3 saves</div>
-            <div class="stat-sub">SEA fires 25.3 SOG/gm (#28) &bull; 35+ saves 6%</div></div>
-          <div><div class="stat-label">Goals against</div>
-            <div class="stat-val">3.26 projected &bull; shutout 4%</div>
-            <div class="stat-sub">SEA scores 3.32/gm</div></div>
-          <div><div class="stat-label">Save quality</div>
-            <div class="stat-val">sv .893 (regressed)</div>
-            <div class="stat-sub">-8.1 GSAx &bull; last 5 starts .889 &bull; 1775 shots seen</div></div>
-          <div><div class="stat-label">Status</div>
-            <div class="stat-val">Confirmed &bull; 3-4-0</div>
-            <div class="stat-sub">Wolf will start in Seattle on Wednesday.</div></div>
-          <div><div class="stat-label">Rest</div>
-            <div class="stat-val">last start 2026-11-02</div>
-            <div class="stat-sub">team rested &bull; 7 starts this season</div></div>
-        </div>
-        <div class="card-scout">SEA generates little (25.3 SOG/gm) · -8.1 GSAx over the last two seasons</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
@@ -7851,7 +7851,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#7f97c3">Colten Ellis</span>
           <span class="ctx">G &bull; BUF vs OTT &bull; 7:30 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.4 DK projected &bull; 54% to win</div>
         <div class="card-stats">
@@ -7868,8 +7868,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .893 (regressed)</div>
             <div class="stat-sub">+3.0 GSAx &bull; last 5 starts .880 &bull; 572 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 3-1-0</div>
-            <div class="stat-sub">Ellis is in the starter's crease at Buffalo's morning skate.</div></div>
+            <div class="stat-val">Confirmed &bull; 3-1-0</div>
+            <div class="stat-sub">Ellis led the Sabres onto the ice for warmups.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-10-29</div>
             <div class="stat-sub">team rested &bull; 5 starts this season</div></div>
@@ -7886,7 +7886,7 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
         <div class="card-name">
           <span class="nm" style="color:#e78495">Spencer Knight</span>
           <span class="ctx">G &bull; CHI @ FLA &bull; 7:30 PM ET</span>
-          <span class="tag proj">Projected</span>
+          <span class="tag conf">Confirmed</span>
         </div>
         <div class="card-label" style="color:#ff5252">9.3 DK projected &bull; 31% to win</div>
         <div class="card-stats">
@@ -7903,8 +7903,8 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-val">sv .897 (regressed)</div>
             <div class="stat-sub">+13.1 GSAx &bull; last 5 starts .903 &bull; 1951 shots seen</div></div>
           <div><div class="stat-label">Status</div>
-            <div class="stat-val">Projected &bull; 4-8-0</div>
-            <div class="stat-sub">Knight is in the starters' crease at Chicago's morning skate.</div></div>
+            <div class="stat-val">Confirmed &bull; 4-8-0</div>
+            <div class="stat-sub">Knight will start Wednesday in Florida.</div></div>
           <div><div class="stat-label">Rest</div>
             <div class="stat-val">last start 2026-11-02</div>
             <div class="stat-sub">team rested &bull; 12 starts this season</div></div>
@@ -7958,16 +7958,16 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
           <span class="ctx">G &bull; SEA vs CGY &bull; 10:00 PM ET</span>
           <span class="tag bkp">Backup</span>
         </div>
-        <div class="card-label" style="color:#fff176">12.6 DK projected &bull; 55% to win</div>
+        <div class="card-label" style="color:#fff176">12.5 DK projected &bull; 54% to win</div>
         <div class="card-stats">
           <div><div class="stat-label">Win odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:68%;background:#3fb950"></i></span> 55%</div>
+            <div class="stat-val"><span class="bar"><i style="width:67%;background:#3fb950"></i></span> 54%</div>
             <div class="stat-sub">total 6.5 &bull; CGY implied 3.1 goals</div></div>
           <div><div class="stat-label">Workload</div>
             <div class="stat-val">29.5 shots faced &bull; 26.6 saves</div>
             <div class="stat-sub">CGY fires 28.1 SOG/gm (#11) &bull; 35+ saves 7%</div></div>
           <div><div class="stat-label">Goals against</div>
-            <div class="stat-val">2.85 projected &bull; shutout 6%</div>
+            <div class="stat-val">2.86 projected &bull; shutout 6%</div>
             <div class="stat-sub">CGY scores 2.53/gm</div></div>
           <div><div class="stat-label">Save quality</div>
             <div class="stat-val">sv .898 (regressed)</div>
@@ -8028,16 +8028,16 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
           <span class="ctx">G &bull; CGY @ SEA &bull; 10:00 PM ET</span>
           <span class="tag bkp">Backup</span>
         </div>
-        <div class="card-label" style="color:#ffb74d">10.8 DK projected &bull; 45% to win</div>
+        <div class="card-label" style="color:#ffb74d">11.0 DK projected &bull; 46% to win</div>
         <div class="card-stats">
           <div><div class="stat-label">Win odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:56%;background:#3fb950"></i></span> 45%</div>
+            <div class="stat-val"><span class="bar"><i style="width:57%;background:#3fb950"></i></span> 46%</div>
             <div class="stat-sub">total 6.5 &bull; SEA implied 3.4 goals</div></div>
           <div><div class="stat-label">Workload</div>
             <div class="stat-val">29.6 shots faced &bull; 26.5 saves</div>
             <div class="stat-sub">SEA fires 25.3 SOG/gm (#28) &bull; 35+ saves 6%</div></div>
           <div><div class="stat-label">Goals against</div>
-            <div class="stat-val">3.14 projected &bull; shutout 4%</div>
+            <div class="stat-val">3.12 projected &bull; shutout 4%</div>
             <div class="stat-sub">SEA scores 3.32/gm</div></div>
           <div><div class="stat-label">Save quality</div>
             <div class="stat-val">sv .901 (regressed)</div>
@@ -8123,9 +8123,44 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
       </div>
       <div class="card-score" style="color:#ffb74d">11</div>
     </div>
-    <div class="player-card backup" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
+    <div class="player-card backup" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
       <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
         #14<strong style="font-size:1.2rem">D</strong>
+      </div>
+      <div class="card-body">
+        <div class="card-name">
+          <span class="nm" style="color:#e87f8d">Arsenii Sergeev</span>
+          <span class="ctx">G &bull; CGY @ SEA &bull; 10:00 PM ET</span>
+          <span class="tag bkp">Backup</span>
+        </div>
+        <div class="card-label" style="color:#ff5252">10.3 DK projected &bull; 46% to win</div>
+        <div class="card-stats">
+          <div><div class="stat-label">Win odds</div>
+            <div class="stat-val"><span class="bar"><i style="width:57%;background:#3fb950"></i></span> 46%</div>
+            <div class="stat-sub">total 6.5 &bull; SEA implied 3.4 goals</div></div>
+          <div><div class="stat-label">Workload</div>
+            <div class="stat-val">29.6 shots faced &bull; 26.3 saves</div>
+            <div class="stat-sub">SEA fires 25.3 SOG/gm (#28) &bull; 35+ saves 6%</div></div>
+          <div><div class="stat-label">Goals against</div>
+            <div class="stat-val">3.28 projected &bull; shutout 4%</div>
+            <div class="stat-sub">SEA scores 3.32/gm</div></div>
+          <div><div class="stat-label">Save quality</div>
+            <div class="stat-val">sv .890 (regressed)</div>
+            <div class="stat-sub">+1.8 GSAx &bull; last 2 starts .903 &bull; 62 shots seen</div></div>
+          <div><div class="stat-label">Status</div>
+            <div class="stat-val">Backup &bull; 0-1-0</div>
+            <div class="stat-sub">not expected to start</div></div>
+          <div><div class="stat-label">Rest</div>
+            <div class="stat-val">last start 2026-10-31</div>
+            <div class="stat-sub">team rested &bull; 1 starts this season</div></div>
+        </div>
+        <div class="card-scout">SEA generates little (25.3 SOG/gm) · NOT the expected starter</div>
+      </div>
+      <div class="card-score" style="color:#ff5252">10</div>
+    </div>
+    <div class="player-card backup" style="border-left:4px solid #ec8c98" data-hidden="1" data-team="OTT" data-main="1">
+      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
+        #15<strong style="font-size:1.2rem">D</strong>
       </div>
       <div class="card-body">
         <div class="card-name">
@@ -8155,41 +8190,6 @@ table.score th { color:#8b949e; font-weight:600; font-size:11px; text-transform:
             <div class="stat-sub">team rested &bull; 8 starts this season</div></div>
         </div>
         <div class="card-scout">NOT the expected starter</div>
-      </div>
-      <div class="card-score" style="color:#ff5252">10</div>
-    </div>
-    <div class="player-card backup" style="border-left:4px solid #e87f8d" data-hidden="1" data-team="CGY" data-main="1">
-      <div class="card-rank" style="background:#ff525222;color:#ff5252;border:1px solid #ff525244">
-        #15<strong style="font-size:1.2rem">D</strong>
-      </div>
-      <div class="card-body">
-        <div class="card-name">
-          <span class="nm" style="color:#e87f8d">Arsenii Sergeev</span>
-          <span class="ctx">G &bull; CGY @ SEA &bull; 10:00 PM ET</span>
-          <span class="tag bkp">Backup</span>
-        </div>
-        <div class="card-label" style="color:#ff5252">10.2 DK projected &bull; 45% to win</div>
-        <div class="card-stats">
-          <div><div class="stat-label">Win odds</div>
-            <div class="stat-val"><span class="bar"><i style="width:56%;background:#3fb950"></i></span> 45%</div>
-            <div class="stat-sub">total 6.5 &bull; SEA implied 3.4 goals</div></div>
-          <div><div class="stat-label">Workload</div>
-            <div class="stat-val">29.6 shots faced &bull; 26.3 saves</div>
-            <div class="stat-sub">SEA fires 25.3 SOG/gm (#28) &bull; 35+ saves 6%</div></div>
-          <div><div class="stat-label">Goals against</div>
-            <div class="stat-val">3.29 projected &bull; shutout 4%</div>
-            <div class="stat-sub">SEA scores 3.32/gm</div></div>
-          <div><div class="stat-label">Save quality</div>
-            <div class="stat-val">sv .890 (regressed)</div>
-            <div class="stat-sub">+1.8 GSAx &bull; last 2 starts .903 &bull; 62 shots seen</div></div>
-          <div><div class="stat-label">Status</div>
-            <div class="stat-val">Backup &bull; 0-1-0</div>
-            <div class="stat-sub">not expected to start</div></div>
-          <div><div class="stat-label">Rest</div>
-            <div class="stat-val">last start 2026-10-31</div>
-            <div class="stat-sub">team rested &bull; 1 starts this season</div></div>
-        </div>
-        <div class="card-scout">SEA generates little (25.3 SOG/gm) · NOT the expected starter</div>
       </div>
       <div class="card-score" style="color:#ff5252">10</div>
     </div>
