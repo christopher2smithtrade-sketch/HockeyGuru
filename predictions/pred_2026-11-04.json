@@ -3075,5 +3075,189 @@
    "e_ga": 3.45,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-04",
+  "matched": 159,
+  "scratched": 17,
+  "brier": 0.0939,
+  "sog_mae": 1.01,
+  "dk_mae": 4.5,
+  "hit_rate": 0.113,
+  "avg_p": 0.164,
+  "tiers": {
+   "B": {
+    "n": 21,
+    "p_sum": 5.2561,
+    "hits": 4,
+    "sog": 43.0,
+    "e_sog": 44.63,
+    "dk": 140.39999999999998,
+    "e_dk": 173.96999999999997,
+    "hit_rate": 0.19,
+    "avg_p": 0.25,
+    "avg_sog": 2.05,
+    "avg_e_sog": 2.13,
+    "avg_dk": 6.7,
+    "avg_e_dk": 8.3
+   },
+   "D": {
+    "n": 97,
+    "p_sum": 9.575000000000003,
+    "hits": 4,
+    "sog": 80.0,
+    "e_sog": 114.13999999999999,
+    "dk": 370.8000000000002,
+    "e_dk": 493.8399999999997,
+    "hit_rate": 0.041,
+    "avg_p": 0.099,
+    "avg_sog": 0.82,
+    "avg_e_sog": 1.18,
+    "avg_dk": 3.8,
+    "avg_e_dk": 5.1
+   },
+   "C": {
+    "n": 19,
+    "p_sum": 3.7502000000000004,
+    "hits": 5,
+    "sog": 29.0,
+    "e_sog": 33.790000000000006,
+    "dk": 150.50000000000003,
+    "e_dk": 133.59,
+    "hit_rate": 0.263,
+    "avg_p": 0.197,
+    "avg_sog": 1.53,
+    "avg_e_sog": 1.78,
+    "avg_dk": 7.9,
+    "avg_e_dk": 7.0
+   },
+   "B+": {
+    "n": 9,
+    "p_sum": 2.7195000000000005,
+    "hits": 1,
+    "sog": 22.0,
+    "e_sog": 21.44,
+    "dk": 66.2,
+    "e_dk": 86.41,
+    "hit_rate": 0.111,
+    "avg_p": 0.302,
+    "avg_sog": 2.44,
+    "avg_e_sog": 2.38,
+    "avg_dk": 7.4,
+    "avg_e_dk": 9.6
+   },
+   "A": {
+    "n": 9,
+    "p_sum": 3.0915,
+    "hits": 3,
+    "sog": 25.0,
+    "e_sog": 27.02,
+    "dk": 102.2,
+    "e_dk": 105.67999999999999,
+    "hit_rate": 0.333,
+    "avg_p": 0.343,
+    "avg_sog": 2.78,
+    "avg_e_sog": 3.0,
+    "avg_dk": 11.4,
+    "avg_e_dk": 11.7
+   },
+   "A+": {
+    "n": 4,
+    "p_sum": 1.6329,
+    "hits": 1,
+    "sog": 13.0,
+    "e_sog": 14.11,
+    "dk": 92.89999999999999,
+    "e_dk": 56.00000000000001,
+    "hit_rate": 0.25,
+    "avg_p": 0.408,
+    "avg_sog": 3.25,
+    "avg_e_sog": 3.53,
+    "avg_dk": 23.2,
+    "avg_e_dk": 14.0
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 8,
+   "started": 8,
+   "dk_mae": 8.1
+  },
+  "top_calls": [
+   {
+    "name": "Tage Thompson",
+    "team": "BUF",
+    "grade": "A+",
+    "p_goal": 0.4347,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Artemi Panarin",
+    "team": "LAK",
+    "grade": "A+",
+    "p_goal": 0.4153,
+    "g": 0,
+    "sog": 3,
+    "dk": 28.8
+   },
+   {
+    "name": "Adrian Kempe",
+    "team": "LAK",
+    "grade": "A+",
+    "p_goal": 0.4078,
+    "g": 3,
+    "sog": 4,
+    "dk": 42.5
+   },
+   {
+    "name": "Alex Laferriere",
+    "team": "LAK",
+    "grade": "A+",
+    "p_goal": 0.3751,
+    "g": 0,
+    "sog": 4,
+    "dk": 13.6
+   },
+   {
+    "name": "Sam Reinhart",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3693,
+    "g": 1,
+    "sog": 6,
+    "dk": 34.8
+   },
+   {
+    "name": "Macklin Celebrini",
+    "team": "SJS",
+    "grade": "A",
+    "p_goal": 0.3531,
+    "g": 1,
+    "sog": 5,
+    "dk": 20.3
+   },
+   {
+    "name": "Carter Verhaeghe",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3507,
+    "g": 1,
+    "sog": 4,
+    "dk": 19.5
+   },
+   {
+    "name": "Brady Tkachuk",
+    "team": "FLA",
+    "grade": "A",
+    "p_goal": 0.3477,
+    "g": 0,
+    "sog": 3,
+    "dk": 9.5
+   }
+  ],
+  "preseason": false
+ }
 }
