@@ -2,7 +2,7 @@
  "date": "2026-11-06",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-06T18:29:13",
+ "logged_at": "2026-11-06T20:35:05",
  "games": [
   {
    "game_id": 2026020262,
@@ -2117,7 +2117,7 @@
    "opp": "CBJ",
    "game_id": 2026020262,
    "grade": "C",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 11.42,
    "p_win": 0.604,
    "e_saves": 24.7,
@@ -2177,7 +2177,7 @@
    "opp": "MIN",
    "game_id": 2026020263,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 8.33,
    "p_win": 0.3,
    "e_saves": 28.2,
