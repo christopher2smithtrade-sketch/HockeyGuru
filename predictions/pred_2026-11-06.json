@@ -2,7 +2,7 @@
  "date": "2026-11-06",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-06T23:52:13",
+ "logged_at": "2026-11-07T00:23:09",
  "games": [
   {
    "game_id": 2026020262,
@@ -1382,10 +1382,10 @@
    "opp": "CGY",
    "game_id": 2026020264,
    "grade": "A",
-   "composite": 36.3,
-   "p_goal": 0.3494,
-   "e_sog": 2.94,
-   "dk": 14.81,
+   "composite": 35.8,
+   "p_goal": 0.3455,
+   "e_sog": 2.9,
+   "dk": 14.67,
    "pp_unit": "PP1",
    "main": true
   },
