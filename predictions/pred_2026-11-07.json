@@ -9063,5 +9063,189 @@
    "e_ga": 3.33,
    "main": false
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-07",
+  "matched": 479,
+  "scratched": 51,
+  "brier": 0.115,
+  "sog_mae": 1.03,
+  "dk_mae": 4.5,
+  "hit_rate": 0.148,
+  "avg_p": 0.156,
+  "tiers": {
+   "B+": {
+    "n": 28,
+    "p_sum": 8.395900000000001,
+    "hits": 9,
+    "sog": 76.0,
+    "e_sog": 72.31000000000002,
+    "dk": 330.40000000000003,
+    "e_dk": 302.61,
+    "hit_rate": 0.321,
+    "avg_p": 0.3,
+    "avg_sog": 2.71,
+    "avg_e_sog": 2.58,
+    "avg_dk": 11.8,
+    "avg_e_dk": 10.8
+   },
+   "D": {
+    "n": 312,
+    "p_sum": 30.15930000000003,
+    "hits": 21,
+    "sog": 293.0,
+    "e_sog": 368.12,
+    "dk": 1258.9999999999982,
+    "e_dk": 1628.1599999999996,
+    "hit_rate": 0.067,
+    "avg_p": 0.097,
+    "avg_sog": 0.94,
+    "avg_e_sog": 1.18,
+    "avg_dk": 4.0,
+    "avg_e_dk": 5.2
+   },
+   "A": {
+    "n": 28,
+    "p_sum": 9.682899999999998,
+    "hits": 7,
+    "sog": 68.0,
+    "e_sog": 80.82000000000002,
+    "dk": 305.30000000000007,
+    "e_dk": 342.03999999999996,
+    "hit_rate": 0.25,
+    "avg_p": 0.346,
+    "avg_sog": 2.43,
+    "avg_e_sog": 2.89,
+    "avg_dk": 10.9,
+    "avg_e_dk": 12.2
+   },
+   "C": {
+    "n": 61,
+    "p_sum": 12.1958,
+    "hits": 15,
+    "sog": 100.0,
+    "e_sog": 112.39999999999999,
+    "dk": 468.8000000000001,
+    "e_dk": 438.38000000000005,
+    "hit_rate": 0.246,
+    "avg_p": 0.2,
+    "avg_sog": 1.64,
+    "avg_e_sog": 1.84,
+    "avg_dk": 7.7,
+    "avg_e_dk": 7.2
+   },
+   "B": {
+    "n": 40,
+    "p_sum": 9.838799999999997,
+    "hits": 15,
+    "sog": 89.0,
+    "e_sog": 87.03999999999998,
+    "dk": 414.20000000000005,
+    "e_dk": 343.6099999999999,
+    "hit_rate": 0.375,
+    "avg_p": 0.246,
+    "avg_sog": 2.23,
+    "avg_e_sog": 2.18,
+    "avg_dk": 10.4,
+    "avg_e_dk": 8.6
+   },
+   "A+": {
+    "n": 10,
+    "p_sum": 4.514499999999999,
+    "hits": 4,
+    "sog": 38.0,
+    "e_sog": 34.120000000000005,
+    "dk": 181.4,
+    "e_dk": 166.26999999999998,
+    "hit_rate": 0.4,
+    "avg_p": 0.451,
+    "avg_sog": 3.8,
+    "avg_e_sog": 3.41,
+    "avg_dk": 18.1,
+    "avg_e_dk": 16.6
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 24,
+   "started": 23,
+   "dk_mae": 6.7
+  },
+  "top_calls": [
+   {
+    "name": "Leon Draisaitl",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.5645,
+    "g": 2,
+    "sog": 7,
+    "dk": 38.5
+   },
+   {
+    "name": "Connor McDavid",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.5548,
+    "g": 0,
+    "sog": 3,
+    "dk": 23.8
+   },
+   {
+    "name": "Jason Robertson",
+    "team": "DAL",
+    "grade": "A+",
+    "p_goal": 0.481,
+    "g": 1,
+    "sog": 3,
+    "dk": 14.3
+   },
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.4569,
+    "g": 0,
+    "sog": 3,
+    "dk": 9.5
+   },
+   {
+    "name": "Wyatt Johnston",
+    "team": "DAL",
+    "grade": "A+",
+    "p_goal": 0.4552,
+    "g": 0,
+    "sog": 5,
+    "dk": 21.8
+   },
+   {
+    "name": "Zach Hyman",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.4312,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Ryan Nugent-Hopkins",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.4148,
+    "g": 0,
+    "sog": 0,
+    "dk": 0.0
+   },
+   {
+    "name": "Logan Cooley",
+    "team": "UTA",
+    "grade": "A",
+    "p_goal": 0.4023,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   }
+  ],
+  "preseason": false
+ }
 }
