@@ -2,7 +2,7 @@
  "date": "2026-11-08",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-08T23:16:40",
+ "logged_at": "2026-11-08T23:42:03",
  "games": [
   {
    "game_id": 2026020277,
@@ -3859,7 +3859,7 @@
    "team": "PIT",
    "opp": "ANA",
    "game_id": 2026020282,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 11.0,
    "p_goal": 0.1508,
    "e_sog": 1.13,
@@ -4250,7 +4250,7 @@
    "opp": "ANA",
    "game_id": 2026020282,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 8.89,
    "p_win": 0.478,
    "e_saves": 25.1,
