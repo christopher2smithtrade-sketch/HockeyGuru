@@ -2,7 +2,7 @@
  "date": "2026-11-08",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-08T17:12:19",
+ "logged_at": "2026-11-08T19:09:48",
  "games": [
   {
    "game_id": 2026020277,
@@ -2869,7 +2869,7 @@
    "team": "CGY",
    "opp": "PHI",
    "game_id": 2026020281,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 7.4,
    "p_goal": 0.1178,
    "e_sog": 1.03,
