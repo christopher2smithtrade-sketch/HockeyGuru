@@ -2,7 +2,7 @@
  "date": "2026-11-09",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-09T23:35:25",
+ "logged_at": "2026-11-10T02:26:36",
  "games": [
   {
    "game_id": 2026020283,
@@ -2102,7 +2102,7 @@
    "opp": "VAN",
    "game_id": 2026020284,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 10.42,
    "p_win": 0.551,
    "e_saves": 24.3,
@@ -2162,7 +2162,7 @@
    "opp": "PHI",
    "game_id": 2026020284,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 8.69,
    "p_win": 0.449,
    "e_saves": 24.6,
