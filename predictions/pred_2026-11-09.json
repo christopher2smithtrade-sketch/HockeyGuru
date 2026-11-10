@@ -2304,5 +2304,171 @@
    "e_ga": 3.43,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-09",
+  "matched": 120,
+  "scratched": 12,
+  "brier": 0.0856,
+  "sog_mae": 1.15,
+  "dk_mae": 4.0,
+  "hit_rate": 0.092,
+  "avg_p": 0.167,
+  "tiers": {
+   "D": {
+    "n": 70,
+    "p_sum": 6.476499999999999,
+    "hits": 3,
+    "sog": 53.0,
+    "e_sog": 81.82000000000001,
+    "dk": 211.7000000000001,
+    "e_dk": 352.34000000000003,
+    "hit_rate": 0.043,
+    "avg_p": 0.093,
+    "avg_sog": 0.76,
+    "avg_e_sog": 1.17,
+    "avg_dk": 3.0,
+    "avg_e_dk": 5.0
+   },
+   "A+": {
+    "n": 4,
+    "p_sum": 1.6137,
+    "hits": 2,
+    "sog": 16.0,
+    "e_sog": 13.41,
+    "dk": 62.7,
+    "e_dk": 66.93,
+    "hit_rate": 0.5,
+    "avg_p": 0.403,
+    "avg_sog": 4.0,
+    "avg_e_sog": 3.35,
+    "avg_dk": 15.7,
+    "avg_e_dk": 16.7
+   },
+   "B+": {
+    "n": 14,
+    "p_sum": 4.2284999999999995,
+    "hits": 1,
+    "sog": 30.0,
+    "e_sog": 34.11,
+    "dk": 94.69999999999999,
+    "e_dk": 132.96,
+    "hit_rate": 0.071,
+    "avg_p": 0.302,
+    "avg_sog": 2.14,
+    "avg_e_sog": 2.44,
+    "avg_dk": 6.8,
+    "avg_e_dk": 9.5
+   },
+   "B": {
+    "n": 16,
+    "p_sum": 4.0472,
+    "hits": 4,
+    "sog": 26.0,
+    "e_sog": 31.900000000000002,
+    "dk": 90.1,
+    "e_dk": 124.84,
+    "hit_rate": 0.25,
+    "avg_p": 0.253,
+    "avg_sog": 1.62,
+    "avg_e_sog": 1.99,
+    "avg_dk": 5.6,
+    "avg_e_dk": 7.8
+   },
+   "C": {
+    "n": 14,
+    "p_sum": 2.9691,
+    "hits": 1,
+    "sog": 27.0,
+    "e_sog": 24.72,
+    "dk": 76.1,
+    "e_dk": 106.30000000000001,
+    "hit_rate": 0.071,
+    "avg_p": 0.212,
+    "avg_sog": 1.93,
+    "avg_e_sog": 1.77,
+    "avg_dk": 5.4,
+    "avg_e_dk": 7.6
+   },
+   "A": {
+    "n": 2,
+    "p_sum": 0.7332,
+    "hits": 0,
+    "sog": 8.0,
+    "e_sog": 6.3,
+    "dk": 21.3,
+    "e_dk": 25.61,
+    "hit_rate": 0.0,
+    "avg_p": 0.367,
+    "avg_sog": 4.0,
+    "avg_e_sog": 3.15,
+    "avg_dk": 10.7,
+    "avg_e_dk": 12.8
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 6,
+   "started": 6,
+   "dk_mae": 8.9
+  },
+  "top_calls": [
+   {
+    "name": "Leon Draisaitl",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.4245,
+    "g": 2,
+    "sog": 4,
+    "dk": 24.3
+   },
+   {
+    "name": "Bo Horvat",
+    "team": "NYI",
+    "grade": "A+",
+    "p_goal": 0.3997,
+    "g": 0,
+    "sog": 7,
+    "dk": 19.8
+   },
+   {
+    "name": "Connor McDavid",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.3974,
+    "g": 1,
+    "sog": 4,
+    "dk": 15.8
+   },
+   {
+    "name": "Trevor Zegras",
+    "team": "PHI",
+    "grade": "A+",
+    "p_goal": 0.3921,
+    "g": 0,
+    "sog": 1,
+    "dk": 2.8
+   },
+   {
+    "name": "Matvei Michkov",
+    "team": "PHI",
+    "grade": "A",
+    "p_goal": 0.3756,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Macklin Celebrini",
+    "team": "SJS",
+    "grade": "A",
+    "p_goal": 0.3576,
+    "g": 0,
+    "sog": 6,
+    "dk": 13.3
+   }
+  ],
+  "preseason": false
+ }
 }
