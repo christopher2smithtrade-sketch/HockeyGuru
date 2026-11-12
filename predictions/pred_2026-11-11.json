@@ -2,7 +2,7 @@
  "date": "2026-11-11",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-12T01:47:00",
+ "logged_at": "2026-11-12T02:57:01",
  "games": [
   {
    "game_id": 2026020293,
@@ -3259,7 +3259,7 @@
    "team": "NSH",
    "opp": "ANA",
    "game_id": 2026020297,
-   "grade": "B",
+   "grade": "OUT",
    "composite": 24.2,
    "p_goal": 0.2472,
    "e_sog": 2.34,
@@ -4265,7 +4265,7 @@
    "opp": "ANA",
    "game_id": 2026020297,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.1,
    "p_win": 0.428,
    "e_saves": 25.8,
