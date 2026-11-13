@@ -2,7 +2,7 @@
  "date": "2026-11-12",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-13T01:31:54",
+ "logged_at": "2026-11-13T02:37:17",
  "games": [
   {
    "game_id": 2026020309,
@@ -7584,7 +7584,7 @@
    "opp": "LAK",
    "game_id": 2026020308,
    "grade": "C",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 11.41,
    "p_win": 0.468,
    "e_saves": 25.3,
@@ -7689,7 +7689,7 @@
    "opp": "NYI",
    "game_id": 2026020308,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.73,
    "p_win": 0.532,
    "e_saves": 22.4,
