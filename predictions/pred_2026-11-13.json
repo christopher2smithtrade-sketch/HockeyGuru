@@ -2,7 +2,7 @@
  "date": "2026-11-13",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-13T21:26:53",
+ "logged_at": "2026-11-14T00:30:32",
  "games": [
   {
    "game_id": 2026020310,
@@ -430,7 +430,7 @@
    "team": "VAN",
    "opp": "NYR",
    "game_id": 2026020310,
-   "grade": "OUT",
+   "grade": "C",
    "composite": 18.4,
    "p_goal": 0.1998,
    "e_sog": 1.97,
@@ -610,7 +610,7 @@
    "team": "VAN",
    "opp": "NYR",
    "game_id": 2026020310,
-   "grade": "D",
+   "grade": "OUT",
    "composite": 1.2,
    "p_goal": 0.054,
    "e_sog": 1.09,
