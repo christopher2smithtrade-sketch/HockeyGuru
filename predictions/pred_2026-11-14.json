@@ -2,7 +2,7 @@
  "date": "2026-11-14",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-14T19:29:04",
+ "logged_at": "2026-11-14T19:57:24",
  "games": [
   {
    "game_id": 2026020321,
@@ -9352,7 +9352,7 @@
    "team": "LAK",
    "opp": "CGY",
    "game_id": 2026020325,
-   "grade": "A",
+   "grade": "OUT",
    "composite": 33.2,
    "p_goal": 0.3084,
    "e_sog": 3.27,
