@@ -1503,5 +1503,189 @@
    "e_ga": 3.94,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-13",
+  "matched": 83,
+  "scratched": 11,
+  "brier": 0.0874,
+  "sog_mae": 0.96,
+  "dk_mae": 3.4,
+  "hit_rate": 0.096,
+  "avg_p": 0.163,
+  "tiers": {
+   "C": {
+    "n": 13,
+    "p_sum": 2.652,
+    "hits": 2,
+    "sog": 32.0,
+    "e_sog": 24.059999999999995,
+    "dk": 100.99999999999999,
+    "e_dk": 100.36,
+    "hit_rate": 0.154,
+    "avg_p": 0.204,
+    "avg_sog": 2.46,
+    "avg_e_sog": 1.85,
+    "avg_dk": 7.8,
+    "avg_e_dk": 7.7
+   },
+   "D": {
+    "n": 52,
+    "p_sum": 5.057099999999998,
+    "hits": 3,
+    "sog": 57.0,
+    "e_sog": 58.85,
+    "dk": 213.69999999999996,
+    "e_dk": 251.3700000000001,
+    "hit_rate": 0.058,
+    "avg_p": 0.097,
+    "avg_sog": 1.1,
+    "avg_e_sog": 1.13,
+    "avg_dk": 4.1,
+    "avg_e_dk": 4.8
+   },
+   "B": {
+    "n": 5,
+    "p_sum": 1.2756,
+    "hits": 1,
+    "sog": 13.0,
+    "e_sog": 10.52,
+    "dk": 41.9,
+    "e_dk": 42.21,
+    "hit_rate": 0.2,
+    "avg_p": 0.255,
+    "avg_sog": 2.6,
+    "avg_e_sog": 2.1,
+    "avg_dk": 8.4,
+    "avg_e_dk": 8.4
+   },
+   "A+": {
+    "n": 3,
+    "p_sum": 1.2570999999999999,
+    "hits": 1,
+    "sog": 9.0,
+    "e_sog": 8.83,
+    "dk": 40.2,
+    "e_dk": 39.89,
+    "hit_rate": 0.333,
+    "avg_p": 0.419,
+    "avg_sog": 3.0,
+    "avg_e_sog": 2.94,
+    "avg_dk": 13.4,
+    "avg_e_dk": 13.3
+   },
+   "B+": {
+    "n": 4,
+    "p_sum": 1.1985999999999999,
+    "hits": 0,
+    "sog": 8.0,
+    "e_sog": 10.23,
+    "dk": 23.3,
+    "e_dk": 42.730000000000004,
+    "hit_rate": 0.0,
+    "avg_p": 0.3,
+    "avg_sog": 2.0,
+    "avg_e_sog": 2.56,
+    "avg_dk": 5.8,
+    "avg_e_dk": 10.7
+   },
+   "A": {
+    "n": 6,
+    "p_sum": 2.1153,
+    "hits": 1,
+    "sog": 14.0,
+    "e_sog": 16.04,
+    "dk": 56.4,
+    "e_dk": 71.92999999999999,
+    "hit_rate": 0.167,
+    "avg_p": 0.353,
+    "avg_sog": 2.33,
+    "avg_e_sog": 2.67,
+    "avg_dk": 9.4,
+    "avg_e_dk": 12.0
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 4,
+   "started": 4,
+   "dk_mae": 10.7
+  },
+  "top_calls": [
+   {
+    "name": "Pavel Dorofeyev",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.4295,
+    "g": 0,
+    "sog": 4,
+    "dk": 7.3
+   },
+   {
+    "name": "Mika Zibanejad",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.4282,
+    "g": 0,
+    "sog": 3,
+    "dk": 16.4
+   },
+   {
+    "name": "Alexis Lafreni\u00e8re",
+    "team": "NYR",
+    "grade": "A+",
+    "p_goal": 0.3994,
+    "g": 1,
+    "sog": 2,
+    "dk": 16.5
+   },
+   {
+    "name": "J.T. Miller",
+    "team": "NYR",
+    "grade": "A",
+    "p_goal": 0.3856,
+    "g": 0,
+    "sog": 2,
+    "dk": 14.3
+   },
+   {
+    "name": "Steven Stamkos",
+    "team": "NSH",
+    "grade": "A",
+    "p_goal": 0.3578,
+    "g": 0,
+    "sog": 2,
+    "dk": 8.0
+   },
+   {
+    "name": "Mark Stone",
+    "team": "VGK",
+    "grade": "A",
+    "p_goal": 0.3563,
+    "g": 0,
+    "sog": 1,
+    "dk": 2.8
+   },
+   {
+    "name": "Gabe Perreault",
+    "team": "NYR",
+    "grade": "A",
+    "p_goal": 0.3522,
+    "g": 1,
+    "sog": 2,
+    "dk": 17.8
+   },
+   {
+    "name": "Jack Eichel",
+    "team": "VGK",
+    "grade": "A",
+    "p_goal": 0.3325,
+    "g": 0,
+    "sog": 6,
+    "dk": 12.0
+   }
+  ],
+  "preseason": false
+ }
 }
