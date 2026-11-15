@@ -2,7 +2,7 @@
  "date": "2026-11-15",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-15T23:36:50",
+ "logged_at": "2026-11-15T23:57:45",
  "games": [
   {
    "game_id": 2026020326,
@@ -3298,7 +3298,7 @@
    "team": "SJS",
    "opp": "NSH",
    "game_id": 2026020330,
-   "grade": "C",
+   "grade": "OUT",
    "composite": 17.8,
    "p_goal": 0.2087,
    "e_sog": 1.49,
