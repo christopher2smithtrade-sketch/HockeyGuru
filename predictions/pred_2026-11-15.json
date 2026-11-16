@@ -2,7 +2,7 @@
  "date": "2026-11-15",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-15T23:57:45",
+ "logged_at": "2026-11-16T00:24:31",
  "games": [
   {
    "game_id": 2026020326,
@@ -793,7 +793,7 @@
    "team": "DAL",
    "opp": "FLA",
    "game_id": 2026020327,
-   "grade": "OUT",
+   "grade": "B",
    "composite": 21.4,
    "p_goal": 0.2333,
    "e_sog": 1.86,
@@ -3479,7 +3479,7 @@
    "opp": "FLA",
    "game_id": 2026020327,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 10.0,
    "p_win": 0.543,
    "e_saves": 21.9,
