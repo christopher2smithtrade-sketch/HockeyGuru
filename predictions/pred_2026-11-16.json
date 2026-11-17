@@ -1638,5 +1638,162 @@
    "e_ga": 4.22,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-16",
+  "matched": 83,
+  "scratched": 11,
+  "brier": 0.0912,
+  "sog_mae": 1.07,
+  "dk_mae": 4.6,
+  "hit_rate": 0.096,
+  "avg_p": 0.154,
+  "tiers": {
+   "D": {
+    "n": 54,
+    "p_sum": 4.9652,
+    "hits": 3,
+    "sog": 55.0,
+    "e_sog": 60.87,
+    "dk": 215.00000000000003,
+    "e_dk": 267.49,
+    "hit_rate": 0.056,
+    "avg_p": 0.092,
+    "avg_sog": 1.02,
+    "avg_e_sog": 1.13,
+    "avg_dk": 4.0,
+    "avg_e_dk": 5.0
+   },
+   "C": {
+    "n": 11,
+    "p_sum": 2.2203,
+    "hits": 1,
+    "sog": 16.0,
+    "e_sog": 19.520000000000003,
+    "dk": 56.3,
+    "e_dk": 76.25000000000001,
+    "hit_rate": 0.091,
+    "avg_p": 0.202,
+    "avg_sog": 1.45,
+    "avg_e_sog": 1.77,
+    "avg_dk": 5.1,
+    "avg_e_dk": 6.9
+   },
+   "A+": {
+    "n": 3,
+    "p_sum": 1.2476,
+    "hits": 0,
+    "sog": 6.0,
+    "e_sog": 9.79,
+    "dk": 19.0,
+    "e_dk": 44.400000000000006,
+    "hit_rate": 0.0,
+    "avg_p": 0.416,
+    "avg_sog": 2.0,
+    "avg_e_sog": 3.26,
+    "avg_dk": 6.3,
+    "avg_e_dk": 14.8
+   },
+   "B": {
+    "n": 5,
+    "p_sum": 1.2599,
+    "hits": 2,
+    "sog": 10.0,
+    "e_sog": 10.91,
+    "dk": 47.6,
+    "e_dk": 47.13,
+    "hit_rate": 0.4,
+    "avg_p": 0.252,
+    "avg_sog": 2.0,
+    "avg_e_sog": 2.18,
+    "avg_dk": 9.5,
+    "avg_e_dk": 9.4
+   },
+   "B+": {
+    "n": 8,
+    "p_sum": 2.3640999999999996,
+    "hits": 2,
+    "sog": 19.0,
+    "e_sog": 20.300000000000004,
+    "dk": 67.4,
+    "e_dk": 77.44,
+    "hit_rate": 0.25,
+    "avg_p": 0.296,
+    "avg_sog": 2.38,
+    "avg_e_sog": 2.54,
+    "avg_dk": 8.4,
+    "avg_e_dk": 9.7
+   },
+   "A": {
+    "n": 2,
+    "p_sum": 0.6934,
+    "hits": 0,
+    "sog": 6.0,
+    "e_sog": 5.38,
+    "dk": 14.0,
+    "e_dk": 24.66,
+    "hit_rate": 0.0,
+    "avg_p": 0.347,
+    "avg_sog": 3.0,
+    "avg_e_sog": 2.69,
+    "avg_dk": 7.0,
+    "avg_e_dk": 12.3
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 4,
+   "started": 4,
+   "dk_mae": 10.0
+  },
+  "top_calls": [
+   {
+    "name": "Logan Cooley",
+    "team": "UTA",
+    "grade": "A+",
+    "p_goal": 0.4862,
+    "g": 0,
+    "sog": 0,
+    "dk": 5.0
+   },
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.3888,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   },
+   {
+    "name": "Kailer Yamamoto",
+    "team": "UTA",
+    "grade": "A",
+    "p_goal": 0.3734,
+    "g": 0,
+    "sog": 4,
+    "dk": 11.0
+   },
+   {
+    "name": "Clayton Keller",
+    "team": "UTA",
+    "grade": "A+",
+    "p_goal": 0.3726,
+    "g": 0,
+    "sog": 4,
+    "dk": 11.0
+   },
+   {
+    "name": "Mika Zibanejad",
+    "team": "NYR",
+    "grade": "A",
+    "p_goal": 0.32,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   }
+  ],
+  "preseason": false
+ }
 }
