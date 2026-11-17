@@ -2,7 +2,7 @@
  "date": "2026-11-17",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-17T22:39:49",
+ "logged_at": "2026-11-17T23:10:38",
  "games": [
   {
    "game_id": 2026020333,
@@ -6214,7 +6214,7 @@
    "team": "DAL",
    "opp": "VGK",
    "game_id": 2026020342,
-   "grade": "OUT",
+   "grade": "C",
    "composite": 18.5,
    "p_goal": 0.2132,
    "e_sog": 1.57,
@@ -7640,7 +7640,7 @@
    "opp": "TBL",
    "game_id": 2026020334,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 10.46,
    "p_win": 0.407,
    "e_saves": 27.4,
