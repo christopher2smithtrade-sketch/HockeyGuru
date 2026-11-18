@@ -2,7 +2,7 @@
  "date": "2026-11-18",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-18T19:28:35",
+ "logged_at": "2026-11-18T22:21:23",
  "games": [
   {
    "game_id": 2026020344,
@@ -2132,7 +2132,7 @@
    "opp": "UTA",
    "game_id": 2026020346,
    "grade": "C",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 11.08,
    "p_win": 0.489,
    "e_saves": 27.2,
