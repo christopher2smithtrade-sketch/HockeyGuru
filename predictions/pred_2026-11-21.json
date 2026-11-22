@@ -2,7 +2,7 @@
  "date": "2026-11-21",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-22T00:10:07",
+ "logged_at": "2026-11-22T00:42:01",
  "games": [
   {
    "game_id": 2026020359,
@@ -7658,10 +7658,10 @@
    "opp": "UTA",
    "game_id": 2026020370,
    "grade": "D",
-   "composite": 12.0,
-   "p_goal": 0.1525,
-   "e_sog": 1.4,
-   "dk": 4.77,
+   "composite": -7.5,
+   "p_goal": 0.0,
+   "e_sog": 0.0,
+   "dk": 0.67,
    "pp_unit": "",
    "main": true
   },
@@ -7838,11 +7838,11 @@
    "opp": "UTA",
    "game_id": 2026020370,
    "grade": "D",
-   "composite": -6.8,
-   "p_goal": 0.0051,
-   "e_sog": 0.06,
-   "dk": 1.77,
-   "pp_unit": "",
+   "composite": 5.9,
+   "p_goal": 0.0972,
+   "e_sog": 1.23,
+   "dk": 6.56,
+   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -8377,12 +8377,12 @@
    "team": "MIN",
    "opp": "VAN",
    "game_id": 2026020371,
-   "grade": "D",
-   "composite": -7.5,
-   "p_goal": 0.0,
-   "e_sog": 0.0,
-   "dk": 0.95,
-   "pp_unit": "",
+   "grade": "B",
+   "composite": 26.9,
+   "p_goal": 0.2828,
+   "e_sog": 2.05,
+   "dk": 9.31,
+   "pp_unit": "PP2",
    "main": true
   },
   {
@@ -8903,10 +8903,10 @@
    "opp": "MIN",
    "game_id": 2026020371,
    "grade": "D",
-   "composite": -6.0,
-   "p_goal": 0.0086,
-   "e_sog": 0.22,
-   "dk": 3.09,
+   "composite": -4.0,
+   "p_goal": 0.0197,
+   "e_sog": 0.51,
+   "dk": 3.27,
    "pp_unit": "",
    "main": true
   },
@@ -9661,21 +9661,6 @@
    "main": true
   },
   {
-   "pid": "8483703",
-   "name": "Sergei Murashov",
-   "pos": "G",
-   "team": "PIT",
-   "opp": "NSH",
-   "game_id": 2026020362,
-   "grade": "D",
-   "status": "Projected",
-   "dk": 9.59,
-   "p_win": 0.449,
-   "e_saves": 26.2,
-   "e_ga": 3.43,
-   "main": false
-  },
-  {
    "pid": "8481519",
    "name": "Spencer Knight",
    "pos": "G",
@@ -9688,6 +9673,21 @@
    "p_win": 0.407,
    "e_saves": 25.6,
    "e_ga": 2.85,
+   "main": false
+  },
+  {
+   "pid": "8483703",
+   "name": "Sergei Murashov",
+   "pos": "G",
+   "team": "PIT",
+   "opp": "NSH",
+   "game_id": 2026020362,
+   "grade": "D",
+   "status": "Projected",
+   "dk": 9.59,
+   "p_win": 0.449,
+   "e_saves": 26.2,
+   "e_ga": 3.43,
    "main": false
   },
   {
@@ -9751,21 +9751,6 @@
    "main": true
   },
   {
-   "pid": "8482221",
-   "name": "Devon Levi",
-   "pos": "G",
-   "team": "EDM",
-   "opp": "CAR",
-   "game_id": 2026020359,
-   "grade": "D",
-   "status": "Confirmed",
-   "dk": 9.57,
-   "p_win": 0.325,
-   "e_saves": 28.2,
-   "e_ga": 3.68,
-   "main": false
-  },
-  {
    "pid": "8484170",
    "name": "Jacob Fowler",
    "pos": "G",
@@ -9779,6 +9764,21 @@
    "e_saves": 22.1,
    "e_ga": 2.44,
    "main": true
+  },
+  {
+   "pid": "8482221",
+   "name": "Devon Levi",
+   "pos": "G",
+   "team": "EDM",
+   "opp": "CAR",
+   "game_id": 2026020359,
+   "grade": "D",
+   "status": "Confirmed",
+   "dk": 9.57,
+   "p_win": 0.325,
+   "e_saves": 28.2,
+   "e_ga": 3.68,
+   "main": false
   },
   {
    "pid": "8476932",
