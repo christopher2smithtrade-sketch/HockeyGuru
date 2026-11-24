@@ -2,7 +2,7 @@
  "date": "2026-11-23",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-24T02:15:05",
+ "logged_at": "2026-11-24T02:36:15",
  "games": [
   {
    "game_id": 2026020378,
@@ -5006,7 +5006,7 @@
    "opp": "ANA",
    "game_id": 2026020383,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.63,
    "p_win": 0.517,
    "e_saves": 25.1,
@@ -5066,7 +5066,7 @@
    "opp": "SEA",
    "game_id": 2026020383,
    "grade": "D",
-   "status": "Projected",
+   "status": "Confirmed",
    "dk": 9.08,
    "p_win": 0.483,
    "e_saves": 24.4,
