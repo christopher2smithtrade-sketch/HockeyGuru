@@ -5373,5 +5373,189 @@
    "e_ga": 3.3,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-23",
+  "matched": 283,
+  "scratched": 31,
+  "brier": 0.0964,
+  "sog_mae": 1.09,
+  "dk_mae": 4.6,
+  "hit_rate": 0.113,
+  "avg_p": 0.147,
+  "tiers": {
+   "B": {
+    "n": 26,
+    "p_sum": 6.523299999999999,
+    "hits": 6,
+    "sog": 56.0,
+    "e_sog": 56.41999999999999,
+    "dk": 198.50000000000003,
+    "e_dk": 230.86,
+    "hit_rate": 0.231,
+    "avg_p": 0.251,
+    "avg_sog": 2.15,
+    "avg_e_sog": 2.17,
+    "avg_dk": 7.6,
+    "avg_e_dk": 8.9
+   },
+   "D": {
+    "n": 181,
+    "p_sum": 15.662500000000001,
+    "hits": 11,
+    "sog": 183.0,
+    "e_sog": 190.34,
+    "dk": 745.2999999999995,
+    "e_dk": 853.5300000000005,
+    "hit_rate": 0.061,
+    "avg_p": 0.087,
+    "avg_sog": 1.01,
+    "avg_e_sog": 1.05,
+    "avg_dk": 4.1,
+    "avg_e_dk": 4.7
+   },
+   "C": {
+    "n": 43,
+    "p_sum": 8.501199999999999,
+    "hits": 8,
+    "sog": 70.0,
+    "e_sog": 81.07000000000001,
+    "dk": 278.50000000000006,
+    "e_dk": 326.6800000000001,
+    "hit_rate": 0.186,
+    "avg_p": 0.198,
+    "avg_sog": 1.63,
+    "avg_e_sog": 1.89,
+    "avg_dk": 6.5,
+    "avg_e_dk": 7.6
+   },
+   "B+": {
+    "n": 20,
+    "p_sum": 5.787,
+    "hits": 2,
+    "sog": 34.0,
+    "e_sog": 50.87,
+    "dk": 91.4,
+    "e_dk": 209.35,
+    "hit_rate": 0.1,
+    "avg_p": 0.289,
+    "avg_sog": 1.7,
+    "avg_e_sog": 2.54,
+    "avg_dk": 4.6,
+    "avg_e_dk": 10.5
+   },
+   "A+": {
+    "n": 6,
+    "p_sum": 2.6388,
+    "hits": 2,
+    "sog": 13.0,
+    "e_sog": 22.31,
+    "dk": 93.1,
+    "e_dk": 92.82000000000001,
+    "hit_rate": 0.333,
+    "avg_p": 0.44,
+    "avg_sog": 2.17,
+    "avg_e_sog": 3.72,
+    "avg_dk": 15.5,
+    "avg_e_dk": 15.5
+   },
+   "A": {
+    "n": 7,
+    "p_sum": 2.4237,
+    "hits": 3,
+    "sog": 20.0,
+    "e_sog": 21.27,
+    "dk": 115.6,
+    "e_dk": 88.03,
+    "hit_rate": 0.429,
+    "avg_p": 0.346,
+    "avg_sog": 2.86,
+    "avg_e_sog": 3.04,
+    "avg_dk": 16.5,
+    "avg_e_dk": 12.6
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 14,
+   "started": 12,
+   "dk_mae": 7.4
+  },
+  "top_calls": [
+   {
+    "name": "Cutter Gauthier",
+    "team": "ANA",
+    "grade": "A+",
+    "p_goal": 0.5011,
+    "g": 1,
+    "sog": 4,
+    "dk": 14.5
+   },
+   {
+    "name": "Cole Caufield",
+    "team": "MTL",
+    "grade": "A+",
+    "p_goal": 0.4635,
+    "g": 0,
+    "sog": 1,
+    "dk": 1.5
+   },
+   {
+    "name": "Matt Boldy",
+    "team": "MIN",
+    "grade": "A+",
+    "p_goal": 0.4525,
+    "g": 0,
+    "sog": 5,
+    "dk": 28.5
+   },
+   {
+    "name": "Kyle Connor",
+    "team": "WPG",
+    "grade": "A+",
+    "p_goal": 0.4277,
+    "g": 0,
+    "sog": 2,
+    "dk": 13.0
+   },
+   {
+    "name": "Kirill Kaprizov",
+    "team": "MIN",
+    "grade": "A+",
+    "p_goal": 0.4126,
+    "g": 1,
+    "sog": 1,
+    "dk": 28.0
+   },
+   {
+    "name": "Gabriel Vilardi",
+    "team": "WPG",
+    "grade": "A",
+    "p_goal": 0.3829,
+    "g": 3,
+    "sog": 3,
+    "dk": 36.0
+   },
+   {
+    "name": "Jack Hughes",
+    "team": "NJD",
+    "grade": "A+",
+    "p_goal": 0.3814,
+    "g": 0,
+    "sog": 0,
+    "dk": 7.6
+   },
+   {
+    "name": "Mark Scheifele",
+    "team": "WPG",
+    "grade": "A",
+    "p_goal": 0.3607,
+    "g": 0,
+    "sog": 2,
+    "dk": 9.3
+   }
+  ],
+  "preseason": false
+ }
 }
