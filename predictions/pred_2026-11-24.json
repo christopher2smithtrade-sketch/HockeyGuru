@@ -762,5 +762,111 @@
    "e_ga": 3.47,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-24",
+  "matched": 41,
+  "scratched": 5,
+  "brier": 0.1136,
+  "sog_mae": 1.07,
+  "dk_mae": 5.7,
+  "hit_rate": 0.146,
+  "avg_p": 0.123,
+  "tiers": {
+   "D": {
+    "n": 30,
+    "p_sum": 2.0993,
+    "hits": 2,
+    "sog": 24.0,
+    "e_sog": 26.160000000000004,
+    "dk": 140.09999999999997,
+    "e_dk": 123.47,
+    "hit_rate": 0.067,
+    "avg_p": 0.07,
+    "avg_sog": 0.8,
+    "avg_e_sog": 0.87,
+    "avg_dk": 4.7,
+    "avg_e_dk": 4.1
+   },
+   "A+": {
+    "n": 1,
+    "p_sum": 0.467,
+    "hits": 0,
+    "sog": 1.0,
+    "e_sog": 3.4,
+    "dk": 2.8,
+    "e_dk": 17.06,
+    "hit_rate": 0.0,
+    "avg_p": 0.467,
+    "avg_sog": 1.0,
+    "avg_e_sog": 3.4,
+    "avg_dk": 2.8,
+    "avg_e_dk": 17.1
+   },
+   "B+": {
+    "n": 4,
+    "p_sum": 1.1713,
+    "hits": 2,
+    "sog": 13.0,
+    "e_sog": 10.790000000000001,
+    "dk": 56.3,
+    "e_dk": 49.17,
+    "hit_rate": 0.5,
+    "avg_p": 0.293,
+    "avg_sog": 3.25,
+    "avg_e_sog": 2.7,
+    "avg_dk": 14.1,
+    "avg_e_dk": 12.3
+   },
+   "C": {
+    "n": 4,
+    "p_sum": 0.8038000000000001,
+    "hits": 1,
+    "sog": 10.0,
+    "e_sog": 6.889999999999999,
+    "dk": 56.900000000000006,
+    "e_dk": 34.09,
+    "hit_rate": 0.25,
+    "avg_p": 0.201,
+    "avg_sog": 2.5,
+    "avg_e_sog": 1.72,
+    "avg_dk": 14.2,
+    "avg_e_dk": 8.5
+   },
+   "B": {
+    "n": 2,
+    "p_sum": 0.507,
+    "hits": 1,
+    "sog": 3.0,
+    "e_sog": 3.6,
+    "dk": 13.0,
+    "e_dk": 17.77,
+    "hit_rate": 0.5,
+    "avg_p": 0.254,
+    "avg_sog": 1.5,
+    "avg_e_sog": 1.8,
+    "avg_dk": 6.5,
+    "avg_e_dk": 8.9
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 2,
+   "started": 2,
+   "dk_mae": 4.3
+  },
+  "top_calls": [
+   {
+    "name": "Leon Draisaitl",
+    "team": "EDM",
+    "grade": "A+",
+    "p_goal": 0.467,
+    "g": 0,
+    "sog": 1,
+    "dk": 2.8
+   }
+  ],
+  "preseason": false
+ }
 }
