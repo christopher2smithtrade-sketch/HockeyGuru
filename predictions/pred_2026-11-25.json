@@ -10620,5 +10620,189 @@
    "e_ga": 3.27,
    "main": true
   }
- ]
+ ],
+ "scored": {
+  "date": "2026-11-25",
+  "matched": 558,
+  "scratched": 56,
+  "brier": 0.1164,
+  "sog_mae": 1.03,
+  "dk_mae": 4.6,
+  "hit_rate": 0.143,
+  "avg_p": 0.14,
+  "tiers": {
+   "C": {
+    "n": 77,
+    "p_sum": 15.511300000000002,
+    "hits": 15,
+    "sog": 129.0,
+    "e_sog": 139.82000000000005,
+    "dk": 508.60000000000025,
+    "e_dk": 552.7700000000001,
+    "hit_rate": 0.195,
+    "avg_p": 0.201,
+    "avg_sog": 1.68,
+    "avg_e_sog": 1.82,
+    "avg_dk": 6.6,
+    "avg_e_dk": 7.2
+   },
+   "A": {
+    "n": 11,
+    "p_sum": 3.7882,
+    "hits": 5,
+    "sog": 30.0,
+    "e_sog": 32.58,
+    "dk": 159.6,
+    "e_dk": 132.07999999999998,
+    "hit_rate": 0.455,
+    "avg_p": 0.344,
+    "avg_sog": 2.73,
+    "avg_e_sog": 2.96,
+    "avg_dk": 14.5,
+    "avg_e_dk": 12.0
+   },
+   "D": {
+    "n": 377,
+    "p_sum": 32.62109999999999,
+    "hits": 35,
+    "sog": 389.0,
+    "e_sog": 403.81999999999965,
+    "dk": 1772.0999999999958,
+    "e_dk": 1836.9799999999998,
+    "hit_rate": 0.093,
+    "avg_p": 0.087,
+    "avg_sog": 1.03,
+    "avg_e_sog": 1.07,
+    "avg_dk": 4.7,
+    "avg_e_dk": 4.9
+   },
+   "B+": {
+    "n": 29,
+    "p_sum": 8.550799999999999,
+    "hits": 8,
+    "sog": 74.0,
+    "e_sog": 73.06000000000002,
+    "dk": 303.20000000000005,
+    "e_dk": 299.21000000000004,
+    "hit_rate": 0.276,
+    "avg_p": 0.295,
+    "avg_sog": 2.55,
+    "avg_e_sog": 2.52,
+    "avg_dk": 10.5,
+    "avg_e_dk": 10.3
+   },
+   "A+": {
+    "n": 11,
+    "p_sum": 4.644100000000001,
+    "hits": 5,
+    "sog": 25.0,
+    "e_sog": 40.57000000000001,
+    "dk": 121.19999999999999,
+    "e_dk": 165.6,
+    "hit_rate": 0.455,
+    "avg_p": 0.422,
+    "avg_sog": 2.27,
+    "avg_e_sog": 3.69,
+    "avg_dk": 11.0,
+    "avg_e_dk": 15.1
+   },
+   "B": {
+    "n": 53,
+    "p_sum": 13.161299999999997,
+    "hits": 12,
+    "sog": 101.0,
+    "e_sog": 117.14999999999998,
+    "dk": 405.1,
+    "e_dk": 475.29,
+    "hit_rate": 0.226,
+    "avg_p": 0.248,
+    "avg_sog": 1.91,
+    "avg_e_sog": 2.21,
+    "avg_dk": 7.6,
+    "avg_e_dk": 9.0
+   }
+  },
+  "partial": false,
+  "games_left": 0,
+  "goalie": {
+   "n": 28,
+   "started": 28,
+   "dk_mae": 8.5
+  },
+  "top_calls": [
+   {
+    "name": "Cutter Gauthier",
+    "team": "ANA",
+    "grade": "A+",
+    "p_goal": 0.5148,
+    "g": 1,
+    "sog": 2,
+    "dk": 11.5
+   },
+   {
+    "name": "Alex DeBrincat",
+    "team": "DET",
+    "grade": "A+",
+    "p_goal": 0.4594,
+    "g": 0,
+    "sog": 2,
+    "dk": 3.0
+   },
+   {
+    "name": "Wyatt Johnston",
+    "team": "DAL",
+    "grade": "A+",
+    "p_goal": 0.4434,
+    "g": 1,
+    "sog": 2,
+    "dk": 11.5
+   },
+   {
+    "name": "Viktor Arvidsson",
+    "team": "DET",
+    "grade": "A+",
+    "p_goal": 0.4272,
+    "g": 1,
+    "sog": 2,
+    "dk": 24.5
+   },
+   {
+    "name": "Tage Thompson",
+    "team": "BUF",
+    "grade": "A+",
+    "p_goal": 0.425,
+    "g": 0,
+    "sog": 2,
+    "dk": 13.0
+   },
+   {
+    "name": "Lucas Raymond",
+    "team": "DET",
+    "grade": "A+",
+    "p_goal": 0.4173,
+    "g": 1,
+    "sog": 3,
+    "dk": 13.0
+   },
+   {
+    "name": "Jason Robertson",
+    "team": "DAL",
+    "grade": "A+",
+    "p_goal": 0.4097,
+    "g": 0,
+    "sog": 1,
+    "dk": 1.5
+   },
+   {
+    "name": "David Pastrnak",
+    "team": "BOS",
+    "grade": "A+",
+    "p_goal": 0.4066,
+    "g": 0,
+    "sog": 1,
+    "dk": 6.5
+   }
+  ],
+  "preseason": false
+ }
 }
