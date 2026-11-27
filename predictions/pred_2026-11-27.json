@@ -2,7 +2,7 @@
  "date": "2026-11-27",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-27T20:15:05",
+ "logged_at": "2026-11-27T22:57:30",
  "games": [
   {
    "game_id": 2026020400,
@@ -10668,6 +10668,21 @@
    "late": true
   },
   {
+   "pid": "8479394",
+   "name": "Carter Hart",
+   "pos": "G",
+   "team": "VGK",
+   "opp": "SJS",
+   "game_id": 2026020410,
+   "grade": "C",
+   "status": "Backup",
+   "dk": 12.2,
+   "p_win": 0.657,
+   "e_saves": 25.4,
+   "e_ga": 2.87,
+   "main": false
+  },
+  {
    "pid": "8478872",
    "name": "Karel Vejmelka",
    "pos": "G",
@@ -10682,21 +10697,6 @@
    "e_ga": 3.26,
    "main": false,
    "late": true
-  },
-  {
-   "pid": "8478499",
-   "name": "Adin Hill",
-   "pos": "G",
-   "team": "VGK",
-   "opp": "SJS",
-   "game_id": 2026020410,
-   "grade": "C",
-   "status": "Projected",
-   "dk": 11.94,
-   "p_win": 0.657,
-   "e_saves": 25.4,
-   "e_ga": 2.93,
-   "main": false
   },
   {
    "pid": "8482982",
@@ -11110,21 +11110,6 @@
    "late": true
   },
   {
-   "pid": "8479394",
-   "name": "Carter Hart",
-   "pos": "G",
-   "team": "VGK",
-   "opp": "SJS",
-   "game_id": 2026020410,
-   "grade": "C",
-   "status": "Backup",
-   "dk": 12.2,
-   "p_win": 0.657,
-   "e_saves": 25.4,
-   "e_ga": 2.87,
-   "main": false
-  },
-  {
    "pid": "8476412",
    "name": "Jordan Binnington",
    "pos": "G",
@@ -11139,6 +11124,21 @@
    "e_ga": 3.0,
    "main": false,
    "late": true
+  },
+  {
+   "pid": "8478499",
+   "name": "Adin Hill",
+   "pos": "G",
+   "team": "VGK",
+   "opp": "SJS",
+   "game_id": 2026020410,
+   "grade": "C",
+   "status": "Projected",
+   "dk": 11.94,
+   "p_win": 0.657,
+   "e_saves": 25.4,
+   "e_ga": 2.93,
+   "main": false
   },
   {
    "pid": "8475683",
