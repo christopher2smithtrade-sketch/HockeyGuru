@@ -2,7 +2,7 @@
  "date": "2026-11-27",
  "preseason": false,
  "backtest": false,
- "logged_at": "2026-11-27T23:29:54",
+ "logged_at": "2026-11-28T02:27:27",
  "games": [
   {
    "game_id": 2026020400,
@@ -10971,21 +10971,6 @@
    "late": true
   },
   {
-   "pid": "8476316",
-   "name": "Laurent Brossoit",
-   "pos": "G",
-   "team": "ANA",
-   "opp": "LAK",
-   "game_id": 2026020409,
-   "grade": "D",
-   "status": "Confirmed",
-   "dk": 8.76,
-   "p_win": 0.474,
-   "e_saves": 23.6,
-   "e_ga": 3.16,
-   "main": false
-  },
-  {
    "pid": "8475831",
    "name": "Philipp Grubauer",
    "pos": "G",
@@ -10999,6 +10984,21 @@
    "e_saves": 25.6,
    "e_ga": 3.37,
    "main": true
+  },
+  {
+   "pid": "8476316",
+   "name": "Laurent Brossoit",
+   "pos": "G",
+   "team": "ANA",
+   "opp": "LAK",
+   "game_id": 2026020409,
+   "grade": "D",
+   "status": "Confirmed",
+   "dk": 8.76,
+   "p_win": 0.474,
+   "e_saves": 23.6,
+   "e_ga": 3.16,
+   "main": false
   },
   {
    "pid": "8482137",
